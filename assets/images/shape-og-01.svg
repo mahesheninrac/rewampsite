@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 120" width="3840"
+  height="120">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #ededed;
+        stroke-width: 0.9px;
+        stroke-miterlimit: 10;
+        filter: url(#shadow);
+      }
+    </style>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="1" dy="3" stdDeviation="4" flood-color="rgba(0,0,0,0.2)" />
+    </filter>
+  </defs>
+  <path class="cls-1"
+    d="M1842.77,70.93c-11.38-14.48-28.77-22.93-47.19-22.93H0V0h3840v48h-1795.27c-18.38,0-35.74,8.42-47.12,22.86l-14.75,18.72c-15.15,19.21-38.26,30.43-62.73,30.43s-47.66-11.25-62.8-30.53l-14.56-18.54Z" />
+</svg>

@@ -1,0 +1,56 @@
+:root {
+  --body-font: "Nunito", sans-serif;
+  --desktop-width: 250px;
+  --mobile-width: 60px;
+  --header-height: 50px;
+
+  /* Color valiables */
+  --white-100: #ffffff;
+  --primary-100: rgb(196, 217, 255);
+  --primary-200: rgb(163, 191, 244);
+  --primary-300: rgb(130, 165, 233);
+  --primary-400: rgb(97, 140, 221);
+  --primary-500: rgb(64, 114, 210);
+  --primary-600: rgb(33, 57, 229);
+  --primary-700: rgb(23, 66, 149);
+  --primary-800: rgb(18, 44, 94);
+
+  --darklight-100: #ffffff;
+  --darklight-200: #dbdbdb;
+  --darklight-300: #b6b6b6;
+  --darklight-400: #929292;
+  --darklight-500: #6d6d6d;
+  --darklight-600: #494949;
+  --darklight-700: #242424;
+  --darklight-800: #000000;
+
+  --secondary-100: #fdecf0;
+  --secondary-200: #ffe6ec;
+  --secondary-300: #ffc5d2;
+  --secondary-400: #ff9bb8;
+  --secondary-500: #ff7a9e;
+  --secondary-600: #f94b79;
+  --secondary-700: #ff3b7a;
+  --secondary-800: #ff1d61;
+
+  --brown-800: #521d31;
+  --brown-700: #6a2b3f;
+  --brown-600: #7f3a4d;
+  --brown-500: #943c5a;
+  --brown-400: #a94e66;
+  --brown-300: #b66172;
+  --brown-200: #c0757e;
+  --brown-100: #ab989f;
+
+  --extra: rgb(68, 227, 211);
+  --lightblue: #d0ddf7;
+
+  --gradient-1: linear-gradient(#ff517f, #af002e);
+  --gradient-2: linear-gradient(#ff7a9e, #f94b79);
+  --gradient-3: linear-gradient(#ff9bb8, #ff3b7a);
+  --gradient-4: linear-gradient(#ffc5d2, #ff1d61);
+  --gradient-5: linear-gradient(#ffe6ec, #ff1d61);
+  --gradient-6: linear-gradient(#fdecf0, #ff1d61);
+  --gradient-7: linear-gradient(#fdecf0, #ff1d61);
+  --gradient-8: linear-gradient(#fdecf0, #ff1d61);
+}

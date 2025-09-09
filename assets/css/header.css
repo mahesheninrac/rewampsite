@@ -1,0 +1,79 @@
+.center {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    iframe {
+      border: 0;
+      overflow: hidden;
+      position: absolute;
+    }
+
+    .attribution {
+      display: block;
+      transition: all 0.8s ease 0s;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      padding: 7px 9px;
+      position: absolute;
+      bottom: -30px;
+      left: 10px;
+      text-decoration: none;
+      z-index: 10;
+      background: rgba(34, 41, 47, 0.04);
+      opacity: 0.4;
+    }
+
+    .attribution.dark {
+      background: rgba(255, 255, 255, 0.04);
+      opacity: 0.8;
+    }
+
+    .attribution.dark span {
+      color: #ffffff;
+      opacity: 0.8;
+    }
+
+    .video-container {
+      max-width: 500px;
+      width: 100%;
+    }
+
+    .video-container img {
+      width: 100%;
+      max-width: 450px;
+      transform: translateY(100px);
+      opacity: 0;
+      transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+      margin: auto;
+    }
+
+    /* When active, move up and fade in */
+    .owl-item.active .video-container img {
+      transform: translateY(0);
+      opacity: 1;
+      transition-delay: 2.5s;
+      /* display: none; */
+    }
+
+
+    /* When inactive, fade out without going back down */
+    .owl-item:not(.active) .video-container img {
+      opacity: 0;
+      transform: translateY(-50px);
+      /* Moves slightly up while disappearing */
+      transition: opacity 0.5s ease-in, transform 0.5s ease-in;
+    }
+
+    .text-container p {
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
+
+    .owl-item.active .text-container p {
+      opacity: 1;
+    }
