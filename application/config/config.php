@@ -26,6 +26,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 // officce
 $config['base_url'] = 'http://192.168.1.7/eninracrewamp/';
+// $config['base_url'] = 'http://localhost/eninracrewamp/';
 // $config['base_url'] = 'https://ecosystemreports.com/';
 
 // home 

@@ -1,99 +1,100 @@
 <style>
-    .video-block__play {
-        position: absolute;
-        z-index: 5;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        cursor: pointer;
+.video-block__play {
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.video-block__play i {
+    font-size: 50px;
+    color: #fff;
+    transition: color 0.2s linear;
+    display: inline-block;
+}
+
+.video-block__play i:hover {
+    color: var(--primary-500);
+}
+
+.main-block2-step__image {
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 16px;
+    padding-left: 8px;
+}
+
+.main-block2-step--1 .main-block2-step__image {
+    justify-content: flex-end;
+}
+
+.main-block2-step--2 .main-block2-step__image {
+    padding-bottom: 0;
+}
+
+.main-block2-step--4 .main-block2-step__image {
+    justify-content: flex-start;
+}
+
+@media screen and (max-width: 1599px) {
+    .main-first--enin-image {
+        margin-right: -80px;
+    }
+
+    .main-first--enin-image img {
+        height: 360px;
+
+    }
+
+    .main-first__text {
+        max-width: 340px;
+    }
+
+    .video-block {
+        height: 314px;
     }
 
     .video-block__play i {
-        font-size: 50px;
-        color: #fff;
-        transition: color 0.2s linear;
-        display: inline-block;
-    }
-
-    .video-block__play i:hover {
-        color: var(--primary-500);
-    }
-
-    .main-block2-step__image {
-        height: 260px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 16px;
-        padding-left: 8px;
+        font-size: 55px;
     }
 
     .main-block2-step--1 .main-block2-step__image {
-        justify-content: flex-end;
+        width: 165px;
     }
 
     .main-block2-step--2 .main-block2-step__image {
-        padding-bottom: 0;
+        width: 162px;
+    }
+
+    .main-block2-step--3 .main-block2-step__image {
+        width: 164px;
     }
 
     .main-block2-step--4 .main-block2-step__image {
-        justify-content: flex-start;
+        width: 175px;
     }
 
-    @media screen and (max-width: 1599px) {
-        .main-first--enin-image {
-            margin-right: -80px;
-        }
+    .main-block2-step__image {
+        height: 200px;
+    }
+}
 
-        .main-first--enin-image img {
-            height: 360px;
-        }
-
-        .main-first__text {
-            max-width: 340px;
-        }
-
-        .video-block {
-            height: 314px;
-        }
-
-        .video-block__play i {
-            font-size: 55px;
-        }
-
-        .main-block2-step--1 .main-block2-step__image {
-            width: 165px;
-        }
-
-        .main-block2-step--2 .main-block2-step__image {
-            width: 162px;
-        }
-
-        .main-block2-step--3 .main-block2-step__image {
-            width: 164px;
-        }
-
-        .main-block2-step--4 .main-block2-step__image {
-            width: 175px;
-        }
-
-        .main-block2-step__image {
-            height: 200px;
-        }
+@media screen and (max-width: 2599px) {
+    .main-block2-step--3 .main-block2-step__image {
+        padding-bottom: 0;
+        padding-top: 12px;
     }
 
-    @media screen and (max-width: 2599px) {
-        .main-block2-step--3 .main-block2-step__image {
-            padding-bottom: 0;
-            padding-top: 12px;
-        }
-
-        .main-block2-step--4 .main-block2-step__image {
-            justify-content: center;
-            padding-left: 32px;
-        }
+    .main-block2-step--4 .main-block2-step__image {
+        justify-content: center;
+        padding-left: 32px;
     }
+}
 </style>
 <div class="content">
     <div class="wrap">
@@ -109,7 +110,8 @@
                         </div>
                         <a href="#" class="btn btn-dark text-center animate__animated animate__bounce">Get started</a>
                         <div class="main-first--enin-image">
-                            <img src="https://enin.io/img/enin-main.svg" alt="enin element">
+                            <img src="https://omnicoreplus.com/assets/om-upload/bridge-logo-size-01-01.svg"
+                                alt="enin element" style="transform: scale(1.6) translate(-17px, 0px);">
                         </div>
                     </div>
                 </div>
@@ -422,7 +424,7 @@
                         <div class="w-100 p-4 border-radius-20" style="background-color: white;">
                             <a href="" class="news-blog text-decoration-none text-dark">
                                 <div class="w-100 mb-2 overflow-hidden news__image" style="height: 157px;">
-                                    <img src="https://enin.io/storage/uploads/013b03c919ea3381209347eb6957a028.png"
+                                    <img src="https://tumodo.io/storage/uploads/013b03c919ea3381209347eb6957a028.png"
                                         class=" img-fluid w-100 object-fit-cover d-block h-100" alt=""
                                         style="transition: transform 0.2s linear;">
                                 </div>
@@ -444,7 +446,7 @@
                         <div class="w-100 p-4 border-radius-20" style="background-color: white;">
                             <a href="" class="news-blog text-decoration-none text-dark">
                                 <div class="w-100 mb-2 overflow-hidden news__image" style="height: 157px;">
-                                    <img src="https://enin.io/storage/uploads/013b03c919ea3381209347eb6957a028.png"
+                                    <img src="https://tumodo.io/storage/uploads/013b03c919ea3381209347eb6957a028.png"
                                         class=" img-fluid w-100 object-fit-cover d-block h-100" alt=""
                                         style="transition: transform 0.2s linear;">
                                 </div>
@@ -466,7 +468,7 @@
                         <div class="w-100 p-4 border-radius-20" style="background-color: white;">
                             <a href="" class="news-blog text-decoration-none text-dark">
                                 <div class="w-100 mb-2 overflow-hidden news__image" style="height: 157px;">
-                                    <img src="https://enin.io/storage/uploads/013b03c919ea3381209347eb6957a028.png"
+                                    <img src="https://tumodo.io/storage/uploads/013b03c919ea3381209347eb6957a028.png"
                                         class=" img-fluid w-100 object-fit-cover d-block h-100" alt=""
                                         style="transition: transform 0.2s linear;">
                                 </div>
@@ -638,26 +640,26 @@
                         </div>
                     </div>
                     <script>
-                        const faqItems = document.querySelectorAll('.js-faq-item');
+                    const faqItems = document.querySelectorAll('.js-faq-item');
 
-                        faqItems.forEach(item => {
-                            const question = item.querySelector('.faq-item-question');
+                    faqItems.forEach(item => {
+                        const question = item.querySelector('.faq-item-question');
 
-                            question.addEventListener('click', () => {
-                                const isActive = item.classList.contains('active');
-                                // Close all answers first
-                                faqItems.forEach(i => {
-                                    i.querySelector('.faq-item-answear').style.display = 'none';
-                                    i.classList.remove('active');
-                                });
-
-                                // Toggle the clicked one
-                                if (!isActive) {
-                                    item.querySelector('.faq-item-answear').style.display = 'block';
-                                    item.classList.add('active');
-                                }
+                        question.addEventListener('click', () => {
+                            const isActive = item.classList.contains('active');
+                            // Close all answers first
+                            faqItems.forEach(i => {
+                                i.querySelector('.faq-item-answear').style.display = 'none';
+                                i.classList.remove('active');
                             });
+
+                            // Toggle the clicked one
+                            if (!isActive) {
+                                item.querySelector('.faq-item-answear').style.display = 'block';
+                                item.classList.add('active');
+                            }
                         });
+                    });
                     </script>
                 </div>
             </div>
@@ -717,40 +719,40 @@
 </section>
 
 <style>
+.trial-form--tumodo-image {
+    position: absolute;
+    top: -32px;
+    right: 100%;
+    z-index: -1;
+    margin-right: -25%;
+}
+
+.trial-form--tumodo-image img {
+    max-width: none;
+    position: static;
+    width: auto;
+    height: 400px;
+}
+
+.trial-form-wrapper>picture,
+.trial-form-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media screen and (max-width: 1599px) {
     .trial-form--tumodo-image {
-        position: absolute;
-        top: -32px;
-        right: 100%;
-        z-index: -1;
-        margin-right: -25%;
+        top: -10px;
+        margin-right: -38%;
     }
 
     .trial-form--tumodo-image img {
-        max-width: none;
-        position: static;
-        width: auto;
-        height: 400px;
+        height: 325px;
     }
-
-    .trial-form-wrapper>picture,
-    .trial-form-wrapper img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: center;
-    }
-
-    @media screen and (max-width: 1599px) {
-        .trial-form--tumodo-image {
-            top: -10px;
-            margin-right: -38%;
-        }
-
-        .trial-form--tumodo-image img {
-            height: 325px;
-        }
-    }
+}
 </style>

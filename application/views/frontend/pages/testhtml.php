@@ -11,49 +11,49 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <style>
-        .service-link {
+    .service-link {
 
-            min-width: 217px;
-            padding: 0.375rem 0rem 0.375rem 0.5rem;
-            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-            ;
-        }
+        min-width: 217px;
+        padding: 0.375rem 0rem 0.375rem 0.5rem;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        ;
+    }
 
-        .service-link:hover {
-            background-color: rgba(255, 255, 255, 0.2);
-        }
+    .service-link:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
 
-        ul {
-            list-style: none !important;
-        }
+    ul {
+        list-style: none !important;
+    }
 
-        .servicemenu-wrap .service-menu {
-            position: absolute;
-            left: 33%;
-            top: 0;
-            width: auto;
-            padding-left: 1.5rem;
-            display: none;
-            gap: 0.7rem;
-            flex-direction: column;
-            -webkit-box-align: start;
-            align-items: start;
-        }
+    .servicemenu-wrap .service-menu {
+        position: absolute;
+        left: 33%;
+        top: 0;
+        width: auto;
+        padding-left: 1.5rem;
+        display: none;
+        gap: 0.7rem;
+        flex-direction: column;
+        -webkit-box-align: start;
+        align-items: start;
+    }
 
-        .service-menu a {
-            font-size: 14px;
-            line-height: 1rem;
-            height: max-content;
-        }
+    .service-menu a {
+        font-size: 14px;
+        line-height: 1rem;
+        height: max-content;
+    }
 
-        .service-item:hover .servicemenu-wrap .service-menu {
-            display: flex !important;
-        }
+    .service-item:hover .servicemenu-wrap .service-menu {
+        display: flex !important;
+    }
     </style>
 </head>
 
 <body>
-    <div class="service-menu mega-menu">
+    <div class="mega-menu">
         <ul class="service-root">
             <li class="service-item">
                 <div class="">
