@@ -75,12 +75,12 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'eco_system_report',
+	'hostname' => $_ENV['DB_HOST'],
+	'username' => $_ENV['DB_USERNAME'],
+	'password' => $_ENV['DB_PASSWORD'],
+	'database' => $_ENV['DB_NAME'],
 	'dbdriver' => 'mysqli',
-	'dbprefix' => 'eco_',
+	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
 	'cache_on' => FALSE,

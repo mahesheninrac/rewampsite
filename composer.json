@@ -1,6 +1,10 @@
 {
     "require": {
         "adhocore/jwt": "^1.1",
-        "phpmailer/phpmailer": "^6.10"
+        "phpmailer/phpmailer": "^6.10",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "require-dev": {
+        "kenjis/ci-phpunit-test": "^3.0"
     }
 }

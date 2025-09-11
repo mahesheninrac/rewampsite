@@ -23,27 +23,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-
-// officce
-$config['base_url'] = 'http://192.168.1.7/eninracrewamp/';
-// $config['base_url'] = 'http://localhost/eninracrewamp/';
-// $config['base_url'] = 'https://ecosystemreports.com/';
-
-// home 
-// $config['base_url'] = 'http://localhost/eninrac/';
-
-/*
-|--------------------------------------------------------------------------
-| Index File
-|--------------------------------------------------------------------------
-|
-| Typically this will be your index.php file, unless you've renamed it to
-| something else. If you are using mod_rewrite to remove the page set this
-| variable so that it is blank.
-|
-*/
-$config['views'] = APPPATH . 'views';
-$config['controllers'] = APPPATH . 'controllers';
+$config['base_url'] = $_ENV['BASE_URL'];
 
 /*
 |--------------------------------------------------------------------------
@@ -122,7 +102,7 @@ $config['charset'] = 'UTF-8';
 | setting this variable to TRUE (boolean).  See the user guide for details.
 |
 */
-$config['enable_hooks'] = FALSE;
+$config['enable_hooks'] = TRUE;
 
 /*
 |--------------------------------------------------------------------------
