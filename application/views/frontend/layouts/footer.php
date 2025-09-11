@@ -12,7 +12,7 @@
                             <a href="/ae-en/contacts">Contacts</a>
                         </li>
                         <li>
-                            <a href="/ae-en/career">Career</a>
+                            <a href="/ae-en/career">Careers</a>
                         </li>
                     </ul>
                 </div>
