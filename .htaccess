@@ -1,7 +1,16 @@
 <IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php/$1 [L]
+    RewriteEngine On
 
+    # Protect hidden files like .env
+    RewriteRule ^\.env - [F,L]
+
+    # Rewrite URLs if not a real file or directory
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php/$1 [L]
 </IfModule>
+
+# Extra hardening for .env access, if someone bypasses RewriteRule
+<Files ".env">
+    Require all denied
+</Files>
