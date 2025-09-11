@@ -662,7 +662,27 @@ a.cta:hover {
             <a href="#" class="text-white navbar_top_item">Company</a>
             <div class="bg-light text-dark nav-bar-details navbar_dropdown_item-details" id="sustainability-modal"
                 style="overflow: hidden;">
-
+                <div class="container">
+                    <div class="content">
+                        <div class="pt-3">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <ul>
+                                        <div class="col-md-6">
+                                            <div style="max-width: 274px;"
+                                                class="d-flex w-100 align-items-center justify-content-between gap-2 service-link">
+                                                <span class="fw-bold">Market Tracking & Sizing</span>
+                                                <i class="icofont-rounded-right"></i>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4"></div>
+                                <div class="col-md-4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </li>
 
