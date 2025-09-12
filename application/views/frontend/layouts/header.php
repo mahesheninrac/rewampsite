@@ -11,155 +11,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/@dotlottie/player-component@v1.3.0/dist/dotlottie-player.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/matter-js@0.19.0/build/matter.min.js"></script>
-
-    <style>
-    header.circle-header {
-        width: 100%;
-        position: sticky;
-        top: -50px;
-        display: block;
-        z-index: 999999;
-        background-color: #f7f8fa;
-        box-shadow: 1px 3px 8px 0px rgba(0, 0, 0, 0.2) !important;
-    }
-
-    @media screen and (min-width: 0px) {
-        .mobile-view-only {
-            padding-left: 1.375rem;
-            padding-right: 1.375rem;
-        }
-    }
-
-    .mobile-view-only {
-        width: 100%;
-        margin-left: auto;
-        box-sizing: border-box;
-        margin-right: auto;
-        display: block;
-        padding-left: 0.125rem;
-        padding-right: 0.125rem;
-        background-image: url(https://www.webuildgroup.com/_next/static/media/header_mobile_shape.b426e4e1.svg);
-        background-color: #000000;
-        background-position-x: center;
-        background-position-y: top;
-        background-repeat: no-repeat;
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
-    }
-
-    .header-center-circle-background {
-        background-position: 50% 0%;
-        position: relative;
-        background-repeat: no-repeat;
-        background-image: url(<?= base_url() ?>/assets/images/shape-og-01.svg);
-    }
-
-    @media screen and (min-width: 1200px) {
-        .header-bottom {
-            padding-top: 0.75rem;
-            padding-bottom: 6.25rem;
-        }
-    }
-
-    @media screen and (min-width: 576px) {
-        .header-bottom {
-            padding-top: 0.5rem;
-            padding-bottom: 4.25rem;
-        }
-    }
-
-    .top-bar .logo {
-        width: 100px;
-        height: auto;
-    }
-
-    .brand {
-        font-weight: bold;
-        font-size: 18px;
-    }
-
-    .nav-bar a {
-        padding-bottom: 6px;
-        transition: 0.3s all ease;
-    }
-
-    .nav-bar a.navbar_top_item:hover {
-        transform: scale(1);
-        border-bottom: 2px solid;
-        border-bottom-color: rgb(219, 0, 47);
-    }
-
-    .nav-bar {
-        transition: all 0.3s ease;
-    }
-
-    .nav-logo {
-        position: absolute;
-        left: 45%;
-        top: 40%;
-        transform: translate(50%, 0%);
-        padding: 10px;
-        border-radius: 50%;
-    }
-
-    .mobile-view-only-img {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-
-    }
-
-    .nav-logo img {
-        width: 40px;
-        height: auto;
-    }
-
-
-
-    .navbar-sticky {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 1000;
-        padding: 0.875rem 0px 1.125rem;
-        background-color: black;
-        background-color: rgb(0, 0, 0);
-        background-position: 50% 0%;
-        position: relative;
-        background-repeat: no-repeat;
-        background-image: url(https://www.webuildgroup.com/_next/static/media/header_medium_shape.5179ebd7.svg);
-    }
-
-    .navbar-sticky .nav-logo {
-        position: static !important;
-        left: 50%;
-    }
-
-    .navbar-sticky .nav-bar-details {
-        top: 90px;
-    }
-
-    ul {
-        padding: 0;
-        margin: 0;
-    }
-
-    .nav-bar ul li.navbar_dropdown_item {
-        padding-bottom: 20px;
-    }
-
-    .navbar-sticky ul li {
-        padding-bottom: 0px !important;
-    }
-    </style>
 </head>
 
 <body>
-
     <header class="circle-header">
-        <div class="header-center-circle-background d-none d-md-block" style="background-color: blue;">
+        <div class="header-center-circle-background d-none d-md-block">
             <div class="container">
                 <div class="">
                     <div
@@ -199,16 +55,19 @@
             </button>
         </div>
     </header>
+    <script>
+        document.addEventListener("scroll", function() {
+            const navbar = document.querySelector("header.circle-header");
+            if (window.scrollY >= 50) {
+                navbar.classList.add("fixed-header");
+            } else {
+                navbar.classList.remove("fixed-header");
+            }
+        });
+    </script>
 
     <!-- <script>
-    document.addEventListener("scroll", function() {
-        const navbar = document.querySelector(".nav-bar");
-        if (window.scrollY >= 200) {
-            navbar.classList.add("navbar-sticky");
-        } else {
-            navbar.classList.remove("navbar-sticky");
-        }
-    });
+
 
     document.addEventListener("DOMContentLoaded", function() {
         const navItems = document.querySelectorAll('li[data-modal]');

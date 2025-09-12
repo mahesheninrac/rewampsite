@@ -15,7 +15,7 @@ class Jwt_lib
 
     public function __construct()
     {
-        $this->secret = '7f8a1978279d72e5c3b02487e14ec60fa90356c254693d810315dcf5a1bb365a'; // Replace with a strong secret key
+        $this->secret = $_ENV['ENCRYPTION_KEY']; // Replace with a strong secret key
         $this->ttl = (3600 * 24); // Token expiry time in seconds (24 hours)
         $this->refresh_ttl = (3600 * 24 * 30); // Refresh token expiry (30 days)
 
@@ -24,6 +24,7 @@ class Jwt_lib
 
         // Initialize token blacklist (could be stored in DB or cache)
         $this->blacklist = [];
+    }
 
     // Generate JWT Token
     public function encode($payload, $is_refresh = false)
