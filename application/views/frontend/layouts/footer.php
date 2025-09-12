@@ -114,32 +114,32 @@
 </footer>
 
 <script>
-    const revealELs = (element = '[data-reveal]', currentClass = '_visible', delay = 1000) => {
-        const El = document.querySelectorAll(element);
-        if (El) {
-            const io = new IntersectionObserver((entries) => {
-                entries.forEach(e => {
-                    if (e.isIntersecting) {
-                        let el_delay = e.target.getAttribute('[data-delay]')
-                        delay = el_delay ? el_delay : delay;
-                        setTimeout(function() {
+const revealELs = (element = '[data-reveal]', currentClass = '_visible', delay = 1000) => {
+    const El = document.querySelectorAll(element);
+    if (El) {
+        const io = new IntersectionObserver((entries) => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    let el_delay = e.target.getAttribute('[data-delay]')
+                    delay = el_delay ? el_delay : delay;
+                    setTimeout(function() {
 
 
-                            e.target.classList.add(currentClass);
+                        e.target.classList.add(currentClass);
 
-                            io.unobserve(e.target);
-                        }, delay)
-                    }
-                });
-            }, {
-                threshold: .12
+                        io.unobserve(e.target);
+                    }, delay)
+                }
             });
-            El.forEach(el => io.observe(el));
-        }
+        }, {
+            threshold: .12
+        });
+        El.forEach(el => io.observe(el));
     }
+}
 
-    revealELs()
-    revealELs("[data-msg-reveal]", "show")
+revealELs()
+revealELs("[data-msg-reveal]", "show")
 </script>
 
 
