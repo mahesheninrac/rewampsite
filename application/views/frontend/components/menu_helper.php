@@ -328,7 +328,7 @@
         </li>
     </ul>
     <div class="nav-logo">
-        <img src="https://eninrac.com/assets/images/fevicon.png" alt="Center Logo">
+        <img src="<?= base_url() ?>assets/images/bridge.svg" alt="Center Logo">
     </div>
     <ul class="nav-right p-0 list-unstyled d-md-flex gap-3">
         <li class="fs-16 navbar_dropdown_item" data-modal="sustainability-modal">
@@ -361,7 +361,7 @@
         menuLinks.forEach((item) => {
             item.addEventListener("click", function(e) {
                 e.preventDefault();
-                videoadd(item);
+                showServices(item);
                 // find the nearest servicemenu-ul inside the same service-item
                 const serviceMenu = item.closest(".service-item").querySelector(".servicemenu-wrap");
                 const icon = item.querySelector(".icofont-rounded-right");
@@ -382,22 +382,37 @@
         });
     }
 
-    function videoadd(item) {
-        if (item.hasAttribute("data-src") && item.hasAttribute("data-poster")) {
-            const videoSrc = item.getAttribute("data-src");
-            const videoPoster = item.getAttribute("data-poster");
-            videoLayout = document.querySelector(".play-video video");
-            if (videoLayout) {
-                videoLayout.setAttribute("src", videoSrc);
-                videoLayout.setAttribute("poster", videoPoster);
-                videoLayout.load();
-                document.querySelector(".play-video span").style.display = "flex";
-            }
+    function showServices(item) {
+        if (item.hasAttribute("data-service")) {
+            const serviceId = item.getAttribute("data-service");
+            document.querySelectorAll(".service-menu").forEach(el => {
+                if (el.id === serviceId) {
+                    el.classList.remove('d-none');
+                    el.classList.add('d-flex');
+                } else {
+                    el.classList.remove('d-flex');
+                    el.classList.add('d-none');
+                }
+            });
+
         }
     }
+    let playBtn = document.querySelectorAll(".service-menu .icofont-ui-play");
+    playBtn.forEach(btn => {
+        btn.addEventListener("click", function(e) {
+            if (btn.hasAttribute("data-play")) {
+                const videoSrc = btn.getAttribute("data-play");
+                const videoPlayer = document.getElementById("videoPlayer-placeholder");
+                if (videoPlayer) {
+                    const modal = document.getElementById("videoModal");
+                    modal.classList.add("fade", "show");
+                    videoPlayer.src = videoSrc;
 
-    document.querySelector(".play-video span").addEventListener("click", function(e) {
-        e.target.nextElementSibling.play();
-        e.target.style.display = "none";
-    });
+                    // video.currentTime = 0; // restart every time
+                    videoPlayer.load();
+                    videoPlayer.play();
+                }
+            }
+        });
+    })
 </script>

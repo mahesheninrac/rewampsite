@@ -8,7 +8,7 @@
                             <ul class="d-flex flex-column gap-2">
                                 <li class="row service-item">
                                     <div class="col-md-5">
-                                        <div class="d-flex w-100 align-items-center justify-content-between gap-2 service-link" data-src="https://eninrac.com/assets/video/advisory-&amp;-consulting.mp4" data-poster="https://eninrac.com/assets/upload/acs-landing-banner.png">
+                                        <div class="d-flex w-100 align-items-center justify-content-between gap-2 service-link" data-service="services-1">
                                             <span class="fw-bold">Advisory Consulting Services</span>
                                             <i class="icofont-rounded-right" style="display: inline-block;"></i>
                                         </div>
@@ -51,7 +51,7 @@
                                 </li>
                                 <li class="row service-item">
                                     <div class="col-md-5">
-                                        <div class="d-flex w-100 align-items-center justify-content-between gap-2 service-link" data-src="https://eninrac.com/assets/video/market-research.mp4" data-poster="https://eninrac.com/assets/upload/mr-01.png">
+                                        <div class="d-flex w-100 align-items-center justify-content-between gap-2 service-link" data-service="services-2">
                                             <span class="fw-bold">Market Tracking & Sizing</span>
                                             <i class="icofont-rounded-right"></i>
                                         </div>
@@ -97,7 +97,7 @@
                                 </li>
                                 <li class="row service-item">
                                     <div class="col-md-5">
-                                        <div class="d-flex w-100 align-items-center justify-content-between gap-2 service-link" data-src="https://eninrac.com/assets/video/strategy-&-innovation.mp4" data-poster="https://eninrac.com/assets/upload/si-banner-01.png">
+                                        <div class="d-flex w-100 align-items-center justify-content-between gap-2 service-link" data-service="services-3">
                                             <span class="fw-bold">Strategy & Innovation</span>
                                             <i class="icofont-rounded-right"></i>
                                         </div>
@@ -156,15 +156,75 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-4" style="background: blue;height: 87vh;">
-                        <div class="h-100 d-flex align-items-center justify-content-center p-4">
-                            <div class="right-image-link-ref position-relative play-video" style="border-radius: 10px;">
-                                <span style="position: absolute;z-index: 1;width: 100px;height: 100px;transform: translate(50%,50%);margin: auto;right: 50%;bottom: 50%;text-align: center;display: flex;justify-content: center;align-items: center;color: #00f;cursor: pointer;" class="icofont-ui-play fs-54"></span>
-                                <video class="w-100" playsinline="" loop="none" preload="auto" muted="" poster="https://eninrac.com/assets/upload/acs-landing-banner.png" style="min-height: 208px;display: block;width: 100%;object-fit: cover;">
-                                    <source src="https://eninrac.com/assets/video/advisory-&amp;-consulting.mp4">
-                                    Your browser does not support HTML video.
-                                </video>
+                    <div class="col-md-4" style="background: blue;height: 78vh;">
+                        <div class="d-flex align-items-center justify-content-center service-menu" id="services-1" style="position: relative;height: 100%;">
+                            <div style="position: absolute; top: 15px; left: 15px;z-index: 1;">
+                                <h3 class="text-white fs-20 fw-500 mb-2">
+                                    Advisory &amp; Consulting Assistance
+                                    <br>Contact Now.
+                                </h3>
+                                <ul>
+                                    <li>
+                                        <span class="d-block fs-14 text-white">
+                                            <strong>Mail:</strong> connect@eninrac.com
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="d-block fs-14 text-white">
+                                            <strong>Phone:</strong>
+                                            (+91) 7290016953, (+91) 9319048963, (+91) 9319047963
+                                        </span>
+                                    </li>
+                                </ul>
                             </div>
+                            <span style="position: absolute;z-index: 1;width: 60px;height: 60px;margin: auto;left: 10px;bottom: 10px;justify-content: center;align-items: center;color: #00f;cursor: pointer;background: #f8f9fa;display: flex;border-radius: 50%;font-size: 28px;text-align: center;" class="icofont-ui-play" data-play="https://eninrac.com/assets/video/advisory-&-consulting.mp4"></span>
+                            <img src="<?= base_url() ?>assets/images/two-men-sitting-table-with-one-them.png" alt="" style="width: calc(100% - 145px);position: absolute;right: 0;bottom: 0;">
+                        </div>
+                        <div class="d-none align-items-center justify-content-center service-menu" id="services-2" style="position: relative;height: 100%;">
+                            <div style="position: absolute; top: 15px; left: 15px;z-index: 1;">
+                                <h3 class="text-white fs-20 fw-500 mb-2">
+                                    Market Tracking & Sizing Assistance
+                                    <br>Contact Now.
+                                </h3>
+                                <ul>
+                                    <li>
+                                        <span class="d-block fs-14 text-white">
+                                            <strong>Mail:</strong> connect@eninrac.com
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="d-block fs-14 text-white">
+                                            <strong>Phone:</strong>
+                                            (+91) 7290016953, (+91) 9319048963, (+91) 9319047963
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <span style="position: absolute;z-index: 1;width: 60px;height: 60px;margin: auto;left: 10px;bottom: 10px;justify-content: center;align-items: center;color: #00f;cursor: pointer;background: #f8f9fa;display: flex;border-radius: 50%;font-size: 28px;text-align: center;" class="icofont-ui-play" data-play="https://eninrac.com/assets/video/market-research.mp4"></span>
+                            <img src="<?= base_url() ?>assets/images/the-girls.png" alt="" style="width: calc(100% - 145px);position: absolute;right: 0;bottom: 0;">
+                        </div>
+                        <div class="d-none align-items-center justify-content-center service-menu" id="services-3" style="position: relative;height: 100%;">
+                            <div style="position: absolute; top: 15px; left: 15px;z-index: 1;">
+                                <h3 class="text-white fs-20 fw-500 mb-2">
+                                    Strategy & Innovation Assistance
+                                    <br>Contact Now.
+                                </h3>
+                                <ul>
+                                    <li>
+                                        <span class="d-block fs-14 text-white">
+                                            <strong>Mail:</strong> connect@eninrac.com
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="d-block fs-14 text-white">
+                                            <strong>Phone:</strong>
+                                            (+91) 7290016953, (+91) 9319048963, (+91) 9319047963
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <span style="position: absolute;z-index: 1;width: 60px;height: 60px;margin: auto;left: 10px;bottom: 10px;justify-content: center;align-items: center;color: #00f;cursor: pointer;background: #f8f9fa;display: flex;border-radius: 50%;font-size: 28px;text-align: center;" class="icofont-ui-play" data-play="https://eninrac.com/assets/video/strategy-&-innovation.mp4"></span>
+                            <img src="<?= base_url() ?>assets/images/Innovation.png" alt="" style="width: calc(100% - 145px);position: absolute;right: 0;bottom: 0;">
                         </div>
                     </div>
                 </div>

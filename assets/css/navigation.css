@@ -17,7 +17,7 @@
 .nav-bar a.navbar_top_item:hover {
   transform: scale(1);
   border-bottom: 2px solid;
-  border-bottom-color: rgb(219, 0, 47);
+  /* border-bottom-color: rgb(219, 0, 47); */
 }
 .nav-bar ul li.navbar_dropdown_item {
   padding-bottom: 20px;
@@ -143,6 +143,10 @@ li.navbar_dropdown_item:hover .navbar_dropdown_item-details {
   line-height: 1rem;
   height: max-content;
   color: var(--primary-800);
+}
+.servicemenu-ul a:hover {
+	color: blue;
+  background-color: rgb(241, 242, 245);
 }
 
 .right-image-link-ref {
