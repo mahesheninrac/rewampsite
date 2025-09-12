@@ -21,7 +21,7 @@
                     <div
                         class="header-bottom top-bar d-md-flex justify-content-md-between align-items-md-center position-relative">
                         <div class="left d-md-flex align-items-md-center ga-2">
-                            <img src="https://eninrac.com/assets/images/logo_dark.png" alt="Webuild Logo" class="logo">
+                            <img src="<?=base_url()?>assets/images/logo_dark.svg" alt="Webuild Logo" class="logo">
 
                         </div>
                         <div class="right d-flex align-items-center gap-2 fs-16" style="font-size: 16px;">
