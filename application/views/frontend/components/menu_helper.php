@@ -1,9 +1,7 @@
 <div class="d-md-flex justify-content-md-between align-items-md-center">
     <ul class="nav-left p-0 list-unstyled d-md-flex gap-3 ">
         <li class="fs-16 navbar_dropdown_item " data-modal="group-modal">
-            <a href="#" class="text-white navbar_top_item">
-                How Eninrac Works
-            </a>
+            <a href="#" class="navbar_top_item">How Eninrac Works</a>
             <div class="bg-light text-dark nav-bar-details navbar_dropdown_item-details" id="group-modal"
                 style="overflow: hidden;">
                 <div class="container">
@@ -24,13 +22,13 @@
                 </div>
             </div>
         </li>
-        <?php require(APPPATH . 'views/frontend/components/menu/services.php'); ?>
+        <li class="fs-16 navbar_dropdown_item" data-modal="business-areas-modal">
+            <a href="#" class="navbar_top_item">Services</a>
+            <?php require(APPPATH . 'views/frontend/components/menu/services.php'); ?>
+        </li>
         <li class="fs-16 navbar_dropdown_item" data-modal="projects-modal">
-            <a href="#" class="text-white navbar_top_item">
-                Resources
-            </a>
-            <div class="bg-light text-dark nav-bar-details  navbar_dropdown_item-details" id="group-modal"
-                style="overflow: hidden;">
+            <a href="#" class="navbar_top_item">Resources</a>
+            <div class="bg-light text-dark nav-bar-details  navbar_dropdown_item-details" id="group-modal" style="overflow: hidden;">
                 <div class="container">
                     <div class="content">
                         <div class="pt-3">
@@ -40,50 +38,67 @@
                                         <ul class="d-flex flex-column gap-2">
                                             <li class="row service-item">
                                                 <div class="col-md-6">
-                                                    <div style="max-width: 274px;"
-                                                        class="d-flex w-100 align-items-center justify-content-between gap-2 service-link">
+                                                    <div style="max-width: 274px;" class="d-flex w-100 align-items-center justify-content-between gap-2 service-link">
                                                         <span class="fw-bold">Research Report</span>
                                                         <i class="icofont-rounded-right"></i>
                                                     </div>
                                                 </div>
-
-                                                <!-- </a> -->
                                                 <div class="col-md-6">
                                                     <div class="servicemenu-wrap">
-                                                        <div
-                                                            class="d-flex justify-content-between align-items-center gap-5">
+                                                        <div class="d-flex justify-content-between align-items-center gap-5">
                                                             <h3 class="fs-16 fw-bold">Research Report</h3>
-                                                            <a href="<?= base_url() ?>research-reports"
-                                                                class="cta -arrow position-relative">View</a>
+                                                            <a href="<?= base_url() ?>research-reports" class="cta -arrow position-relative">View</a>
                                                         </div>
                                                         <ul class="servicemenu-ul">
-                                                            <li><a href="https://store.eninrac.com/browse-categories">Industries
-                                                                    <span class="li-arrow">→</span></a></li>
-                                                            <li><a
-                                                                    href="https://store.eninrac.com/report-categories/insights">Insights
-                                                                    <span class="li-arrow">→</span></a></li>
-                                                            <li><a
-                                                                    href="https://store.eninrac.com/report-categories/market-report">Market
-                                                                    Report <span class="li-arrow">→</span></a>
+                                                            <li>
+                                                                <a href="https://store.eninrac.com/browse-categories">
+                                                                    Industries
+                                                                    <span class="li-arrow">→</span>
+                                                                </a>
                                                             </li>
-                                                            <li><a
-                                                                    href="https://store.eninrac.com/report-categories/database">Database
-                                                                    <span class="li-arrow">→</span></a></li>
-                                                            <li><a href="geography">Geography <span
-                                                                        class="li-arrow">→</span></a>
+                                                            <li>
+                                                                <a href="https://store.eninrac.com/report-categories/insights">
+                                                                    Insights
+                                                                    <span class="li-arrow">→</span>
+                                                                </a>
                                                             </li>
-                                                            <li><a href="reports">All Reports <span
-                                                                        class="li-arrow">→</span></a>
+                                                            <li>
+                                                                <a href="https://store.eninrac.com/report-categories/market-report">
+                                                                    Market Report
+                                                                    <span class="li-arrow">→</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="https://store.eninrac.com/report-categories/database">
+                                                                    Database
+                                                                    <span class="li-arrow">→</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="geography">
+                                                                    Geography
+                                                                    <span class="li-arrow">→</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="reports">
+                                                                    All Reports
+                                                                    <span class="li-arrow">→</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="reports">
+                                                                    All Reports
+                                                                    <span class="li-arrow">→</span>
+                                                                </a>
                                                             </li>
                                                         </ul>
                                                     </div>
                                                 </div>
-
                                             </li>
                                             <li class="row service-item">
                                                 <div class="col-md-6">
-                                                    <div style="max-width: 274px;"
-                                                        class="d-flex w-100 align-items-center justify-content-between gap-2 service-link">
+                                                    <div style="max-width: 274px;" class="d-flex w-100 align-items-center justify-content-between gap-2 service-link">
                                                         <span class="fw-bold">Vantedge Plus</span>
                                                         <i class="icofont-rounded-right"></i>
                                                     </div>
@@ -91,33 +106,34 @@
                                                 <div class="col-md-6">
                                                     <div class="">
                                                         <div class="servicemenu-wrap">
-                                                            <div
-                                                                class="d-flex justify-content-between align-items-center gap-5">
+                                                            <div class="d-flex justify-content-between align-items-center gap-5">
                                                                 <h3 class="fs-16 fw-bold">Vantedge Plus</h3>
-                                                                <a href="https://vantedgeplus.com/"
-                                                                    class="cta -arrow position-relative">View</a>
+                                                                <a href="https://vantedgeplus.com/" class="cta -arrow position-relative">View</a>
                                                             </div>
-
                                                             <ul class="servicemenu-ul">
-                                                                <li><a
-                                                                        href="https://vantedgeplus.com/categories/on-point">On-Point
-                                                                        <span class="li-arrow">→</span></a></li>
-                                                                <li><a
-                                                                        href="https://vantedgeplus.com/categories/80-twenty">80-20
-                                                                        of Industry <span class="li-arrow">→</span></a>
+                                                                <li>
+                                                                    <a href="https://vantedgeplus.com/categories/on-point">
+                                                                        On-Point
+                                                                        <span class="li-arrow">→</span>
+                                                                    </a>
                                                                 </li>
-                                                                <li><a
-                                                                        href="https://vantedgeplus.com/categories/blue-papers">Blue
-                                                                        Papers <span class="li-arrow">→</span></a>
+                                                                <li>
+                                                                    <a href="https://vantedgeplus.com/categories/80-twenty">
+                                                                        80-20 of Industry
+                                                                        <span class="li-arrow">→</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="https://vantedgeplus.com/categories/blue-papers">
+                                                                        Blue Papers
+                                                                        <span class="li-arrow">→</span>
+                                                                    </a>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                     </div>
-
-
                                                 </div>
                                             </li>
-
                                             <li class="row service-item">
                                                 <div class="col-md-6">
                                                     <div style="max-width: 274px;"
@@ -152,8 +168,6 @@
                                                     </div>
                                                 </div>
                                             </li>
-
-
                                             <li class="row service-item">
                                                 <div class="col-md-6">
                                                     <div style="max-width: 274px;"
@@ -180,11 +194,9 @@
                                                     </div>
                                                 </div>
                                             </li>
-
                                             <li class="row service-item">
                                                 <div class="col-md-6">
-                                                    <div style="max-width: 274px;"
-                                                        class="d-flex w-100 align-items-center justify-content-between gap-2 service-link">
+                                                    <div style="max-width: 274px;" class="d-flex w-100 align-items-center justify-content-between gap-2 service-link">
                                                         <span class="fw-bold">Einfews</span>
                                                         <i class="icofont-rounded-right"></i>
                                                     </div>
@@ -192,25 +204,35 @@
                                                 <div class="col-md-6">
                                                     <div class="">
                                                         <div class="servicemenu-wrap">
-                                                            <div
-                                                                class="d-flex justify-content-between align-items-center gap-5">
+                                                            <div class="d-flex justify-content-between align-items-center gap-5">
                                                                 <h3 class="fs-16 fw-bold">Einfews</h3>
-                                                                <a href="https://einfews.energyinfra.market/"
-                                                                    class="cta -arrow position-relative">View</a>
+                                                                <a href="https://einfews.energyinfra.market/" class="cta -arrow position-relative">View</a>
                                                             </div>
                                                             <ul class="servicemenu-ul">
-                                                                <li><a
-                                                                        href="https://einfews.energyinfra.market/category/new-energy">New
-                                                                        Energy<span class="li-arrow">→</span></a></li>
-                                                                <li><a
-                                                                        href="https://einfews.energyinfra.market/category/conventional-project">Conventional
-                                                                        Project<span class="li-arrow">→</span></a></li>
-                                                                <li><a
-                                                                        href="https://einfews.energyinfra.market/category/deal-tracker">Deal
-                                                                        Tracker<span class="li-arrow">→</span></a></li>
-                                                                <li><a
-                                                                        href="https://einfews.energyinfra.market/category/new-energy">New
-                                                                        Energy<span class="li-arrow">→</span></a></li>
+                                                                <li>
+                                                                    <a href="https://einfews.energyinfra.market/category/new-energy">
+                                                                        New Energy
+                                                                        <span class="li-arrow">→</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="https://einfews.energyinfra.market/category/conventional-project">
+                                                                        Conventional Project
+                                                                        <span class="li-arrow">→</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="https://einfews.energyinfra.market/category/deal-tracker">
+                                                                        Deal Tracker
+                                                                        <span class="li-arrow">→</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="https://einfews.energyinfra.market/category/new-energy">
+                                                                        New Energy
+                                                                        <span class="li-arrow">→</span>
+                                                                    </a>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -304,35 +326,28 @@
                 </div>
             </div>
         </li>
-
     </ul>
-
     <div class="nav-logo">
         <img src="https://eninrac.com/assets/images/fevicon.png" alt="Center Logo">
     </div>
-
     <ul class="nav-right p-0 list-unstyled d-md-flex gap-3">
         <li class="fs-16 navbar_dropdown_item" data-modal="sustainability-modal">
-            <a href="#" class="text-white navbar_top_item">Company</a>
+            <a href="#" class="navbar_top_item">Company</a>
             <div class="bg-light text-dark nav-bar-details navbar_dropdown_item-details" id="sustainability-modal"
                 style="overflow: hidden;">
-
+            </div>
+        </li>
+        <li class="fs-16 navbar_dropdown_item" data-modal="sustainability-modal">
+            <a href="#" class="navbar_top_item">One Source</a>
+            <div class="bg-light text-dark nav-bar-details navbar_dropdown_item-details" id="sustainability-modal"
+                style="overflow: hidden;">
             </div>
         </li>
 
         <li class="fs-16 navbar_dropdown_item" data-modal="sustainability-modal">
-            <a href="#" class="text-white navbar_top_item">One Source</a>
+            <a href="#" class="navbar_top_item">Horizon</a>
             <div class="bg-light text-dark nav-bar-details navbar_dropdown_item-details" id="sustainability-modal"
                 style="overflow: hidden;">
-
-            </div>
-        </li>
-
-        <li class="fs-16 navbar_dropdown_item" data-modal="sustainability-modal">
-            <a href="#" class="text-white navbar_top_item">Horizon</a>
-            <div class="bg-light text-dark nav-bar-details navbar_dropdown_item-details" id="sustainability-modal"
-                style="overflow: hidden;">
-
             </div>
         </li>
 
