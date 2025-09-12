@@ -1,100 +1,100 @@
 <style>
-    .video-block__play {
-        position: absolute;
-        z-index: 5;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        cursor: pointer;
+.video-block__play {
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.video-block__play i {
+    font-size: 50px;
+    color: #fff;
+    transition: color 0.2s linear;
+    display: inline-block;
+}
+
+.video-block__play i:hover {
+    color: var(--primary-500);
+}
+
+.main-block2-step__image {
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 16px;
+    padding-left: 8px;
+}
+
+.main-block2-step--1 .main-block2-step__image {
+    justify-content: flex-end;
+}
+
+.main-block2-step--2 .main-block2-step__image {
+    padding-bottom: 0;
+}
+
+.main-block2-step--4 .main-block2-step__image {
+    justify-content: flex-start;
+}
+
+@media screen and (max-width: 1599px) {
+    .main-first--enin-image {
+        margin-right: -80px;
+    }
+
+    .main-first--enin-image img {
+        height: 360px;
+
+    }
+
+    .main-first__text {
+        max-width: 340px;
+    }
+
+    .video-block {
+        height: 314px;
     }
 
     .video-block__play i {
-        font-size: 50px;
-        color: #fff;
-        transition: color 0.2s linear;
-        display: inline-block;
-    }
-
-    .video-block__play i:hover {
-        color: var(--primary-500);
-    }
-
-    .main-block2-step__image {
-        height: 260px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 16px;
-        padding-left: 8px;
+        font-size: 55px;
     }
 
     .main-block2-step--1 .main-block2-step__image {
-        justify-content: flex-end;
+        width: 165px;
     }
 
     .main-block2-step--2 .main-block2-step__image {
-        padding-bottom: 0;
+        width: 162px;
+    }
+
+    .main-block2-step--3 .main-block2-step__image {
+        width: 164px;
     }
 
     .main-block2-step--4 .main-block2-step__image {
-        justify-content: flex-start;
+        width: 175px;
     }
 
-    @media screen and (max-width: 1599px) {
-        .main-first--enin-image {
-            margin-right: -80px;
-        }
+    .main-block2-step__image {
+        height: 200px;
+    }
+}
 
-        .main-first--enin-image img {
-            height: 360px;
-
-        }
-
-        .main-first__text {
-            max-width: 340px;
-        }
-
-        .video-block {
-            height: 314px;
-        }
-
-        .video-block__play i {
-            font-size: 55px;
-        }
-
-        .main-block2-step--1 .main-block2-step__image {
-            width: 165px;
-        }
-
-        .main-block2-step--2 .main-block2-step__image {
-            width: 162px;
-        }
-
-        .main-block2-step--3 .main-block2-step__image {
-            width: 164px;
-        }
-
-        .main-block2-step--4 .main-block2-step__image {
-            width: 175px;
-        }
-
-        .main-block2-step__image {
-            height: 200px;
-        }
+@media screen and (max-width: 2599px) {
+    .main-block2-step--3 .main-block2-step__image {
+        padding-bottom: 0;
+        padding-top: 12px;
     }
 
-    @media screen and (max-width: 2599px) {
-        .main-block2-step--3 .main-block2-step__image {
-            padding-bottom: 0;
-            padding-top: 12px;
-        }
-
-        .main-block2-step--4 .main-block2-step__image {
-            justify-content: center;
-            padding-left: 32px;
-        }
+    .main-block2-step--4 .main-block2-step__image {
+        justify-content: center;
+        padding-left: 32px;
     }
+}
 </style>
 <div class="content">
     <div class="wrap">
@@ -213,7 +213,7 @@
                                         <h3 style="font-size: 20px;">Book all your business travel needs on a
                                             centralised
                                             platform</h3>
-                                        <img src="https://enin.io/storage/uploads/da988e20129536840c77fc14dd74d1b1.svg"
+                                        <img src="https://tumodo.io/storage/uploads/da988e20129536840c77fc14dd74d1b1.svg"
                                             style="width: 42px; height: 42px;" alt="">
                                     </div>
                                 </div>
@@ -266,38 +266,38 @@
 
                             </div>
                             <style>
-                                .threedcarosule .carousel-wrapper {
-                                    background: #e1e2ee;
-                                    padding: 40px;
-                                    border-radius: 20px;
-                                    max-width: 700px;
-                                    margin: auto;
-                                }
+                            .threedcarosule .carousel-wrapper {
+                                background: #e1e2ee;
+                                padding: 40px;
+                                border-radius: 20px;
+                                max-width: 700px;
+                                margin: auto;
+                            }
 
-                                .threedcarosule .owl-carousel .item {
-                                    display: flex;
-                                    justify-content: center;
-                                }
+                            .threedcarosule .owl-carousel .item {
+                                display: flex;
+                                justify-content: center;
+                            }
 
-                                .threedcarosule .card {
-                                    background: #f9fbfe;
-                                    padding: 30px;
-                                    border-radius: 20px;
-                                    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
-                                    text-align: left;
-                                    width: 80%;
-                                    transition: transform 0.3s ease;
-                                }
+                            .threedcarosule .card {
+                                background: #f9fbfe;
+                                padding: 30px;
+                                border-radius: 20px;
+                                box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+                                text-align: left;
+                                width: 80%;
+                                transition: transform 0.3s ease;
+                            }
 
-                                .threedcarosule .card:hover {
-                                    transform: translateY(-5px);
-                                }
+                            .threedcarosule .card:hover {
+                                transform: translateY(-5px);
+                            }
 
-                                .threedcarosule .title {
-                                    color: #5c6cfa;
-                                    font-size: 14px;
-                                    margin-bottom: 10px;
-                                }
+                            .threedcarosule .title {
+                                color: #5c6cfa;
+                                font-size: 14px;
+                                margin-bottom: 10px;
+                            }
                             </style>
                             <div class="pt-2 px-1 pb-1 threedcarosule">
                                 <div class="carousel-wrapper position-relative" style="min-height:300px">
@@ -707,26 +707,26 @@
                         </div>
                     </div>
                     <script>
-                        const faqItems = document.querySelectorAll('.js-faq-item');
+                    const faqItems = document.querySelectorAll('.js-faq-item');
 
-                        faqItems.forEach(item => {
-                            const question = item.querySelector('.faq-item-question');
+                    faqItems.forEach(item => {
+                        const question = item.querySelector('.faq-item-question');
 
-                            question.addEventListener('click', () => {
-                                const isActive = item.classList.contains('active');
-                                // Close all answers first
-                                faqItems.forEach(i => {
-                                    i.querySelector('.faq-item-answear').style.display = 'none';
-                                    i.classList.remove('active');
-                                });
-
-                                // Toggle the clicked one
-                                if (!isActive) {
-                                    item.querySelector('.faq-item-answear').style.display = 'block';
-                                    item.classList.add('active');
-                                }
+                        question.addEventListener('click', () => {
+                            const isActive = item.classList.contains('active');
+                            // Close all answers first
+                            faqItems.forEach(i => {
+                                i.querySelector('.faq-item-answear').style.display = 'none';
+                                i.classList.remove('active');
                             });
+
+                            // Toggle the clicked one
+                            if (!isActive) {
+                                item.querySelector('.faq-item-answear').style.display = 'block';
+                                item.classList.add('active');
+                            }
                         });
+                    });
                     </script>
                 </div>
             </div>
@@ -786,40 +786,40 @@
 </section>
 
 <style>
+.trial-form--tumodo-image {
+    position: absolute;
+    top: -32px;
+    right: 100%;
+    z-index: -1;
+    margin-right: -25%;
+}
+
+.trial-form--tumodo-image img {
+    max-width: none;
+    position: static;
+    width: auto;
+    height: 400px;
+}
+
+.trial-form-wrapper>picture,
+.trial-form-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media screen and (max-width: 1599px) {
     .trial-form--tumodo-image {
-        position: absolute;
-        top: -32px;
-        right: 100%;
-        z-index: -1;
-        margin-right: -25%;
+        top: -10px;
+        margin-right: -38%;
     }
 
     .trial-form--tumodo-image img {
-        max-width: none;
-        position: static;
-        width: auto;
-        height: 400px;
+        height: 325px;
     }
-
-    .trial-form-wrapper>picture,
-    .trial-form-wrapper img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: center;
-    }
-
-    @media screen and (max-width: 1599px) {
-        .trial-form--tumodo-image {
-            top: -10px;
-            margin-right: -38%;
-        }
-
-        .trial-form--tumodo-image img {
-            height: 325px;
-        }
-    }
+}
 </style>
