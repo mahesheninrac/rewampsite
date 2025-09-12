@@ -32,8 +32,8 @@
 
 .nav-logo {
   position: absolute;
-  left: 45%;
-  top: 40%;
+  left: 45.2%;
+  top: 35%;
   transform: translate(50%, 0%);
   padding: 10px;
   border-radius: 50%;
@@ -76,7 +76,7 @@ ul {
 
 .nav-bar-details {
   position: absolute;
-  top: 140px;
+  top: 130px;
   left: 0;
   width: 100%;
   background: white;
@@ -84,7 +84,6 @@ ul {
   padding: 15px;
   z-index: 1000;
   display: none;
-
   opacity: 0;
   overflow: hidden;
 }
@@ -121,15 +120,16 @@ li.navbar_dropdown_item:hover .navbar_dropdown_item-details {
   /* hide by default */
 }
 .servicemenu-wrap {
-  position: absolute;
-  left: 317px;
-  top: 0;
-  width: 441px;
-  /* padding-left: 2.5rem; */
-  display: none;
-  flex-direction: column;
-  /* -webkit-box-align: start; */
-  align-items: start;
+	position: absolute;
+	left: 374px;
+	top: 25px;
+	width: calc(100% - 374px);
+	display: none;
+	flex-direction: column;
+	align-items: start;
+	border-left: 1px solid gainsboro;
+	padding-left: 10px;
+	height: 87vh;
 }
 .servicemenu-wrap.active {
   display: flex;

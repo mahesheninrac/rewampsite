@@ -15,7 +15,7 @@
 
 <body>
     <header class="circle-header">
-        <div class="header-center-circle-background d-none d-md-block" style="background-color: blue;">
+        <div class="header-center-circle-background d-none d-md-block">
             <div class="container">
                 <div class="">
                     <div
@@ -55,16 +55,19 @@
             </button>
         </div>
     </header>
+    <script>
+        document.addEventListener("scroll", function() {
+            const navbar = document.querySelector("header.circle-header");
+            if (window.scrollY >= 50) {
+                navbar.classList.add("fixed-header");
+            } else {
+                navbar.classList.remove("fixed-header");
+            }
+        });
+    </script>
 
     <!-- <script>
-    document.addEventListener("scroll", function() {
-        const navbar = document.querySelector(".nav-bar");
-        if (window.scrollY >= 200) {
-            navbar.classList.add("navbar-sticky");
-        } else {
-            navbar.classList.remove("navbar-sticky");
-        }
-    });
+
 
     document.addEventListener("DOMContentLoaded", function() {
         const navItems = document.querySelectorAll('li[data-modal]');

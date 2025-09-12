@@ -1,11 +1,19 @@
 header.circle-header {
   width: 100%;
-  position: sticky;
-  top: -50px;
   display: block;
   z-index: 999999;
   background-color: #f7f8fa;
   box-shadow: 1px 3px 8px 0px rgba(0, 0, 0, 0.2) !important;
+  transition: 500ms ease-in-out;
+}
+header.circle-header.fixed-header {
+  position: sticky;
+  top: -50px;
+  background-color: blue;
+  transition: 500ms ease-in-out;
+}
+header.circle-header.fixed-header .navbar_top_item {
+  color: white !important;
 }
 .header {
   padding: 24px 0;
@@ -86,7 +94,7 @@ img {
 @media screen and (min-width: 576px) {
   .header-bottom {
     padding-top: 0.5rem;
-    padding-bottom: 4.25rem;
+    padding-bottom: 3.25rem;
   }
 }
 @media (max-width: 767px) {
@@ -129,7 +137,7 @@ img {
 @media screen and (min-width: 1200px) {
   .header-bottom {
     padding-top: 0.75rem;
-    padding-bottom: 4.25rem;
+    padding-bottom: 3.25rem;
   }
 }
 @media (max-width: 1599px) {
