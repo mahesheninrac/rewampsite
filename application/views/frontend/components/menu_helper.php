@@ -2,8 +2,7 @@
     <ul class="nav-left p-0 list-unstyled d-md-flex gap-3 ">
         <li class="fs-16 navbar_dropdown_item " data-modal="group-modal">
             <a href="#" class="navbar_top_item">How Eninrac Works</a>
-            <div class="bg-light text-dark nav-bar-details navbar_dropdown_item-details" id="group-modal"
-                style="overflow: hidden;">
+            <div class="bg-light text-dark nav-bar-details navbar_dropdown_item-details" id="group-modal" style="overflow: hidden;">
                 <div class="container">
                     <div class="content">
                         <div class="pt-3">
@@ -333,9 +332,7 @@
     <ul class="nav-right p-0 list-unstyled d-md-flex gap-3">
         <li class="fs-16 navbar_dropdown_item" data-modal="sustainability-modal">
             <a href="#" class="navbar_top_item">Company</a>
-            <div class="bg-light text-dark nav-bar-details navbar_dropdown_item-details" id="sustainability-modal"
-                style="overflow: hidden;">
-            </div>
+            <?php require(APPPATH . 'views/frontend/components/menu/company.php'); ?>
         </li>
         <li class="fs-16 navbar_dropdown_item" data-modal="sustainability-modal">
             <a href="#" class="navbar_top_item">One Source</a>
@@ -370,8 +367,10 @@
                     const isActive = serviceMenu.classList.contains('active');
                     if (!isActive) {
                         // hide all other menus first
-                        document.querySelectorAll(".servicemenu-wrap").forEach(ul => ul.classList.remove('active'));
-                        document.querySelectorAll(".service-link .icofont-rounded-right").forEach(i => i.style.display = "none");
+                        let serviceWrap = item.parentElement.parentElement.parentElement.querySelectorAll(".servicemenu-wrap")
+                        let serviceLinkIcon = item.parentElement.parentElement.parentElement.querySelectorAll(".service-link .icofont-rounded-right")
+                        serviceWrap.forEach(ul => ul.classList.remove('active'));
+                        serviceLinkIcon.forEach(i => i.style.display = "none");
                         // then show the current one
                         serviceMenu.classList.add('active');
                         if (icon) icon.style.display = "inline-block";
@@ -381,7 +380,6 @@
             });
         });
     }
-
     function showServices(item) {
         if (item.hasAttribute("data-service")) {
             const serviceId = item.getAttribute("data-service");
