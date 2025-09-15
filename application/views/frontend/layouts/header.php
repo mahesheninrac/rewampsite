@@ -39,8 +39,6 @@
                 </div>
             </div>
         </div>
-
-
         <div class="mobile-view-only bg-primary d-flex d-md-none position-relative"
             style="height:70px;padding-left: 1.375rem;padding-right: 1.375rem;">
             <div class=" d-flex w-100 d-md-none align-items-center justify-content-center position-relative">
@@ -65,41 +63,3 @@
             }
         });
     </script>
-
-    <!-- <script>
-
-
-    document.addEventListener("DOMContentLoaded", function() {
-        const navItems = document.querySelectorAll('li[data-modal]');
-        navItems.forEach(item => {
-            const modalId = item.getAttribute("data-modal");
-            const modal = document.getElementById(modalId);
-            let hoverTimeout;
-
-            if (!modal) return; // skip if no matching modal
-
-            function showModal() {
-                clearTimeout(hoverTimeout);
-                modal.classList.add("show");
-                requestAnimationFrame(() => {
-                    modal.classList.add("active");
-                });
-            }
-
-            function hideModal() {
-                hoverTimeout = setTimeout(() => {
-                    modal.classList.remove("active");
-                    modal.addEventListener("transitionend", function handler() {
-                        modal.classList.remove("show");
-                        modal.removeEventListener("transitionend", handler);
-                    });
-                }, 200);
-            }
-
-            item.addEventListener("mouseenter", showModal);
-            item.addEventListener("mouseleave", hideModal);
-            modal.addEventListener("mouseenter", showModal);
-            modal.addEventListener("mouseleave", hideModal);
-        });
-    });
-    </script> -->
