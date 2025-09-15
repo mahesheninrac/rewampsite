@@ -88,6 +88,18 @@ $('.logo-carousel').owlCarousel({
     }
 });
 
+$('.threedcarosule .owl-carousel').owlCarousel({
+    loop: true,
+    margin: 20,
+    nav: true,
+    dots: false,
+    center: true,
+    items: 1,
+    stagePadding: 100, // this creates the visible overlap
+    navText: ["<", ">"] // you can replace with custom SVG
+});
+
+
 
 // Function to check if element is in viewport (partially visible)
 function isInViewport(element) {

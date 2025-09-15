@@ -117,7 +117,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="video-block js-video-block border-radius-40 overflow-auto position-relative">
-                        <img src="https://enin.io/storage/uploads/de53632c8f350f7da29956c4388e4f27.png"
+                        <img src="https://tumodo.io/storage/uploads/de53632c8f350f7da29956c4388e4f27.png"
                             alt="Bridging gaps in  &amp; Market Research" class="img-fluid"
                             style="height: 100%; object-fit:cover">
                         <div class="video-block__play">
@@ -213,7 +213,7 @@
                                         <h3 style="font-size: 20px;">Book all your business travel needs on a
                                             centralised
                                             platform</h3>
-                                        <img src="https://enin.io/storage/uploads/da988e20129536840c77fc14dd74d1b1.svg"
+                                        <img src="https://tumodo.io/storage/uploads/da988e20129536840c77fc14dd74d1b1.svg"
                                             style="width: 42px; height: 42px;" alt="">
                                     </div>
                                 </div>
@@ -262,6 +262,73 @@
                                         </div>
                                     </div>
                                 </div>
+
+
+                            </div>
+                            <style>
+                            .threedcarosule .carousel-wrapper {
+                                background: #e1e2ee;
+                                padding: 40px;
+                                border-radius: 20px;
+                                max-width: 700px;
+                                margin: auto;
+                            }
+
+                            .threedcarosule .owl-carousel .item {
+                                display: flex;
+                                justify-content: center;
+                            }
+
+                            .threedcarosule .card {
+                                background: #f9fbfe;
+                                padding: 30px;
+                                border-radius: 20px;
+                                box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+                                text-align: left;
+                                width: 80%;
+                                transition: transform 0.3s ease;
+                            }
+
+                            .threedcarosule .card:hover {
+                                transform: translateY(-5px);
+                            }
+
+                            .threedcarosule .title {
+                                color: #5c6cfa;
+                                font-size: 14px;
+                                margin-bottom: 10px;
+                            }
+                            </style>
+                            <div class="pt-2 px-1 pb-1 threedcarosule">
+                                <div class="carousel-wrapper position-relative" style="min-height:300px">
+                                    <div class="owl-carousel">
+                                        <div class="item">
+                                            <div class="card position-absolute"
+                                                style="width: calc(100%); transform: translateX(0%);">
+                                                <h5 class="title">Advance payment</h5>
+                                                <h2>from $10 per service</h2>
+                                                <p>Pay only for issued trips — in advance or post payment</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="card position-absolute"
+                                                style="width: calc(100%); transform: translateX(-100%); transition: opacity 400ms cubic-bezier(0.25, 1, 0.5, 1);">
+                                                <h5 class="title">Flexible Plan</h5>
+                                                <h2>from $20 per service</h2>
+                                                <p>Pay as you go, cancel anytime</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="card position-absolute"
+                                                style="width: calc(100%); transform: translateX(-200%); transition: opacity 400ms cubic-bezier(0.25, 1, 0.5, 1);">
+                                                <h5 class="title">Enterprise Plan</h5>
+                                                <h2>from $50 per service</h2>
+                                                <p>Tailored for large organizations</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>

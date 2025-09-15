@@ -10,7 +10,7 @@
                                     <div class="col-md-5">
                                         <div class="d-flex w-100 align-items-center justify-content-between gap-2 service-link"
                                             data-service="services-1">
-                                            <span class="fw-bold">Advisory Consulting Services</span>
+                                            <span class="fw-bold">Research Reports</span>
                                             <i class="icofont-rounded-right" style="display: inline-block;"></i>
                                         </div>
                                     </div>
@@ -18,43 +18,51 @@
                                         <div class="servicemenu-wrap active">
                                             <div style="width: calc(100% - 25px);border-bottom: 1px solid #d8d7d7;"
                                                 class="d-flex justify-content-between align-items-center gap-5 mb-3">
-                                                <h3 class="fs-16 fw-bold">Advisory Consulting Services</h3>
-                                                <a href="https://eninrac.com/advisory-and-consulting-services"
+                                                <h3 class="fs-16 fw-bold">Research Reports</h3>
+                                                <a href="https://eninrac.com/research-reports"
                                                     class="position-relative fs-14" style="left: -15px;">View <span
                                                         class="ms-2 cta -arrow"></span></a>
                                             </div>
                                             <ul class="servicemenu-ul">
                                                 <li>
-                                                    <a
-                                                        href="https://eninrac.com/advisory-and-consulting-services/business-intelligence">Business
-                                                        Intelligence
+                                                    <a href="https://store.eninrac.com/browse-categories">
+                                                        Industries
                                                         <span class="li-arrow">→</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a
-                                                        href="https://eninrac.com/advisory-and-consulting-services/due-diligence">Due
-                                                        Diligence
+                                                    <a href="https://store.eninrac.com/report-categories/insights">
+                                                        Insights
                                                         <span class="li-arrow">→</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a
-                                                        href="https://eninrac.com/advisory-and-consulting-services/benchmarking-services">Benchmarking
-                                                        Services
+                                                    <a href="https://store.eninrac.com/report-categories/market-report">
+                                                        Market Report
                                                         <span class="li-arrow">→</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a
-                                                        href="https://eninrac.com/advisory-and-consulting-services/pfrs-dprs">PFR's/DPR's
+                                                    <a href="https://store.eninrac.com/report-categories/database">
+                                                        Database
                                                         <span class="li-arrow">→</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a
-                                                        href="https://eninrac.com/advisory-and-consulting-services/open-access-services">Open
-                                                        Access Advisory Services
+                                                    <a href="geography">
+                                                        Geography
+                                                        <span class="li-arrow">→</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="reports">
+                                                        All Reports
+                                                        <span class="li-arrow">→</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="reports">
+                                                        All Reports
                                                         <span class="li-arrow">→</span>
                                                     </a>
                                                 </li>
@@ -66,7 +74,7 @@
                                     <div class="col-md-5">
                                         <div class="d-flex w-100 align-items-center justify-content-between gap-2 service-link"
                                             data-service="services-2">
-                                            <span class="fw-bold">Market Tracking & Sizing</span>
+                                            <span class="fw-bold">Vantedge</span>
                                             <i class="icofont-rounded-right"></i>
                                         </div>
                                     </div>
@@ -75,37 +83,27 @@
                                             <div class="servicemenu-wrap">
                                                 <div style="width: calc(100% - 25px);border-bottom: 1px solid #d8d7d7;"
                                                     class="d-flex justify-content-between align-items-center gap-5 mb-3">
-                                                    <h3 class="fs-16 fw-bold">Market Tracking &amp; Sizing</h3>
-                                                    <a href="https://eninrac.com/market-research-service"
-                                                        class="position-relative fs-14" style="left: -15px;">View <span
+                                                    <h3 class="fs-16 fw-bold">Vantedge</h3>
+                                                    <a href="https://vantedgeplus.com/" class="position-relative fs-14"
+                                                        style="left: -15px;">View <span
                                                             class="ms-2 cta -arrow"></span></a>
                                                 </div>
                                                 <ul class="servicemenu-ul">
                                                     <li>
-                                                        <a
-                                                            href="https://eninrac.com/market-research-service/market-tracking-and-sizing">
-                                                            Market Tracking &amp; Sizing
+                                                        <a href="https://vantedgeplus.com/categories/on-point">
+                                                            On-Point
                                                             <span class="li-arrow">→</span>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="https://eninrac.com/market-research-service/market-analytics">
-                                                            Market Analytics
+                                                        <a href="https://vantedgeplus.com/categories/80-twenty">
+                                                            80-20 of Industry
                                                             <span class="li-arrow">→</span>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="https://eninrac.com/market-research-service/competitor-analysis">
-                                                            Competitor Analysis
-                                                            <span class="li-arrow">→</span>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a
-                                                            href="https://eninrac.com/market-research-service/research-on-demand-tracking">
-                                                            Research on Demand Tracking
+                                                        <a href="https://vantedgeplus.com/categories/blue-papers">
+                                                            Blue Papers
                                                             <span class="li-arrow">→</span>
                                                         </a>
                                                     </li>
@@ -120,7 +118,7 @@
                                     <div class="col-md-5">
                                         <div class="d-flex w-100 align-items-center justify-content-between gap-2 service-link"
                                             data-service="services-3">
-                                            <span class="fw-bold">Strategy & Innovation</span>
+                                            <span class="fw-bold">Ecosystem Reports</span>
                                             <i class="icofont-rounded-right"></i>
                                         </div>
                                     </div>
@@ -129,39 +127,48 @@
                                             <div class="servicemenu-wrap">
                                                 <div style="width: calc(100% - 25px);border-bottom: 1px solid #d8d7d7;"
                                                     class="d-flex justify-content-between align-items-center gap-5 mb-3">
-                                                    <h3 class="fs-16 fw-bold">Strategy & Innovation</h3>
-                                                    <a href="https://eninrac.com/strategy-and-innovation"
+                                                    <h3 class="fs-16 fw-bold">Ecosystem Reports</h3>
+                                                    <a href="https://ecosystemreports.com/"
                                                         class="position-relative fs-14" style="left: -15px;">View <span
                                                             class="ms-2 cta -arrow"></span></a>
                                                 </div>
                                                 <ul class="servicemenu-ul">
-                                                    <li>
-                                                        <a
-                                                            href="https://eninrac.com/strategy-and-innovation/change-management">
-                                                            Change Management
-                                                            <span class="li-arrow">→</span>
-                                                        </a>
+                                                    <li><a href="https://ecosystemreports.com/market-coverage/">Market
+                                                            Coverage <span class="li-arrow">→</span></a>
                                                     </li>
-                                                    <li>
-                                                        <a
-                                                            href="https://eninrac.com/strategy-and-innovation/growth-strategy">
-                                                            Growth Strategy
-                                                            <span class="li-arrow">→</span>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a
-                                                            href="https://eninrac.com/strategy-and-innovation/product-innovation-strategy">
-                                                            Product Innovation Strategy
-                                                            <span class="li-arrow">→</span>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a
-                                                            href="https://eninrac.com/strategy-and-innovation/operations-strategy">
-                                                            Operations Strategy
-                                                            <span class="li-arrow">→</span>
-                                                        </a>
+                                                    <li><a href="https://ecosystemreports.com/reports/">Reports
+                                                            <span class="li-arrow">→</span></a></li>
+                                                    <li><a href="https://ecosystemreports.com/surveys/">Surveys
+                                                            <span class="li-arrow">→</span></a></li>
+                                                    <li><a href="https://ecosystemreports.com/events/">Events
+                                                            <span class="li-arrow">→</span></a></li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="row service-item">
+                                    <div class="col-md-5">
+                                        <div class="d-flex w-100 align-items-center justify-content-between gap-2 service-link"
+                                            data-service="services-3">
+                                            <span class="fw-bold">EI Market</span>
+                                            <i class="icofont-rounded-right"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="">
+                                            <div class="servicemenu-wrap">
+                                                <div style="width: calc(100% - 25px);border-bottom: 1px solid #d8d7d7;"
+                                                    class="d-flex justify-content-between align-items-center gap-5 mb-3">
+                                                    <h3 class="fs-16 fw-bold">EI Market</h3>
+                                                    <a href="https://eninrac.com/transformation-and-sustainability"
+                                                        class="position-relative fs-14" style="left: -15px;">View
+                                                        <span class="ms-2 cta -arrow"></span></a>
+                                                </div>
+                                                <ul class="servicemenu-ul">
+                                                    <li><a href="https://energyinfra.market/">Project
+                                                            Manager <span class="li-arrow">→</span></a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -170,18 +177,119 @@
                                 </li>
                                 <li class="row service-item">
                                     <div class="col-md-5">
-                                        <a href="https://eninrac.com/transformation-and-sustainability"
-                                            class="d-flex w-100 align-items-center justify-content-between gap-2 service-link-active fw-bold">
-                                            Transformation & Sustainability
-                                        </a>
+                                        <div class="d-flex w-100 align-items-center justify-content-between gap-2 service-link"
+                                            data-service="services-3">
+                                            <span class="fw-bold">Einfews</span>
+                                            <i class="icofont-rounded-right"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="">
+                                            <div class="servicemenu-wrap">
+                                                <div style="width: calc(100% - 25px);border-bottom: 1px solid #d8d7d7;"
+                                                    class="d-flex justify-content-between align-items-center gap-5 mb-3">
+                                                    <h3 class="fs-16 fw-bold">EI Market</h3>
+                                                    <a href="https://eninrac.com/transformation-and-sustainability"
+                                                        class="position-relative fs-14" style="left: -15px;">View
+                                                        <span class="ms-2 cta -arrow"></span></a>
+                                                </div>
+                                                <ul class="servicemenu-ul">
+                                                    <li>
+                                                        <a
+                                                            href="https://einfews.energyinfra.market/category/new-energy">
+                                                            New Energy
+                                                            <span class="li-arrow">→</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a
+                                                            href="https://einfews.energyinfra.market/category/conventional-project">
+                                                            Conventional Project
+                                                            <span class="li-arrow">→</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a
+                                                            href="https://einfews.energyinfra.market/category/deal-tracker">
+                                                            Deal Tracker
+                                                            <span class="li-arrow">→</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a
+                                                            href="https://einfews.energyinfra.market/category/new-energy">
+                                                            New Energy
+                                                            <span class="li-arrow">→</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li class="row service-item">
+                                    <div class="col-md-5">
+                                        <div class="d-flex w-100 align-items-center justify-content-between gap-2 service-link"
+                                            data-service="services-3">
+                                            <span class="fw-bold">Omnicore</span>
+                                            <i class="icofont-rounded-right"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="">
+                                            <div class="servicemenu-wrap">
+                                                <div style="width: calc(100% - 25px);border-bottom: 1px solid #d8d7d7;"
+                                                    class="d-flex justify-content-between align-items-center gap-5 mb-3">
+                                                    <h3 class="fs-16 fw-bold">Omnicore</h3>
+                                                    <a href="https://omnicoreplus.com/" class="position-relative fs-14"
+                                                        style="left: -15px;">View
+                                                        <span class="ms-2 cta -arrow"></span></a>
+                                                </div>
+                                                <ul class="servicemenu-ul">
+                                                    <li><a href="https://omnicoreplus.com/category/bid-updates">Bid
+                                                            Updates<span class="li-arrow">→</span></a></li>
+                                                    <li><a href="https://omnicoreplus.com/category/central">Central<span
+                                                                class="li-arrow">→</span></a></li>
+                                                    <li><a href="https://omnicoreplus.com/category/state">State<span
+                                                                class="li-arrow">→</span></a></li>
+                                                    <li><a href="https://omnicoreplus.com/category/open-access">Open
+                                                            Access<span class="li-arrow">→</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </div>
                                 </li>
                                 <li class="row service-item">
                                     <div class="col-md-5">
-                                        <a href="https://eninrac.com/training-and-pro-bono-services"
-                                            class="d-flex w-100 align-items-center justify-content-between gap-2 service-link-active fw-bold">
-                                            Training & Pro-Bono Services
-                                        </a>
+                                        <div class="d-flex w-100 align-items-center justify-content-between gap-2 service-link"
+                                            data-service="services-3">
+                                            <span class="fw-bold">WHI</span>
+                                            <i class="icofont-rounded-right"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="">
+                                            <div class="servicemenu-wrap">
+                                                <div style="width: calc(100% - 25px);border-bottom: 1px solid #d8d7d7;"
+                                                    class="d-flex justify-content-between align-items-center gap-5 mb-3">
+                                                    <h3 class="fs-16 fw-bold">WHI</h3>
+                                                    <a href="https://warehousesinindia.com/"
+                                                        class="position-relative fs-14" style="left: -15px;">View
+                                                        <span class="ms-2 cta -arrow"></span></a>
+                                                </div>
+                                                <ul class="servicemenu-ul">
+                                                    <li>
+                                                        <a
+                                                            href="https://einfews.energyinfra.market/category/new-energy">
+                                                            New Energy
+                                                            <span class="li-arrow">→</span>
+                                                        </a>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </div>
                                 </li>
                             </ul>
