@@ -1,31 +1,13 @@
 <div class="d-md-flex justify-content-md-between align-items-md-center">
     <ul class="nav-left p-0 list-unstyled d-md-flex gap-3 ">
-        <li class="fs-16 navbar_dropdown_item " data-modal="group-modal">
-            <a href="#" class="navbar_top_item">How Eninrac Works</a>
-            <div class="bg-light text-dark nav-bar-details navbar_dropdown_item-details" id="group-modal" style="overflow: hidden;">
-                <div class="container">
-                    <div class="content">
-                        <div class="pt-3">
-                            <div class="row">
-                                <div class="col-md-7"></div>
-                                <div class="col-md-5">
-                                    <div class="h-100">
-                                        <img src="https://tumodo.io/storage/uploads/de53632c8f350f7da29956c4388e4f27.png"
-                                            class="img-fluid object-fit-cover rounded h-100"
-                                            style="max-width: 300px;float:right" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <li class="fs-16 navbar_dropdown_item">
+            <a href="https://eninrac.com/how-eninrac-works" class="navbar_top_item">How Eninrac Works</a>
         </li>
-        <li class="fs-16 navbar_dropdown_item" data-modal="business-areas-modal">
+        <li class="fs-16 navbar_dropdown_item">
             <a href="#" class="navbar_top_item">Services</a>
             <?php require(APPPATH . 'views/frontend/components/menu/services.php'); ?>
         </li>
-        <li class="fs-16 navbar_dropdown_item" data-modal="projects-modal">
+        <li class="fs-16 navbar_dropdown_item">
             <a href="#" class="navbar_top_item">Resources</a>
             <?php require(APPPATH . 'views/frontend/components/menu/resources.php'); ?>
         </li>
@@ -34,28 +16,19 @@
         <img src="<?= base_url() ?>assets/images/bridge.svg" alt="Center Logo">
     </div>
     <ul class="nav-right p-0 list-unstyled d-md-flex gap-3">
-        <li class="fs-16 navbar_dropdown_item" data-modal="sustainability-modal">
+        <li class="fs-16 navbar_dropdown_item">
             <a href="#" class="navbar_top_item">Company</a>
             <?php require(APPPATH . 'views/frontend/components/menu/company.php'); ?>
         </li>
-        <li class="fs-16 navbar_dropdown_item" data-modal="sustainability-modal">
+        <li class="fs-16 navbar_dropdown_item">
             <a href="#" class="navbar_top_item">One Source</a>
-            <div class="bg-light text-dark nav-bar-details navbar_dropdown_item-details" id="sustainability-modal"
-                style="overflow: hidden;">
-            </div>
+            <?php require(APPPATH . 'views/frontend/components/menu/one-source.php'); ?>
         </li>
-
-        <li class="fs-16 navbar_dropdown_item" data-modal="sustainability-modal">
-            <a href="#" class="navbar_top_item">Horizon</a>
-            <div class="bg-light text-dark nav-bar-details navbar_dropdown_item-details" id="sustainability-modal"
-                style="overflow: hidden;">
-            </div>
+        <li class="fs-16 navbar_dropdown_item">
+            <a href="https://eninrac.com/horizon/" class="navbar_top_item">Horizon</a>
         </li>
-
-
     </ul>
 </div>
-
 <script>
     let menuLinks = document.querySelectorAll(".service-item .service-link");
     if (menuLinks) {
@@ -79,7 +52,6 @@
                         serviceMenu.classList.add('active');
                         if (icon) icon.style.display = "inline-block";
                     }
-                    // else do nothing if already open
                 }
             });
         });
@@ -88,7 +60,8 @@
     function showServices(item) {
         if (item.hasAttribute("data-service")) {
             const serviceId = item.getAttribute("data-service");
-            document.querySelectorAll(".service-menu").forEach(el => {
+            let row = item.closest(".navbar_dropdown_item-details");
+            row.querySelectorAll(".service-menu").forEach(el => {
                 if (el.id === serviceId) {
                     el.classList.remove('d-none');
                     el.classList.add('d-flex');
