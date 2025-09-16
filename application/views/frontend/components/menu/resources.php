@@ -18,9 +18,9 @@
                                             <div style="width: calc(100% - 25px);border-bottom: 1px solid #d8d7d7;"
                                                 class="d-flex justify-content-between align-items-center gap-5 mb-3">
                                                 <h3 class="fs-16 fw-bold">Research Reports</h3>
-                                                <a href="https://eninrac.com/research-reports"
-                                                    class="position-relative fs-14" style="left: -15px;">View <span
-                                                        class="ms-2 cta -arrow"></span></a>
+                                                <a href="https://store.eninrac.com/" class="position-relative fs-14" style="left: -15px;">View
+                                                    <span class="ms-2 cta -arrow"></span>
+                                                </a>
                                             </div>
                                             <ul class="servicemenu-ul">
                                                 <li>
@@ -48,19 +48,13 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="geography">
+                                                    <a href="https://store.eninrac.com/browse-categories">
                                                         Geography
                                                         <span class="li-arrow">→</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="reports">
-                                                        All Reports
-                                                        <span class="li-arrow">→</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="reports">
+                                                    <a href="https://store.eninrac.com/reports/">
                                                         All Reports
                                                         <span class="li-arrow">→</span>
                                                     </a>
@@ -79,28 +73,27 @@
                                     <div class="col-md-7">
                                         <div class="">
                                             <div class="servicemenu-wrap">
-                                                <div style="width: calc(100% - 25px);border-bottom: 1px solid #d8d7d7;"
-                                                    class="d-flex justify-content-between align-items-center gap-5 mb-3">
+                                                <div style="width: calc(100% - 25px);border-bottom: 1px solid #d8d7d7;" class="d-flex justify-content-between align-items-center gap-5 mb-3">
                                                     <h3 class="fs-16 fw-bold">Vantedge</h3>
-                                                    <a href="https://vantedgeplus.com/" class="position-relative fs-14"
-                                                        style="left: -15px;">View <span
-                                                            class="ms-2 cta -arrow"></span></a>
+                                                    <a href="https://vantedgeplus.com/" class="position-relative fs-14" style="left: -15px;">
+                                                        View <span class="ms-2 cta -arrow"></span>
+                                                    </a>
                                                 </div>
                                                 <ul class="servicemenu-ul">
                                                     <li>
-                                                        <a href="https://vantedgeplus.com/categories/on-point">
+                                                        <a href="https://vantedgeplus.com/spotlight/on-point/">
                                                             On-Point
                                                             <span class="li-arrow">→</span>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a href="https://vantedgeplus.com/categories/80-twenty">
+                                                        <a href="https://vantedgeplus.com/spotlight/80-twenty/">
                                                             80-20 of Industry
                                                             <span class="li-arrow">→</span>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a href="https://vantedgeplus.com/categories/blue-papers">
+                                                        <a href="https://vantedgeplus.com/spotlight/blue-papers/">
                                                             Blue Papers
                                                             <span class="li-arrow">→</span>
                                                         </a>
@@ -108,8 +101,6 @@
                                                 </ul>
                                             </div>
                                         </div>
-
-
                                     </div>
                                 </li>
                                 <li class="row service-item">
@@ -130,8 +121,8 @@
                                                             class="ms-2 cta -arrow"></span></a>
                                                 </div>
                                                 <ul class="servicemenu-ul">
-                                                    <li><a href="https://ecosystemreports.com/market-coverage/">Market
-                                                            Coverage <span class="li-arrow">→</span></a>
+                                                    <li><a href="https://ecosystemreports.com/market-coverage/">
+                                                            Market Coverage <span class="li-arrow">→</span></a>
                                                     </li>
                                                     <li><a href="https://ecosystemreports.com/reports/">Reports
                                                             <span class="li-arrow">→</span></a></li>
@@ -155,16 +146,16 @@
                                     <div class="col-md-7">
                                         <div class="">
                                             <div class="servicemenu-wrap">
-                                                <div style="width: calc(100% - 25px);border-bottom: 1px solid #d8d7d7;"
-                                                    class="d-flex justify-content-between align-items-center gap-5 mb-3">
+                                                <div style="width: calc(100% - 25px);border-bottom: 1px solid #d8d7d7;" class="d-flex justify-content-between align-items-center gap-5 mb-3">
                                                     <h3 class="fs-16 fw-bold">EI Market</h3>
-                                                    <a href="https://eninrac.com/transformation-and-sustainability"
-                                                        class="position-relative fs-14" style="left: -15px;">View
+                                                    <a href="https://energyinfra.market/" class="position-relative fs-14" style="left: -15px;">View
                                                         <span class="ms-2 cta -arrow"></span></a>
                                                 </div>
                                                 <ul class="servicemenu-ul">
-                                                    <li><a href="https://energyinfra.market/">Project
-                                                            Manager <span class="li-arrow">→</span></a>
+                                                    <li>
+                                                        <a href="https://energyinfra.market/project-monitor/"> Project Monitor
+                                                            <span class="li-arrow">→</span>
+                                                        </a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -183,36 +174,31 @@
                                             <div class="servicemenu-wrap">
                                                 <div style="width: calc(100% - 25px);border-bottom: 1px solid #d8d7d7;"
                                                     class="d-flex justify-content-between align-items-center gap-5 mb-3">
-                                                    <h3 class="fs-16 fw-bold">EI Market</h3>
-                                                    <a href="https://eninrac.com/transformation-and-sustainability"
-                                                        class="position-relative fs-14" style="left: -15px;">View
+                                                    <h3 class="fs-16 fw-bold">Einfews</h3>
+                                                    <a href="https://einfews.energyinfra.market/" class="position-relative fs-14" style="left: -15px;">View
                                                         <span class="ms-2 cta -arrow"></span></a>
                                                 </div>
                                                 <ul class="servicemenu-ul">
                                                     <li>
-                                                        <a
-                                                            href="https://einfews.energyinfra.market/category/new-energy">
+                                                        <a href="https://einfews.energyinfra.market/category/new-energy">
                                                             New Energy
                                                             <span class="li-arrow">→</span>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="https://einfews.energyinfra.market/category/conventional-project">
+                                                        <a href="https://einfews.energyinfra.market/category/conventional-project">
                                                             Conventional Project
                                                             <span class="li-arrow">→</span>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="https://einfews.energyinfra.market/category/deal-tracker">
+                                                        <a href="https://einfews.energyinfra.market/category/deal-tracker">
                                                             Deal Tracker
                                                             <span class="li-arrow">→</span>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="https://einfews.energyinfra.market/category/new-energy">
+                                                        <a href="https://einfews.energyinfra.market/category/new-energy">
                                                             New Energy
                                                             <span class="li-arrow">→</span>
                                                         </a>
@@ -273,9 +259,26 @@
                                                 </div>
                                                 <ul class="servicemenu-ul">
                                                     <li>
-                                                        <a
-                                                            href="https://einfews.energyinfra.market/category/new-energy">
-                                                            New Energy
+                                                        <a href="https://warehousesinindia.com/warehouse">
+                                                            Warehouse
+                                                            <span class="li-arrow">→</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://warehousesinindia.com/industry">
+                                                            Industry
+                                                            <span class="li-arrow">→</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://warehousesinindia.com/become-a-partner">
+                                                            Become a Partner
+                                                            <span class="li-arrow">→</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://warehousesinindia.com/matchmaking">
+                                                            Matchmaking
                                                             <span class="li-arrow">→</span>
                                                         </a>
                                                     </li>
@@ -515,7 +518,7 @@
                         <div class="d-none align-items-center justify-content-center service-menu" id="resources-7">
                             <div class="content-wrapper">
                                 <h3 class="text-white fs-20 fw-500 mb-2">
-                                    Connect with us
+                                    Need/Have a warehouse?
                                 </h3>
                                 <p class="d-block fs-14 text-white">
                                     Warehouses in India has been consistently combining high aspirations and unique perspectives to enable client's with difference margin
