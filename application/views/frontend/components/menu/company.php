@@ -3,7 +3,7 @@
         <div class="content">
             <div class="">
                 <div class="row">
-                    <div class="col-md-8 p-0" style="height: 87vh;">
+                    <div class="col-md-8 p-0 vh-78">
                         <div class="mega-menu position-relative p-4">
                             <ul class="d-flex flex-column gap-2">
                                 <li class="row service-item">
@@ -77,9 +77,9 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-4" style="background: blue;height: 78vh;">
+                    <div class="col-md-4 nav-menu-sidebar vh-78" style="background: blue;">
                         <div class="d-flex align-items-center justify-content-center service-menu" style="position: relative;height: 100%;">
-                            <div style="position: absolute; top: 15px; left: 15px;z-index: 1;">
+                            <div class="content-wrapper">
                                 <h3 class="text-white fs-20 fw-500 mb-2">
                                     Connect with us
                                 </h3>
@@ -100,10 +100,12 @@
                                     </li>
                                 </ul>
                             </div>
-                            <a href="https://eninrac.com/contact">
-                            <span style="position: absolute;z-index: 1;width: 60px;height: 60px;margin: auto;left: 10px;bottom: 10px;justify-content: center;align-items: center;color: #00f;cursor: pointer;background: #f8f9fa;display: flex;border-radius: 50%;font-size: 28px;text-align: center;transform: rotate(45deg);" class="icofont-long-arrow-up"></span>
+                            <a class="menu-side-active-link" href="https://eninrac.com/contact">
+                                <span class="icofont-long-arrow-up"></span>
                             </a>
-                            <img src="<?= base_url() ?>assets/images/contact-us.png" alt="" style="width: calc(100% - 145px);position: absolute;right: 0;bottom: 0;">
+                            <div class="menu-side-image-placeholder">
+                                <img src="<?= base_url() ?>assets/images/contact-us.png" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
