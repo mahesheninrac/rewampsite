@@ -120,16 +120,16 @@ li.navbar_dropdown_item:hover .navbar_dropdown_item-details {
   /* hide by default */
 }
 .servicemenu-wrap {
-	position: absolute;
-	left: 374px;
-	top: 25px;
-	width: calc(100% - 374px);
-	display: none;
-	flex-direction: column;
-	align-items: start;
-	border-left: 1px solid gainsboro;
-	padding-left: 10px;
-	height: 87vh;
+  position: absolute;
+  left: 374px;
+  top: 25px;
+  width: calc(100% - 374px);
+  display: none;
+  flex-direction: column;
+  align-items: start;
+  border-left: 1px solid gainsboro;
+  padding-left: 10px;
+  height: 87vh;
 }
 .servicemenu-wrap.active {
   display: flex;
@@ -145,7 +145,7 @@ li.navbar_dropdown_item:hover .navbar_dropdown_item-details {
   color: var(--primary-800);
 }
 .servicemenu-ul a:hover {
-	color: blue;
+  color: blue;
   background-color: rgb(241, 242, 245);
 }
 
@@ -334,4 +334,92 @@ a.cta:hover {
   .nav-list {
     gap: 0 8px;
   }
+}
+
+.vh-78 {
+  height: 78vh;
+  transition: all 0.3s ease-in-out;
+}
+
+.circle-header.fixed-header .vh-78 {
+  height: 86.5vh;
+}
+
+.service-menu {
+  position: relative;
+  height: 100%;
+}
+
+.service-menu .content-wrapper {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 1;
+}
+
+.service-menu .menu-side-active-link span {
+  position: absolute;
+  z-index: 1;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  left: 10px;
+  bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  color: #00f;
+  cursor: pointer;
+  background: #f8f9fa;
+  display: flex;
+  border-radius: 50%;
+  font-size: 28px;
+  text-align: center;
+}
+
+.service-menu .menu-side-active-link span.icofont-long-arrow-up {
+  transform: rotate(45deg);
+}
+
+.service-menu .menu-side-placeholder {
+  position: absolute;
+  bottom: 10px;
+  width: 320px;
+  right: 10px;
+}
+
+.service-menu .menu-side-image-placeholder {
+  width: calc(100% - 145px);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.service-menu .menu-side-placeholder a {
+  color: black;
+}
+
+.service-menu .menu-side-placeholder a:hover,
+.service-menu .menu-side-placeholder .active-text:hover {
+  color: #0000ff;
+}
+
+.service-menu svg {
+  z-index: 0;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 1px 3px 8px 0px rgba(0, 0, 0, 0.2);
+  transition: 500ms ease-in-out;
+  margin-bottom: 0.5rem;
+}
+
+.service-menu svg foreignObject div {
+  font-size: 25px;
+  width: 100%;
+}
+
+.service-menu svg:hover {
+  z-index: 1;
+  cursor: pointer;
+  transform: scale(1.01) translate(0px, -5px);
+  transition: all 0.3s ease-in-out;
 }
