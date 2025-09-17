@@ -107,9 +107,11 @@
                                     </li>
                                 </ul>
                             </div>
-                            <span
-                                style="position: absolute;z-index: 1;width: 60px;height: 60px;margin: auto;left: 10px;bottom: 10px;justify-content: center;align-items: center;color: #00f;cursor: pointer;background: #f8f9fa;display: flex;border-radius: 50%;font-size: 28px;text-align: center;transform: rotate(45deg);"
-                                class="icofont-long-arrow-up"></span>
+                            <a href="https://eninrac.com/contact">
+                                <span
+                                    style="position: absolute;z-index: 1;width: 60px;height: 60px;margin: auto;left: 10px;bottom: 10px;justify-content: center;align-items: center;color: #00f;cursor: pointer;background: #f8f9fa;display: flex;border-radius: 50%;font-size: 28px;text-align: center;transform: rotate(45deg);"
+                                    class="icofont-long-arrow-up"></span>
+                            </a>
                             <img src="<?= base_url() ?>assets/images/contact-us.png" alt=""
                                 style="width: calc(100% - 145px);position: absolute;right: 0;bottom: 0;">
                         </div>
