@@ -39,18 +39,8 @@
                 </div>
             </div>
         </div>
-        <div class="mobile-view-only bg-primary d-flex d-md-none position-relative"
-            style="height:70px;padding-left: 1.375rem;padding-right: 1.375rem;">
-            <div class=" d-flex w-100 d-md-none align-items-center justify-content-center position-relative">
-                <div class="">
-                    <img src="https://store.eninrac.com/assets/images/logo_dark.png" alt="Webuild Logo" class=""
-                        style="width: 100px;">
-                </div>
-            </div>
-            <button class="flex-end border-0 text-white float-end p-2"
-                style="background:none;font-size: 1.5rem;padding: 8px;border-radius: 50%;     position: absolute;right: 0;">
-                <i class="icofont-navigation-menu"></i>
-            </button>
+        <div class="mobile-view-only bg-primary d-flex d-md-none position-relative" style="height:70px;padding-left: 1.375rem;padding-right: 1.375rem;">
+            <?php require(APPPATH . 'views/frontend/components/mobile_menu_helper.php'); ?>
         </div>
     </header>
     <script>

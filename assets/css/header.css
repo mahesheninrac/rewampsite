@@ -102,6 +102,9 @@ img {
     top: -16px;
     padding: 82px 16px 44px;
   }
+  header.circle-header.fixed-header {
+    top: 0;
+  }
 }
 @media (max-width: 1099px) {
   .header-nav {
