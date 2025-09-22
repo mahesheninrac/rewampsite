@@ -94,7 +94,18 @@ $('.threedcarosule .owl-carousel').owlCarousel({
     nav: true,
     dots: false,
     center: true,
-    items: 1,
+
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 1,
+        },
+        1000: {
+            items: 1
+        }
+    },
     stagePadding: 100, // this creates the visible overlap
     navText: ["<", ">"] // you can replace with custom SVG
 });
