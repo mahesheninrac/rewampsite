@@ -16,10 +16,10 @@ class Home_Controller extends Default_Controller
             'default_page' => false,
         ]);
     }
-    public function about()
+    public function servicedemo()
     {
         $this->load->view('frontend/theme', [
-            'theme' => 'about',
+            'theme' => 'servicedemo',
             'title' => 'Eco System Reports',
             'meta' => [
                 'title' => 'Eco System Reports',
@@ -56,5 +56,4 @@ class Home_Controller extends Default_Controller
             'default_page' => true,
         ]);
     }
-
 }

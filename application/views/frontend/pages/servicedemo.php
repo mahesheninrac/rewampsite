@@ -43,10 +43,7 @@
                             <p class="service-top-item--title">Forget about long search and endless emails <br>
                                 Book in a few clicks thanks to a familiar interface</p>
                             <div class="service-top-item--img">
-                                <picture>
-                                    <img src="https://tumodo.io/storage/uploads/c35c769bcf99e32258fcadc70bd2cd4f.png"
-                                        alt="">
-                                </picture>
+
                             </div>
                         </div>
                     </div>
@@ -77,20 +74,21 @@
                         position: absolute;
                         left: 0;
                         right: 0;
-                        bottom: 10px;
+                        bottom: 0 !important;
                         width: 100%;
-                        height: 90%;
+                        height: 60%;
                         z-index: -1;
                     }
                     </style>
                     <div class="col-md-7">
-                        <div class="service-top-item bg-primary-100 static-animation" data-msg-reveal>
-                            <p class="service-top-item--title">Forget about long search and endless emails <br>
-                                Book in a few clicks thanks to a familiar interface</p>
+                        <div class="service-top-item static-animation" style="background-color: #635bff;"
+                            data-msg-reveal>
+                            <p class="service-top-item--title text-white">Forget about long search and endless emails
+                                <br>
+                                Book in a few clicks thanks to a familiar interface
+                            </p>
                             <div class="service-top-item-lottie">
-                                <picture>
-                                    <img src="<?= base_url() ?>/assets/images/test.svg" alt="">
-                                </picture>
+                                <?php require(APPPATH . 'views/frontend/components/servicecomponents/horizontalscrolling.php'); ?>
                             </div>
                         </div>
                     </div>
@@ -129,90 +127,12 @@
     </div>
 </section>
 
-<style>
-.enin-team-item__image {
-    width: 312px;
-    height: 312px;
-    margin-bottom: 14px;
-    border-radius: 50%;
-    overflow: hidden;
-}
-
-
-.enin-team-item-name {
-    font-size: 36px;
-    line-height: 120%;
-    margin-bottom: 8px;
-}
-
-.enin-team-item__position {
-    margin-bottom: 8px;
-    line-height: 130%;
-}
-
-@media screen and (max-width: 2599px) {
-    .enin-team-item__image {
-        width: 266px;
-        height: 266px;
-    }
-
-    .enin-team-item-name {
-        font-size: 24px;
-        line-height: 130%;
-    }
-
-    .enin-team-item__position {
-        font-size: 18px;
-    }
-}
-
-@media screen and (max-width: 1599px) {
-    .enin-team-item__image {
-        width: 160px;
-        height: 160px;
-        margin-bottom: 12px;
-    }
-
-    .enin-team-item-name {
-        font-size: 18px;
-        line-height: 130%;
-        margin-bottom: 4px;
-    }
-
-    .enin-team-item__position {
-        font-size: 14px;
-    }
-}
-</style>
 
 <section class="our-team">
     <div class="fullwidth py-5">
-        <div class="wrap">
-            <h3>Our team</h3>
-            <div class="">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="enin-team-item">
-                            <div class="enin-team-item__image">
-                                <img loading="lazy"
-                                    src="https://tumodo.io/storage/uploads/ee350c01e2761d7dbb3cd8c567f54bea.png"
-                                    alt="Vladimir Kokorin">
-                            </div>
-                            <div class="enin-team-item-name">Chandan Upadhyay</div>
-                            <div class="enin-team-item__position">Tumodo Founder</div>
-                        </div>
-                    </div>
-                    <div class="col-md-3"></div>
-                    <div class="col-md-3"></div>
-                    <div class="col-md-3"></div>
-                    <div class="col-md-3"></div>
-                    <div class="col-md-3"></div>
-                </div>
-            </div>
-        </div>
+        <?php require(APPPATH . 'views/frontend/components/team.php'); ?>
     </div>
 </section>
-
 
 <!-- Contact form -->
 <section id="contact-form-section">
@@ -262,6 +182,51 @@
                 <img src="https://omnicoreplus.com/assets/om-upload/bridge-logo-size-03-01.svg"
                     style="transform: translate(30px, 15px);" alt="">
             </div>
+        </div>
+    </div>
+</section>
+
+<style>
+.faq-wrap .faq-wrap__left p {
+    font-size: 20px;
+}
+
+.faq-block--tumodo-image {
+    display: none;
+    position: absolute;
+    z-index: -1;
+    transform: rotate(-90deg) translate(-100%, 0);
+    transform-origin: left top;
+    top: 100%;
+    margin-top: -190px;
+    left: -75px;
+}
+</style>
+
+
+<!-- footer FAQS  -->
+<section id="foterfaq" class="faq-wrap" style="background: #f7f8fa;">
+    <div class="fullwidth py-5">
+        <div class="wrap">
+            <div class="foterfaqs">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="faq-wrap__left position-relative">
+                            <h2>FAQ</h2>
+                            <p>Didn't find the answer? <br> Email us at <a
+                                    href="mailto:connect@eninrac.com">connect@eninrac.com</a>
+                            </p>
+                            <!-- <div class="faq-block--tumodo-image">
+                    <img loading="lazy" src="https://tumodo.io/img/tumodo-main.svg" alt="Tumodo element">
+                </div> -->
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <?php require(APPPATH . 'views/frontend/components/footerfaq.php'); ?>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
