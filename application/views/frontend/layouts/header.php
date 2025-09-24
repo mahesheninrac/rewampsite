@@ -45,12 +45,12 @@
         </div>
     </header>
     <script>
-    document.addEventListener("scroll", function() {
-        const navbar = document.querySelector("header.circle-header");
-        if (window.scrollY >= 50) {
-            navbar.classList.add("fixed-header");
-        } else {
-            navbar.classList.remove("fixed-header");
-        }
-    });
+        document.addEventListener("scroll", function() {
+            const navbar = document.querySelector("header.circle-header");
+            if (window.scrollY >= 50) {
+                navbar.classList.add("fixed-header");
+            } else {
+                navbar.classList.remove("fixed-header");
+            }
+        });
     </script>
