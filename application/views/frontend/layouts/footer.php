@@ -1,54 +1,54 @@
  <style>
-     .fade {
-         opacity: 0;
-         transition: opacity .15s linear;
-     }
+.fade {
+    opacity: 0;
+    transition: opacity .15s linear;
+}
 
-     .video-bg-model {
-         position: fixed;
-         top: 0;
-         left: 0;
-         z-index: 1050;
-         width: 100%;
-         height: 100%;
-         outline: 0;
-         background: #323232f0;
-         display: none;
-         overflow-x: hidden;
-         overflow-y: auto;
-     }
+.video-bg-model {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    width: 100%;
+    height: 100%;
+    outline: 0;
+    background: #323232f0;
+    display: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
 
-     .video-bg-model.fade.show {
-         display: block;
-         opacity: 1;
-         z-index: 9999999999999999;
-     }
+.video-bg-model.fade.show {
+    display: block;
+    opacity: 1;
+    z-index: 9999999999999999;
+}
 
-     .close-video-model {
-         cursor: pointer;
-         position: absolute;
-         right: 15px;
-         top: 15px;
-         font-size: 28px;
-         color: white;
-     }
+.close-video-model {
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 28px;
+    color: white;
+}
 
-     .width-700 {
-         max-width: 700px;
-         width: 100%;
-     }
+.width-700 {
+    max-width: 700px;
+    width: 100%;
+}
 
-     .video-caption h3.c-white.text-center {
-         color: white;
-         margin: 0 auto;
-         font-size: 1.75rem;
-         line-height: 2.25rem;
-         font-weight: 300;
-     }
+.video-caption h3.c-white.text-center {
+    color: white;
+    margin: 0 auto;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    font-weight: 300;
+}
 
-     .gradient-decent {
-         background-image: var(--enin-gradient-decent);
-     }
+.gradient-decent {
+    background-image: var(--enin-gradient-decent);
+}
  </style>
 
  <!-- Custom Video Modal -->
@@ -72,28 +72,28 @@
  </div>
 
  <script>
-     const openBtn = document.getElementById("openVideoBtn");
-     const closeBtn = document.getElementById("closeVideoBtn");
-     const modal = document.getElementById("videoModal");
-     const video = document.getElementById("videoPlayer-placeholder");
+const openBtn = document.getElementById("openVideoBtn");
+const closeBtn = document.getElementById("closeVideoBtn");
+const modal = document.getElementById("videoModal");
+const video = document.getElementById("videoPlayer-placeholder");
 
 
 
-     // Close modal and pause video
-     closeBtn.addEventListener("click", () => {
-         modal.classList.remove("show");
-         modal.classList.remove("fade");
-         video.pause();
-     });
+// Close modal and pause video
+closeBtn.addEventListener("click", () => {
+    modal.classList.remove("show");
+    modal.classList.remove("fade");
+    video.pause();
+});
 
-     // Optional: close if user clicks outside the video
-     modal.addEventListener("click", (e) => {
-         if (e.target === modal) {
-             modal.classList.remove("show");
-             modal.classList.remove("fade");
-             video.pause();
-         }
-     });
+// Optional: close if user clicks outside the video
+modal.addEventListener("click", (e) => {
+    if (e.target === modal) {
+        modal.classList.remove("show");
+        modal.classList.remove("fade");
+        video.pause();
+    }
+});
  </script>
 
  <footer class="footer footer pb-5 z-1 pt-5">
@@ -212,32 +212,32 @@
  </footer>
 
  <script>
-     const revealELs = (element = '[data-reveal]', currentClass = '_visible', delay = 1000) => {
-         const El = document.querySelectorAll(element);
-         if (El) {
-             const io = new IntersectionObserver((entries) => {
-                 entries.forEach(e => {
-                     if (e.isIntersecting) {
-                         let el_delay = e.target.getAttribute('[data-delay]')
-                         delay = el_delay ? el_delay : delay;
-                         setTimeout(function() {
+const revealELs = (element = '[data-reveal]', currentClass = '_visible', delay = 500) => {
+    const El = document.querySelectorAll(element);
+    if (El) {
+        const io = new IntersectionObserver((entries) => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    let el_delay = e.target.getAttribute('[data-delay]')
+                    delay = el_delay ? el_delay : delay;
+                    setTimeout(function() {
 
 
-                             e.target.classList.add(currentClass);
+                        e.target.classList.add(currentClass);
 
-                             io.unobserve(e.target);
-                         }, delay)
-                     }
-                 });
-             }, {
-                 threshold: .12
-             });
-             El.forEach(el => io.observe(el));
-         }
-     }
+                        io.unobserve(e.target);
+                    }, delay)
+                }
+            });
+        }, {
+            threshold: .12
+        });
+        El.forEach(el => io.observe(el));
+    }
+}
 
-     revealELs()
-     revealELs("[data-msg-reveal]", "show")
+revealELs()
+revealELs("[data-msg-reveal]", "show")
  </script>
 
 

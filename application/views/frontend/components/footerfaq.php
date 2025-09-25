@@ -4,13 +4,13 @@
     margin: 0 auto;
     background: white;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
     overflow: hidden;
 }
 
-.accordion-item {
-    border-bottom: 1px solid #e2e8f0;
-}
+/* .accordion-item {
+        border-bottom: 1px solid #e2e8f0;
+    } */
 
 .accordion-item:last-child {
     border-bottom: none;

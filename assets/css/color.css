@@ -300,6 +300,14 @@
   background-image: var(--gradient-1);
 }
 
+.footer-faq-bg-color {
+  background: #f7f8fa;
+}
+
+.dark-blue-800 {
+  background-color: #635bff;
+}
+
 
 
 /* Gradient Color End */
