@@ -30,10 +30,9 @@
                             <span class="language">Login </span>
                         </div>
                     </div>
-                    <nav class="nav-bar   ">
+                    <nav class="nav-bar">
                         <div class="container">
                             <?php require(APPPATH . 'views/frontend/components/menu_helper.php'); ?>
-
                         </div>
                     </nav>
                 </div>

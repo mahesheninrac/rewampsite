@@ -3,14 +3,14 @@
         <div class="content">
             <div class="">
                 <div class="row">
-                    <div class="col-md-8 p-0" style="height: 87vh;">
+                    <div class="col-md-8 p-0 vh-78">
                         <div class="mega-menu position-relative p-4">
                             <ul class="d-flex flex-column gap-2">
                                 <li class="row service-item">
                                     <div class="col-md-5">
                                         <div class="d-flex w-100 align-items-center justify-content-between gap-2 service-link"
                                             data-service="services-1">
-                                            <span class="fw-bold">Advisory Consulting Services</span>
+                                            <span class="fw-500">Advisory Consulting Services</span>
                                             <i class="icofont-rounded-right" style="display: inline-block;"></i>
                                         </div>
                                     </div>
@@ -18,7 +18,7 @@
                                         <div class="servicemenu-wrap active">
                                             <div style="width: calc(100% - 25px);border-bottom: 1px solid #d8d7d7;"
                                                 class="d-flex justify-content-between align-items-center gap-5 mb-3">
-                                                <h3 class="fs-16 fw-bold">Advisory Consulting Services</h3>
+                                                <h3 class="fs-16 fw-600">Advisory Consulting Services</h3>
                                                 <a href="https://eninrac.com/advisory-and-consulting-services"
                                                     class="position-relative fs-14" style="left: -15px;">View <span
                                                         class="ms-2 cta -arrow"></span></a>
@@ -66,7 +66,7 @@
                                     <div class="col-md-5">
                                         <div class="d-flex w-100 align-items-center justify-content-between gap-2 service-link"
                                             data-service="services-2">
-                                            <span class="fw-bold">Market Tracking & Sizing</span>
+                                            <span class="fw-500">Market Tracking & Sizing</span>
                                             <i class="icofont-rounded-right"></i>
                                         </div>
                                     </div>
@@ -120,7 +120,7 @@
                                     <div class="col-md-5">
                                         <div class="d-flex w-100 align-items-center justify-content-between gap-2 service-link"
                                             data-service="services-3">
-                                            <span class="fw-bold">Strategy & Innovation</span>
+                                            <span class="fw-500">Strategy & Innovation</span>
                                             <i class="icofont-rounded-right"></i>
                                         </div>
                                     </div>
@@ -171,7 +171,7 @@
                                 <li class="row service-item">
                                     <div class="col-md-5">
                                         <a href="https://eninrac.com/transformation-and-sustainability"
-                                            class="d-flex w-100 align-items-center justify-content-between gap-2 service-link-active fw-bold">
+                                            class="d-flex w-100 align-items-center justify-content-between gap-2 service-link-active fw-500">
                                             Transformation & Sustainability
                                         </a>
                                     </div>
@@ -179,7 +179,7 @@
                                 <li class="row service-item">
                                     <div class="col-md-5">
                                         <a href="https://eninrac.com/training-and-pro-bono-services"
-                                            class="d-flex w-100 align-items-center justify-content-between gap-2 service-link-active fw-bold">
+                                            class="d-flex w-100 align-items-center justify-content-between gap-2 service-link-active fw-500">
                                             Training & Pro-Bono Services
                                         </a>
                                     </div>
@@ -187,10 +187,10 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-4" style="background: blue;height: 78vh;">
+                    <div class="col-md-4 nav-menu-sidebar vh-78" style="background: blue;">
                         <div class="d-flex align-items-center justify-content-center service-menu" id="services-1"
                             style="position: relative;height: 100%;">
-                            <div style="position: absolute; top: 15px; left: 15px;z-index: 1;">
+                            <div class="content-wrapper">
                                 <h3 class="text-white fs-20 fw-500 mb-2">
                                     Advisory &amp; Consulting Assistance
                                     <br>Contact Now.
@@ -209,16 +209,17 @@
                                     </li>
                                 </ul>
                             </div>
-                            <span
-                                style="position: absolute;z-index: 1;width: 60px;height: 60px;margin: auto;left: 10px;bottom: 10px;justify-content: center;align-items: center;color: #00f;cursor: pointer;background: #f8f9fa;display: flex;border-radius: 50%;font-size: 28px;text-align: center;"
-                                class="icofont-ui-play"
-                                data-play="https://eninrac.com/assets/video/advisory-&-consulting.mp4"></span>
-                            <img src="<?= base_url() ?>assets/images/two-men-sitting-table-with-one-them.png" alt=""
-                                style="width: calc(100% - 145px);position: absolute;right: 0;bottom: 0;">
+                            <div class="menu-side-active-link">
+                                <span class="icofont-ui-play"
+                                    data-play="https://eninrac.com/assets/video/advisory-&-consulting.mp4"></span>
+                            </div>
+                            <div class="menu-side-image-placeholder">
+                                <img src="<?= base_url() ?>assets/images/advisory.png" alt="">
+                            </div>
                         </div>
                         <div class="d-none align-items-center justify-content-center service-menu" id="services-2"
                             style="position: relative;height: 100%;">
-                            <div style="position: absolute; top: 15px; left: 15px;z-index: 1;">
+                            <div class="content-wrapper">
                                 <h3 class="text-white fs-20 fw-500 mb-2">
                                     Market Tracking & Sizing Assistance
                                     <br>Contact Now.
@@ -237,16 +238,17 @@
                                     </li>
                                 </ul>
                             </div>
-                            <span
-                                style="position: absolute;z-index: 1;width: 60px;height: 60px;margin: auto;left: 10px;bottom: 10px;justify-content: center;align-items: center;color: #00f;cursor: pointer;background: #f8f9fa;display: flex;border-radius: 50%;font-size: 28px;text-align: center;"
-                                class="icofont-ui-play"
-                                data-play="https://eninrac.com/assets/video/market-research.mp4"></span>
-                            <img src="<?= base_url() ?>assets/images/the-girls.png" alt=""
-                                style="width: calc(100% - 145px);position: absolute;right: 0;bottom: 0;">
+                            <div class="menu-side-active-link">
+                                <span class="icofont-ui-play menu-side-active-link"
+                                    data-play="https://eninrac.com/assets/video/market-research.mp4"></span>
+                            </div>
+                            <div class="menu-side-image-placeholder">
+                                <img src="<?= base_url() ?>assets/images/market-trakking.png" alt="">
+                            </div>
                         </div>
                         <div class="d-none align-items-center justify-content-center service-menu" id="services-3"
                             style="position: relative;height: 100%;">
-                            <div style="position: absolute; top: 15px; left: 15px;z-index: 1;">
+                            <div class="content-wrapper">
                                 <h3 class="text-white fs-20 fw-500 mb-2">
                                     Strategy & Innovation Assistance
                                     <br>Contact Now.
@@ -265,12 +267,13 @@
                                     </li>
                                 </ul>
                             </div>
-                            <span
-                                style="position: absolute;z-index: 1;width: 60px;height: 60px;margin: auto;left: 10px;bottom: 10px;justify-content: center;align-items: center;color: #00f;cursor: pointer;background: #f8f9fa;display: flex;border-radius: 50%;font-size: 28px;text-align: center;"
-                                class="icofont-ui-play"
-                                data-play="https://eninrac.com/assets/video/strategy-&-innovation.mp4"></span>
-                            <img src="<?= base_url() ?>assets/images/Innovation.png" alt=""
-                                style="width: calc(100% - 145px);position: absolute;right: 0;bottom: 0;">
+                            <div class="menu-side-active-link">
+                                <span class="icofont-ui-play menu-side-active-link"
+                                    data-play="https://eninrac.com/assets/video/strategy-&-innovation.mp4"></span>
+                            </div>
+                            <div class="menu-side-image-placeholder">
+                                <img src="<?= base_url() ?>assets/images/Innovation.png" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>

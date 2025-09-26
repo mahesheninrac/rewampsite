@@ -86,6 +86,7 @@
             <div class="scroll-item">Analyst support</div>
         </div>
     </div>
+
     <script>
         let isPaused = false;
         const content1 = document.getElementById('content1');

@@ -1,109 +1,13 @@
-<style>
-    .video-block__play {
-        position: absolute;
-        z-index: 5;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        cursor: pointer;
-    }
-
-    .video-block__play i {
-        font-size: 50px;
-        color: #fff;
-        transition: color 0.2s linear;
-        display: inline-block;
-    }
-
-    .video-block__play i:hover {
-        color: var(--primary-500);
-    }
-
-    .main-block2-step__image {
-        height: 260px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 16px;
-        padding-left: 8px;
-    }
-
-    .main-block2-step--1 .main-block2-step__image {
-        justify-content: flex-end;
-    }
-
-    .main-block2-step--2 .main-block2-step__image {
-        padding-bottom: 0;
-    }
-
-    .main-block2-step--4 .main-block2-step__image {
-        justify-content: flex-start;
-    }
-
-    @media screen and (max-width: 1599px) {
-        .main-first--enin-image {
-            margin-right: -80px;
-        }
-
-        .main-first--enin-image img {
-            height: 360px;
-
-        }
-
-        .main-first__text {
-            max-width: 340px;
-        }
-
-        .video-block {
-            height: 314px;
-        }
-
-        .video-block__play i {
-            font-size: 55px;
-        }
-
-        .main-block2-step--1 .main-block2-step__image {
-            width: 165px;
-        }
-
-        .main-block2-step--2 .main-block2-step__image {
-            width: 162px;
-        }
-
-        .main-block2-step--3 .main-block2-step__image {
-            width: 164px;
-        }
-
-        .main-block2-step--4 .main-block2-step__image {
-            width: 175px;
-        }
-
-        .main-block2-step__image {
-            height: 200px;
-        }
-    }
-
-    @media screen and (max-width: 2599px) {
-        .main-block2-step--3 .main-block2-step__image {
-            padding-bottom: 0;
-            padding-top: 12px;
-        }
-
-        .main-block2-step--4 .main-block2-step__image {
-            justify-content: center;
-            padding-left: 32px;
-        }
-    }
-</style>
 <div class="content">
     <div class="wrap">
         <div class="main-first main-first--enin">
             <div class="row">
                 <div class="col-md-6">
                     <div class="mb-5 mb-md-0 ">
-                        <h1><span class="fw-bold">Bridging gaps in </span><span class="fw-light">Market
-                                Research</span></h1>
+                        <h1>
+                            <span class="fw-500">Bridging gaps in </span>
+                            <span class="fw-light">Market Research</span>
+                        </h1>
                         <div class="main-first__text">
                             <p>Your one-stop solution for booking business travel quickly, simply and efficiently
                             </p>

@@ -1,167 +1,3 @@
-<style>
-.mobile-view-wrapper {
-    position: fixed;
-    inset: 0 auto 0 -110%;
-    width: 100vw;
-    height: 100vh;
-    background: #fff;
-    box-shadow: rgba(0, 0, 0, .24) 0 3px 8px;
-    z-index: 999999999;
-    transition: left .3s ease-in-out;
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
-}
-
-.mobile-view-wrapper.active {
-    left: 0;
-}
-
-.close-btn {
-    position: absolute;
-    right: 16px;
-    top: 16px;
-    background: none;
-    border: 0;
-    font-size: 1.6rem;
-}
-
-/* Header inside drawer */
-.mv-header {
-    display: flex;
-    align-items: center;
-    gap: .75rem;
-    padding: 20px;
-    border-bottom: 1px solid #f0f0f0;
-}
-
-.mv-header img {
-    width: 110px;
-    height: auto;
-}
-
-.mv-title {
-    font-size: 1rem;
-    color: #6b7280;
-}
-
-/* Accordion look (like screenshot) */
-.mv-nav {
-    padding: 12px 0 60px;
-}
-
-.accordion-section {
-    border-bottom: 1px solid #f3f4f6;
-}
-
-.accordion-trigger {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 18px 20px;
-    background: #f8fafc;
-    border: 0;
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: #111827;
-    cursor: pointer;
-}
-
-
-
-
-.accordion-trigger .chev {
-    transition: transform .3s ease-in-out;
-    color: #111827;
-}
-
-.accordion-trigger[aria-expanded="true"] .chev {
-    transform: rotate(180deg);
-}
-
-
-.accordion-panel {
-    padding: 14px 12px 18px 12px;
-}
-
-.sub-list {
-    list-style: none;
-    margin: 0;
-    padding: 0 8px;
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-}
-
-.sub-list a {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    text-decoration: none;
-    color: #111827;
-    font-size: 1.05rem;
-}
-
-.sub-ico {
-    width: 28px;
-    height: 28px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    opacity: .45;
-    font-size: 18px;
-}
-
-.sub-list a:hover .sub-ico {
-    opacity: .75;
-}
-
-
-.child-list {
-    list-style: none;
-    margin: 8px 0 0 34px;
-
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.child-list a {
-    font-size: 0.95rem;
-    color: #374151;
-    text-decoration: none;
-}
-
-.child-list a:hover {
-    color: #111827;
-}
-
-
-.sub-trigger {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: none;
-    border: none;
-    padding: 6px 0;
-    font-size: 1.05rem;
-    color: #111827;
-    cursor: pointer;
-}
-
-.sub-trigger .chev {
-    transition: transform 0.2s ease;
-    opacity: 0.6;
-}
-
-.sub-trigger[aria-expanded="true"] .chev {
-    transform: rotate(180deg);
-    opacity: 1;
-}
-</style>
-
 <div class="d-flex w-100 d-md-none align-items-center justify-content-center position-relative">
     <div>
         <img src="https://store.eninrac.com/assets/images/logo_dark.png" alt="Webuild Logo" style="width: 100px;">
@@ -623,66 +459,217 @@
                 </button>
             </a>
         </section>
+
     </nav>
 </div>
 
+<style>
+    .mobile-view-wrapper {
+        position: fixed;
+        inset: 0 auto 0 -110%;
+        width: 100vw;
+        height: 100vh;
+        background: #fff;
+        box-shadow: rgba(0, 0, 0, .24) 0 3px 8px;
+        z-index: 999999999;
+        transition: left .3s ease-in-out;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+    }
 
+    .mobile-view-wrapper.active {
+        left: 0;
+    }
+
+    .close-btn {
+        position: absolute;
+        right: 16px;
+        top: 16px;
+        background: none;
+        border: 0;
+        font-size: 1.6rem;
+    }
+
+    /* Header inside drawer */
+    .mv-header {
+        display: flex;
+        align-items: center;
+        gap: .75rem;
+        padding: 20px;
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+    .mv-header img {
+        width: 110px;
+        height: auto;
+    }
+
+    .mv-title {
+        font-size: 1rem;
+        color: #6b7280;
+    }
+
+    /* Accordion look (like screenshot) */
+    .mv-nav {
+        padding: 12px 0 60px;
+    }
+
+    .accordion-section {
+        border-bottom: 1px solid #f3f4f6;
+    }
+
+    .accordion-trigger {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 18px 20px;
+        background: #f8fafc;
+        border: 0;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #111827;
+        cursor: pointer;
+    }
+
+    .accordion-trigger .chev {
+        transition: transform .2s ease;
+        color: #111827;
+    }
+
+    .accordion-trigger[aria-expanded="true"] .chev {
+        transform: rotate(180deg);
+    }
+
+
+    .accordion-panel {
+        padding: 14px 12px 18px 12px;
+    }
+
+    .sub-list {
+        list-style: none;
+        margin: 0;
+        padding: 0 8px;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .sub-list a {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        text-decoration: none;
+        color: #111827;
+        font-size: 1.05rem;
+    }
+
+    .sub-ico {
+        width: 28px;
+        height: 28px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        opacity: .45;
+        font-size: 18px;
+    }
+
+    .sub-list a:hover .sub-ico {
+        opacity: .75;
+    }
+
+
+    .child-list {
+        list-style: none;
+        margin: 8px 0 0 34px;
+
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .child-list a {
+        font-size: 0.95rem;
+        color: #374151;
+        text-decoration: none;
+    }
+
+    .child-list a:hover {
+        color: #111827;
+    }
+
+
+    .sub-trigger {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: none;
+        border: none;
+        padding: 6px 0;
+        font-size: 1.05rem;
+        color: #111827;
+        cursor: pointer;
+    }
+
+    .sub-trigger .chev {
+        transition: transform 0.2s ease;
+        opacity: 0.6;
+    }
+
+    .sub-trigger[aria-expanded="true"] .chev {
+        transform: rotate(180deg);
+        opacity: 1;
+    }
+</style>
 
 <script>
-// Drawer open/close
-const menuBtn = document.getElementById("menuBtn");
-const mobileWrapper = document.getElementById("mobileWrapper");
-const closeBtn = document.getElementById("closeBtn");
+    // Drawer open/close
+    const menuBtn = document.getElementById("menuBtn");
+    const mobileWrapper = document.getElementById("mobileWrapper");
+    const closeBtn = document.getElementById("closeBtn");
 
-menuBtn.addEventListener("click", () => {
-    mobileWrapper.classList.add("active");
-    mobileWrapper.setAttribute("aria-hidden", "false");
-});
+    menuBtn.addEventListener("click", () => {
+        mobileWrapper.classList.add("active");
+        mobileWrapper.setAttribute("aria-hidden", "false");
+    });
+    closeBtn.addEventListener("click", () => {
+        mobileWrapper.classList.remove("active");
+        mobileWrapper.setAttribute("aria-hidden", "true");
+    });
+    document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") {
+            closeBtn.click();
+        }
+    });
 
-closeBtn.addEventListener("click", () => {
-    mobileWrapper.classList.remove("active");
-    mobileWrapper.setAttribute("aria-hidden", "true");
-});
-
-document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") {
-        closeBtn.click();
-    }
-});
-
-// Accordion behavior - only one open at a time
-document.querySelectorAll(".accordion-trigger").forEach(btn => {
-    btn.addEventListener("click", () => {
-        const isExpanded = btn.getAttribute("aria-expanded") === "true";
-
-        // Close all accordion panels
-        document.querySelectorAll(".accordion-trigger").forEach(otherBtn => {
-            otherBtn.setAttribute("aria-expanded", "false");
-            const otherPanel = otherBtn.parentElement.querySelector(".accordion-panel");
-            if (otherPanel) otherPanel.hidden = true;
+    // Accordion behavior
+    document.querySelectorAll(".accordion-trigger").forEach(btn => {
+        btn.addEventListener("click", () => {
+            const expanded = btn.getAttribute("aria-expanded") === "true";
+            // toggle only this section (others remain as is, like screenshot)
+            btn.setAttribute("aria-expanded", String(!expanded));
+            const panel = btn.parentElement.querySelector(".accordion-panel");
+            if (panel) panel.hidden = expanded;
         });
+    });
 
-        // Toggle the clicked panel
-        btn.setAttribute("aria-expanded", String(!isExpanded));
+
+    // Sub-level toggles
+    document.querySelectorAll(".sub-trigger").forEach(btn => {
+        btn.addEventListener("click", () => {
+            const expanded = btn.getAttribute("aria-expanded") === "true";
+            btn.setAttribute("aria-expanded", String(!expanded));
+
+            const childList = btn.parentElement.querySelector(".child-list");
+            if (childList) childList.hidden = expanded;
+        });
+    });
+
+    // Ensure default-expanded section (Services) is visible on load
+    document.querySelectorAll(".accordion-trigger[aria-expanded='true']").forEach(btn => {
         const panel = btn.parentElement.querySelector(".accordion-panel");
-        if (panel) panel.hidden = isExpanded;
+        if (panel) panel.hidden = false;
     });
-});
-
-// Sub-level toggles (remain independent)
-document.querySelectorAll(".sub-trigger").forEach(btn => {
-    btn.addEventListener("click", () => {
-        const expanded = btn.getAttribute("aria-expanded") === "true";
-        btn.setAttribute("aria-expanded", String(!expanded));
-
-        const childList = btn.parentElement.querySelector(".child-list");
-        if (childList) childList.hidden = expanded;
-    });
-});
-
-// Ensure default-expanded section (Services) is visible on load
-document.querySelectorAll(".accordion-trigger[aria-expanded='true']").forEach(btn => {
-    const panel = btn.parentElement.querySelector(".accordion-panel");
-    if (panel) panel.hidden = false;
-});
 </script>
