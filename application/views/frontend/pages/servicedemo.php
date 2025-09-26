@@ -1,127 +1,127 @@
 <style>
-.advantages-wrap {
-    padding: 160px 0 160px 0;
-    background: #f7f8fa;
-}
-
-
-
-@media screen and (max-width:1099px) {
     .advantages-wrap {
-        padding: 60px 0 190px 0;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .advantages-wrap {
-        padding: 60px 0 180px 0;
-    }
-}
-
-.advantages-box__left h2 {
-    margin-bottom: 44px;
-}
-
-.faq-wrap .faq-wrap__left p {
-    font-size: 20px;
-}
-
-.faq-block--tumodo-image {
-    display: none;
-    position: absolute;
-    z-index: -1;
-    transform: rotate(-90deg) translate(-100%, 0);
-    transform-origin: left top;
-    top: 100%;
-    margin-top: -190px;
-    left: -75px;
-}
-
-.faq-block--tumodo-image img {
-    max-width: none;
-}
-
-.service-top-item-lottie {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0 !important;
-    width: 100%;
-    height: 60%;
-    z-index: -1;
-}
-
-.service-tiles .service-tile {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 20px 155px;
-    border-radius: 40px;
-    overflow: hidden;
-    min-height: 627px;
-}
-
-._light-grey-bg {
-    background-color: #f7f8fa;
-}
-
-.service-tiles .service-tile--title {
-    color: #0055fe;
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 120%;
-    margin-bottom: 24px;
-}
-
-.service-tiles .service-tile p {
-    color: #000;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 130%;
-    margin: 0;
-}
-
-@media screen and (max-width: 2599px) {
-
-
-    .service-tiles .service-tile {
-        min-height: 560px;
-        padding: 20px 115px;
-    }
-}
-
-
-
-
-
-@media screen and (max-width: 1599px) {
-
-    .service-tiles .service-tile {
-        min-height: 415px;
-        padding: 20px 53px 20px 87px;
-        border-radius: 24px;
+        padding: 160px 0 160px 0;
+        background: #f7f8fa;
     }
 
-    .service-tiles .service-tile--title {
-        font-size: 24px;
-        margin-bottom: 16px;
+
+
+    @media screen and (max-width:1099px) {
+        .advantages-wrap {
+            padding: 60px 0 190px 0;
+        }
     }
 
-    .service-tiles .service-tile p {
-        font-size: 18px;
+    @media screen and (max-width: 767px) {
+        .advantages-wrap {
+            padding: 60px 0 180px 0;
+        }
+    }
+
+    .advantages-box__left h2 {
+        margin-bottom: 44px;
+    }
+
+    .faq-wrap .faq-wrap__left p {
+        font-size: 20px;
     }
 
     .faq-block--tumodo-image {
-        left: -150px;
-        margin-top: -250px;
+        display: none;
+        position: absolute;
+        z-index: -1;
+        transform: rotate(-90deg) translate(-100%, 0);
+        transform-origin: left top;
+        top: 100%;
+        margin-top: -190px;
+        left: -75px;
     }
 
     .faq-block--tumodo-image img {
-        height: 410px;
+        max-width: none;
     }
-}
+
+    .service-top-item-lottie {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0 !important;
+        width: 100%;
+        height: 60%;
+        z-index: -1;
+    }
+
+    .service-tiles .service-tile {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px 155px;
+        border-radius: 40px;
+        overflow: hidden;
+        min-height: 627px;
+    }
+
+    ._light-grey-bg {
+        background-color: #f7f8fa;
+    }
+
+    .service-tiles .service-tile--title {
+        color: #0055fe;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 120%;
+        margin-bottom: 24px;
+    }
+
+    .service-tiles .service-tile p {
+        color: #000;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 130%;
+        margin: 0;
+    }
+
+    @media screen and (max-width: 2599px) {
+
+
+        .service-tiles .service-tile {
+            min-height: 560px;
+            padding: 20px 115px;
+        }
+    }
+
+
+
+
+
+    @media screen and (max-width: 1599px) {
+
+        .service-tiles .service-tile {
+            min-height: 415px;
+            padding: 20px 53px 20px 87px;
+            border-radius: 24px;
+        }
+
+        .service-tiles .service-tile--title {
+            font-size: 24px;
+            margin-bottom: 16px;
+        }
+
+        .service-tiles .service-tile p {
+            font-size: 18px;
+        }
+
+        .faq-block--tumodo-image {
+            left: -150px;
+            margin-top: -250px;
+        }
+
+        .faq-block--tumodo-image img {
+            height: 410px;
+        }
+    }
 </style>
 
 <section class="page-service">
