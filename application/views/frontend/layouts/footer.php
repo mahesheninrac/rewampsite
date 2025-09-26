@@ -73,14 +73,14 @@
 
  <script>
      const openBtn = document.getElementById("openVideoBtn");
-     const closeBtn = document.getElementById("closeVideoBtn");
+     const closeBtn1 = document.getElementById("closeVideoBtn");
      const modal = document.getElementById("videoModal");
      const video = document.getElementById("videoPlayer-placeholder");
 
 
 
      // Close modal and pause video
-     closeBtn.addEventListener("click", () => {
+     closeBtn1.addEventListener("click", () => {
          modal.classList.remove("show");
          modal.classList.remove("fade");
          video.pause();
@@ -244,10 +244,8 @@
  <script src="<?= base_url() ?>assets/plugins/jquery.min.js"></script>
  <script src="<?= base_url() ?>assets/plugins/bootstrap.min.js"></script>
  <script src="<?= base_url() ?>assets/plugins/owl.carousel.min.js"></script>
- <script src="<?= base_url() ?>assets/js/embedScript.js"></script>
  <script src="<?= base_url() ?>assets/js/app.js"></script>
  <script src="<?= base_url() ?>assets/js/script.js"></script>
- <script src="<?= base_url() ?>assets/js/footer.js"></script>
 
  </body>
 

@@ -9,14 +9,14 @@
                                 <li class="row service-item">
                                     <div class="col-md-5">
                                         <div class="d-flex w-100 align-items-center justify-content-between gap-2 service-link" data-service="services-1">
-                                            <span class="fw-bold">Advisory Consulting Services</span>
+                                            <span class="fw-500">Advisory Consulting Services</span>
                                             <i class="icofont-rounded-right" style="display: inline-block;"></i>
                                         </div>
                                     </div>
                                     <div class="col-md-7">
                                         <div class="servicemenu-wrap active">
                                             <div style="width: calc(100% - 25px);border-bottom: 1px solid #d8d7d7;" class="d-flex justify-content-between align-items-center gap-5 mb-3">
-                                                <h3 class="fs-16 fw-bold">Advisory Consulting Services</h3>
+                                                <h3 class="fs-16 fw-600">Advisory Consulting Services</h3>
                                                 <a href="https://eninrac.com/advisory-and-consulting-services" class="position-relative fs-14" style="left: -15px;">View <span class="ms-2 cta -arrow"></span></a>
                                             </div>
                                             <ul class="servicemenu-ul">
@@ -52,7 +52,7 @@
                                 <li class="row service-item">
                                     <div class="col-md-5">
                                         <div class="d-flex w-100 align-items-center justify-content-between gap-2 service-link" data-service="services-2">
-                                            <span class="fw-bold">Market Tracking & Sizing</span>
+                                            <span class="fw-500">Market Tracking & Sizing</span>
                                             <i class="icofont-rounded-right"></i>
                                         </div>
                                     </div>
@@ -98,7 +98,7 @@
                                 <li class="row service-item">
                                     <div class="col-md-5">
                                         <div class="d-flex w-100 align-items-center justify-content-between gap-2 service-link" data-service="services-3">
-                                            <span class="fw-bold">Strategy & Innovation</span>
+                                            <span class="fw-500">Strategy & Innovation</span>
                                             <i class="icofont-rounded-right"></i>
                                         </div>
                                     </div>
@@ -141,14 +141,14 @@
                                 </li>
                                 <li class="row service-item">
                                     <div class="col-md-5">
-                                        <a href="https://eninrac.com/transformation-and-sustainability" class="d-flex w-100 align-items-center justify-content-between gap-2 service-link-active fw-bold">
+                                        <a href="https://eninrac.com/transformation-and-sustainability" class="d-flex w-100 align-items-center justify-content-between gap-2 service-link-active fw-500">
                                             Transformation & Sustainability
                                         </a>
                                     </div>
                                 </li>
                                 <li class="row service-item">
                                     <div class="col-md-5">
-                                        <a href="https://eninrac.com/training-and-pro-bono-services" class="d-flex w-100 align-items-center justify-content-between gap-2 service-link-active fw-bold">
+                                        <a href="https://eninrac.com/training-and-pro-bono-services" class="d-flex w-100 align-items-center justify-content-between gap-2 service-link-active fw-500">
                                             Training & Pro-Bono Services
                                         </a>
                                     </div>

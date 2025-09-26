@@ -9,7 +9,7 @@
                                 <li class="row service-item">
                                     <div class="col-md-5">
                                         <div class="d-flex w-100 align-items-center justify-content-between gap-2 service-link" data-service="resources-1">
-                                            <span class="fw-bold">Research Reports</span>
+                                            <span class="fw-500">Research Reports</span>
                                             <i class="icofont-rounded-right" style="display: inline-block;"></i>
                                         </div>
                                     </div>
@@ -17,7 +17,7 @@
                                         <div class="servicemenu-wrap active">
                                             <div style="width: calc(100% - 25px);border-bottom: 1px solid #d8d7d7;"
                                                 class="d-flex justify-content-between align-items-center gap-5 mb-3">
-                                                <h3 class="fs-16 fw-bold">Research Reports</h3>
+                                                <h3 class="fs-16 fw-600">Research Reports</h3>
                                                 <a href="https://store.eninrac.com/" class="position-relative fs-14" style="left: -15px;">View
                                                     <span class="ms-2 cta -arrow"></span>
                                                 </a>
@@ -66,7 +66,7 @@
                                 <li class="row service-item">
                                     <div class="col-md-5">
                                         <div class="d-flex w-100 align-items-center justify-content-between gap-2 service-link" data-service="resources-2">
-                                            <span class="fw-bold">Vantedge</span>
+                                            <span class="fw-500">Vantedge</span>
                                             <i class="icofont-rounded-right"></i>
                                         </div>
                                     </div>
@@ -74,7 +74,7 @@
                                         <div class="">
                                             <div class="servicemenu-wrap">
                                                 <div style="width: calc(100% - 25px);border-bottom: 1px solid #d8d7d7;" class="d-flex justify-content-between align-items-center gap-5 mb-3">
-                                                    <h3 class="fs-16 fw-bold">Vantedge</h3>
+                                                    <h3 class="fs-16 fw-600">Vantedge</h3>
                                                     <a href="https://vantedgeplus.com/" class="position-relative fs-14" style="left: -15px;">
                                                         View <span class="ms-2 cta -arrow"></span>
                                                     </a>
@@ -106,7 +106,7 @@
                                 <li class="row service-item">
                                     <div class="col-md-5">
                                         <div class="d-flex w-100 align-items-center justify-content-between gap-2 service-link" data-service="resources-3">
-                                            <span class="fw-bold">Ecosystem Reports</span>
+                                            <span class="fw-500">Ecosystem Reports</span>
                                             <i class="icofont-rounded-right"></i>
                                         </div>
                                     </div>
@@ -115,7 +115,7 @@
                                             <div class="servicemenu-wrap">
                                                 <div style="width: calc(100% - 25px);border-bottom: 1px solid #d8d7d7;"
                                                     class="d-flex justify-content-between align-items-center gap-5 mb-3">
-                                                    <h3 class="fs-16 fw-bold">Ecosystem Reports</h3>
+                                                    <h3 class="fs-16 fw-600">Ecosystem Reports</h3>
                                                     <a href="https://ecosystemreports.com/"
                                                         class="position-relative fs-14" style="left: -15px;">View <span
                                                             class="ms-2 cta -arrow"></span></a>
@@ -139,7 +139,7 @@
                                 <li class="row service-item">
                                     <div class="col-md-5">
                                         <div class="d-flex w-100 align-items-center justify-content-between gap-2 service-link" data-service="resources-4">
-                                            <span class="fw-bold">EI Market</span>
+                                            <span class="fw-500">EI Market</span>
                                             <i class="icofont-rounded-right"></i>
                                         </div>
                                     </div>
@@ -147,7 +147,7 @@
                                         <div class="">
                                             <div class="servicemenu-wrap">
                                                 <div style="width: calc(100% - 25px);border-bottom: 1px solid #d8d7d7;" class="d-flex justify-content-between align-items-center gap-5 mb-3">
-                                                    <h3 class="fs-16 fw-bold">EI Market</h3>
+                                                    <h3 class="fs-16 fw-600">EI Market</h3>
                                                     <a href="https://energyinfra.market/" class="position-relative fs-14" style="left: -15px;">View
                                                         <span class="ms-2 cta -arrow"></span></a>
                                                 </div>
@@ -165,7 +165,7 @@
                                 <li class="row service-item">
                                     <div class="col-md-5">
                                         <div class="d-flex w-100 align-items-center justify-content-between gap-2 service-link" data-service="resources-5">
-                                            <span class="fw-bold">Einfews</span>
+                                            <span class="fw-500">Einfews</span>
                                             <i class="icofont-rounded-right"></i>
                                         </div>
                                     </div>
@@ -174,7 +174,7 @@
                                             <div class="servicemenu-wrap">
                                                 <div style="width: calc(100% - 25px);border-bottom: 1px solid #d8d7d7;"
                                                     class="d-flex justify-content-between align-items-center gap-5 mb-3">
-                                                    <h3 class="fs-16 fw-bold">Einfews</h3>
+                                                    <h3 class="fs-16 fw-600">Einfews</h3>
                                                     <a href="https://einfews.energyinfra.market/" class="position-relative fs-14" style="left: -15px;">View
                                                         <span class="ms-2 cta -arrow"></span></a>
                                                 </div>
@@ -207,12 +207,11 @@
                                             </div>
                                         </div>
                                     </div>
-
                                 </li>
                                 <li class="row service-item">
                                     <div class="col-md-5">
                                         <div class="d-flex w-100 align-items-center justify-content-between gap-2 service-link" data-service="resources-6">
-                                            <span class="fw-bold">Omnicore</span>
+                                            <span class="fw-500">Omnicore</span>
                                             <i class="icofont-rounded-right"></i>
                                         </div>
                                     </div>
@@ -221,7 +220,7 @@
                                             <div class="servicemenu-wrap">
                                                 <div style="width: calc(100% - 25px);border-bottom: 1px solid #d8d7d7;"
                                                     class="d-flex justify-content-between align-items-center gap-5 mb-3">
-                                                    <h3 class="fs-16 fw-bold">Omnicore</h3>
+                                                    <h3 class="fs-16 fw-600">Omnicore</h3>
                                                     <a href="https://omnicoreplus.com/" class="position-relative fs-14"
                                                         style="left: -15px;">View
                                                         <span class="ms-2 cta -arrow"></span></a>
@@ -243,7 +242,7 @@
                                 <li class="row service-item">
                                     <div class="col-md-5">
                                         <div class="d-flex w-100 align-items-center justify-content-between gap-2 service-link" data-service="resources-7">
-                                            <span class="fw-bold">WHI</span>
+                                            <span class="fw-500">WHI</span>
                                             <i class="icofont-rounded-right"></i>
                                         </div>
                                     </div>
@@ -252,7 +251,7 @@
                                             <div class="servicemenu-wrap">
                                                 <div style="width: calc(100% - 25px);border-bottom: 1px solid #d8d7d7;"
                                                     class="d-flex justify-content-between align-items-center gap-5 mb-3">
-                                                    <h3 class="fs-16 fw-bold">WHI</h3>
+                                                    <h3 class="fs-16 fw-600">WHI</h3>
                                                     <a href="https://warehousesinindia.com/"
                                                         class="position-relative fs-14" style="left: -15px;">View
                                                         <span class="ms-2 cta -arrow"></span></a>
@@ -318,7 +317,7 @@
                             <div class="menu-side-placeholder">
                                 <a href="https://store.eninrac.com/reports/transformers-in-transition-mapping-india-rsquo-s-40-000-crore-market-opportunity-by-fy-26">
                                     <svg class="w-100 bg-white" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 250">
-                                        <g style="fill: #1f3962;transform: translate(0%,-143%);opacity:0.4">
+                                        <g style="fill: rgb(218,231,254);transform: translate(0%,-143%);opacity: 0.7;">
                                             <path class="cls-4" d="M452,606.64c-59.21,0-115.95-6.17-169.34-18.44C117.06,550.13-68.53,553.49-195,563c-137.1,10.32-236.3,29.9-237.29,30.1l-.17-.86c1-.19,100.23-19.78,237.38-30.11,80.55-6.07,158.23-7.8,230.87-5.15,90.8,3.31,174,13.52,247.14,30.35,165.58,38.06,332,9.56,442.44-21.05C845,533.14,926.57,490.41,927.38,490l.41.77c-.82.43-82.45,43.19-202.22,76.38-70.34,19.5-139.88,31.93-206.69,37Q485,606.64,452,606.64Z"></path>
                                             <path class="cls-5" d="M-407.54,620.16l-.21-.85c1-.23,96.83-23.47,230-39.6,122.91-14.89,303.65-26.59,466.64,2.2s323.77-6,430.1-40.31c115.22-37.14,192.93-81.66,193.7-82.1l.44.76c-.78.44-78.55,45-193.85,82.16-67.73,21.83-135,36.88-199.83,44.73-81.1,9.81-158.73,8.34-230.72-4.38C125.85,554-54.78,565.7-177.63,580.58-310.76,596.7-406.59,619.93-407.54,620.16Z"></path>
                                             <path class="cls-6" d="M-382.74,647.2l-.24-.83c.92-.27,93.41-27.16,222.61-49.09,119.24-20.25,295-40.29,455.26-20.8s315.55-21.66,417.76-59.59C823.42,475.78,897.27,429.47,898,429l.47.74c-.73.46-74.64,46.81-185.49,88-65.11,24.16-130,41.82-193,52.5-78.68,13.35-154.46,15.75-225.24,7.15-160.13-19.48-335.81.55-455,20.78C-289.36,620.06-381.82,646.93-382.74,647.2Z"></path>
@@ -345,7 +344,7 @@
                                 </a>
                                 <a href="https://store.eninrac.com/reports/india-rsquo-s-energy-future-demand-supply-dynamics-amid-renewable-energy-growth-and-energy-storage-revolution-by-2035">
                                     <svg class="w-100 bg-white" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 250">
-                                        <g style="fill: #1f3962;transform: translate(0%,-143%);opacity:0.4">
+                                        <g style="fill: rgb(218,231,254);transform: translate(0%,-143%);opacity: 0.7;">
                                             <path class="cls-4" d="M452,606.64c-59.21,0-115.95-6.17-169.34-18.44C117.06,550.13-68.53,553.49-195,563c-137.1,10.32-236.3,29.9-237.29,30.1l-.17-.86c1-.19,100.23-19.78,237.38-30.11,80.55-6.07,158.23-7.8,230.87-5.15,90.8,3.31,174,13.52,247.14,30.35,165.58,38.06,332,9.56,442.44-21.05C845,533.14,926.57,490.41,927.38,490l.41.77c-.82.43-82.45,43.19-202.22,76.38-70.34,19.5-139.88,31.93-206.69,37Q485,606.64,452,606.64Z"></path>
                                             <path class="cls-5" d="M-407.54,620.16l-.21-.85c1-.23,96.83-23.47,230-39.6,122.91-14.89,303.65-26.59,466.64,2.2s323.77-6,430.1-40.31c115.22-37.14,192.93-81.66,193.7-82.1l.44.76c-.78.44-78.55,45-193.85,82.16-67.73,21.83-135,36.88-199.83,44.73-81.1,9.81-158.73,8.34-230.72-4.38C125.85,554-54.78,565.7-177.63,580.58-310.76,596.7-406.59,619.93-407.54,620.16Z"></path>
                                             <path class="cls-6" d="M-382.74,647.2l-.24-.83c.92-.27,93.41-27.16,222.61-49.09,119.24-20.25,295-40.29,455.26-20.8s315.55-21.66,417.76-59.59C823.42,475.78,897.27,429.47,898,429l.47.74c-.73.46-74.64,46.81-185.49,88-65.11,24.16-130,41.82-193,52.5-78.68,13.35-154.46,15.75-225.24,7.15-160.13-19.48-335.81.55-455,20.78C-289.36,620.06-381.82,646.93-382.74,647.2Z"></path>
@@ -465,7 +464,7 @@
                                         <div class="card-body p-0 m-0">
                                             <div class="d-flex justify-content-between align-items-center">
                                                 <img src="https://einfews.energyinfra.market/assets/om-upload/LithiumBattery.jpg" alt="" style="width: 100px;height: 100px;">
-                                                <div class="fs-14 mb-0 p-2 active-text">Carbon-Neutral Solutions for Lithium-Ion Battery Challenges</div>
+                                                <div class="fs-14 mb-0 p-2 active-text" style="color: rgb(5,55,145);">Carbon-Neutral Solutions for Lithium-Ion Battery Challenges</div>
                                             </div>
                                         </div>
                                     </div>
@@ -475,7 +474,7 @@
                                         <div class="card-body p-0 m-0">
                                             <div class="d-flex justify-content-between align-items-center">
                                                 <img src="https://einfews.energyinfra.market/assets/om-upload/Screenshot_2024-04-29_011347.png" alt="" style="width: 100px;height: 100px;">
-                                                <div class="fs-14 mb-0 p-2 active-text">India’s Solar PV Component Market to Hit $7 billion by 2029</div>
+                                                <div class="fs-14 mb-0 p-2 active-text" style="color: rgb(5,55,145);">India’s Solar PV Component Market to Hit $7 billion by 2029</div>
                                             </div>
                                         </div>
                                     </div>
@@ -498,7 +497,7 @@
                                         <div class="card-body p-0 m-0">
                                             <div class="d-flex justify-content-between align-items-center">
                                                 <img src="https://omnicoreplus.com/assets/om-upload/storagegrid.png" alt="" style="width: 100px;height: 100px;">
-                                                <div class="fs-14 mb-0 p-2 active-text">MNRE release Amendment in Operational Guidelines for VGF Scheme for BESS supported through PSDF</div>
+                                                <div class="fs-14 mb-0 p-2 active-text" style="color: rgb(5,55,145);">MNRE release Amendment in Operational Guidelines for VGF Scheme for BESS supported through PSDF</div>
                                             </div>
                                         </div>
                                     </div>
@@ -508,7 +507,7 @@
                                         <div class="card-body p-0 m-0">
                                             <div class="d-flex justify-content-between align-items-center">
                                                 <img src="https://omnicoreplus.com/assets/om-upload/pole_unsplash.jpg" alt="" style="width: 100px;height: 100px;">
-                                                <div class="fs-14 mb-0 p-2 active-text">CERC: Petition for etermination of the transmission tariff for the 2024-29; Combined Assets under the NRSSS_XXIII in NR</div>
+                                                <div class="fs-14 mb-0 p-2 active-text" style="color: rgb(5,55,145);">CERC: Petition for etermination of the transmission tariff for the 2024-29; Combined Assets under the NRSSS_XXIII in NR</div>
                                             </div>
                                         </div>
                                     </div>
