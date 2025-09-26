@@ -9,14 +9,14 @@
                                 <li class="row service-item">
                                     <div class="col-md-5">
                                         <div class="d-flex w-100 align-items-center justify-content-between gap-2 service-link">
-                                            <span class="fw-bold">Budget</span>
+                                            <span class="fw-500">Budget</span>
                                             <i class="icofont-rounded-right" style="display: inline-block;"></i>
                                         </div>
                                     </div>
                                     <div class="col-md-7">
                                         <div class="servicemenu-wrap active">
                                             <div style="width: calc(100% - 25px);border-bottom: 1px solid #d8d7d7;" class="d-flex justify-content-between align-items-center gap-5 mb-3">
-                                                <h3 class="fs-16 fw-bold">India Budget</h3>
+                                                <h3 class="fs-16 fw-600">India Budget</h3>
                                                 <a href="https://eninrac.com/budget" class="position-relative fs-14" style="left: -15px;">View 
                                                     <span class="ms-2 cta -arrow"></span>
                                                 </a>
@@ -58,12 +58,12 @@
                                 </li>
                                 <li class="row service-item">
                                     <div class="col-md-5">
-                                        <a href="https://eninrac.com/knowledge-grid" class="d-flex w-100 align-items-center justify-content-between gap-2 service-link-active fw-bold">Knowledge Grid</a>
+                                        <a href="https://eninrac.com/knowledge-grid" class="d-flex w-100 align-items-center justify-content-between gap-2 service-link-active fw-500">Knowledge Grid</a>
                                     </div>
                                 </li>
                                 <li class="row service-item">
                                     <div class="col-md-5">
-                                        <a href="https://survey.eninrac.com/" class="d-flex w-100 align-items-center justify-content-between gap-2 service-link-active fw-bold">Eninrac Survey</a>
+                                        <a href="https://survey.eninrac.com/" class="d-flex w-100 align-items-center justify-content-between gap-2 service-link-active fw-500">Eninrac Survey</a>
                                     </div>
                                 </li>
                             </ul>

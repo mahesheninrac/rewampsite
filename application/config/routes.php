@@ -18,7 +18,7 @@ $route_paths = [
     APPPATH . "config/routers/backend/custom-api-routes/",
     APPPATH . "config/routers/backend/custom-web-routes/",
     APPPATH . "config/routers/frontend/custom-api-routes/",
-    APPPATH . "config/routers/frontend/custom-web-routes/"
+    APPPATH . "config/routers/frontend/web/"
 ];
 
 foreach ($route_paths as $folder) {

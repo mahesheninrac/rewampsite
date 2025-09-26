@@ -9,14 +9,14 @@
                                 <li class="row service-item">
                                     <div class="col-md-5">
                                         <div class="d-flex w-100 align-items-center justify-content-between gap-2 service-link">
-                                            <span class="fw-bold">Difference Margin</span>
+                                            <span class="fw-500">Difference Margin</span>
                                             <i class="icofont-rounded-right" style="display: inline-block;"></i>
                                         </div>
                                     </div>
                                     <div class="col-md-7">
                                         <div class="servicemenu-wrap active">
                                             <div style="width: calc(100% - 25px);border-bottom: 1px solid #d8d7d7;" class="d-flex justify-content-between align-items-center gap-5 mb-3">
-                                                <h3 class="fs-16 fw-bold">Difference Margin</h3>
+                                                <h3 class="fs-16 fw-600">Difference Margin</h3>
                                             </div>
                                             <ul class="servicemenu-ul">
                                                 <li>
@@ -36,7 +36,7 @@
                                 <li class="row service-item">
                                     <div class="col-md-5">
                                         <div class="d-flex w-100 align-items-center justify-content-between gap-2 service-link">
-                                            <span class="fw-bold">Why Eninrac</span>
+                                            <span class="fw-500">Why Eninrac</span>
                                             <i class="icofont-rounded-right"></i>
                                         </div>
                                     </div>
@@ -44,7 +44,7 @@
                                         <div class="">
                                             <div class="servicemenu-wrap">
                                                 <div style="width: calc(100% - 25px);border-bottom: 1px solid #d8d7d7;" class="d-flex justify-content-between align-items-center gap-5 mb-3">
-                                                    <h3 class="fs-16 fw-bold">Why Eninrac</h3>
+                                                    <h3 class="fs-16 fw-600">Why Eninrac</h3>
                                                     <a href="https://eninrac.com/why-eninrac" class="position-relative fs-14" style="left: -15px;">View <span class="ms-2 cta -arrow"></span></a>
                                                 </div>
                                                 <ul class="servicemenu-ul">
@@ -69,7 +69,7 @@
                                 </li>
                                 <li class="row service-item">
                                     <div class="col-md-5">
-                                        <a href="https://eninrac.com/press-releases" class="d-flex w-100 align-items-center justify-content-between gap-2 service-link-active fw-bold">
+                                        <a href="https://eninrac.com/press-releases" class="d-flex w-100 align-items-center justify-content-between gap-2 service-link-active fw-500">
                                             Press Releases
                                         </a>
                                     </div>
