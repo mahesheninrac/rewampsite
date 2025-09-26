@@ -17,31 +17,31 @@
                                         <div class="servicemenu-wrap active">
                                             <div style="width: calc(100% - 25px);border-bottom: 1px solid #d8d7d7;" class="d-flex justify-content-between align-items-center gap-5 mb-3">
                                                 <h3 class="fs-16 fw-600">Advisory Consulting Services</h3>
-                                                <a href="https://eninrac.com/advisory-and-consulting-services" class="position-relative fs-14" style="left: -15px;">View <span class="ms-2 cta -arrow"></span></a>
+                                                <a href="<?= base_url() ?>advisory-and-consulting-services" class="position-relative fs-14" style="left: -15px;">View <span class="ms-2 cta -arrow"></span></a>
                                             </div>
                                             <ul class="servicemenu-ul">
                                                 <li>
-                                                    <a href="https://eninrac.com/advisory-and-consulting-services/business-intelligence">Business Intelligence
+                                                    <a href="<?= base_url() ?>advisory-and-consulting-services/business-intelligence">Business Intelligence
                                                         <span class="li-arrow">→</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://eninrac.com/advisory-and-consulting-services/due-diligence">Due Diligence
+                                                    <a href="<?= base_url() ?>advisory-and-consulting-services/due-diligence">Due Diligence
                                                         <span class="li-arrow">→</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://eninrac.com/advisory-and-consulting-services/benchmarking-services">Benchmarking Services
+                                                    <a href="<?= base_url() ?>advisory-and-consulting-services/benchmarking-services">Benchmarking Services
                                                         <span class="li-arrow">→</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://eninrac.com/advisory-and-consulting-services/pfrs-dprs">PFR's/DPR's
+                                                    <a href="<?= base_url() ?>advisory-and-consulting-services/pfrs-dprs">PFR's/DPR's
                                                         <span class="li-arrow">→</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://eninrac.com/advisory-and-consulting-services/open-access-services">Open Access Advisory Services
+                                                    <a href="<?= base_url() ?>advisory-and-consulting-services/open-access-services">Open Access Advisory Services
                                                         <span class="li-arrow">→</span>
                                                     </a>
                                                 </li>
@@ -61,29 +61,29 @@
                                             <div class="servicemenu-wrap">
                                                 <div style="width: calc(100% - 25px);border-bottom: 1px solid #d8d7d7;" class="d-flex justify-content-between align-items-center gap-5 mb-3">
                                                     <h3 class="fs-16 fw-bold">Market Tracking &amp; Sizing</h3>
-                                                    <a href="https://eninrac.com/market-research-service" class="position-relative fs-14" style="left: -15px;">View <span class="ms-2 cta -arrow"></span></a>
+                                                    <a href="<?= base_url() ?>market-research-service" class="position-relative fs-14" style="left: -15px;">View <span class="ms-2 cta -arrow"></span></a>
                                                 </div>
                                                 <ul class="servicemenu-ul">
                                                     <li>
-                                                        <a href="https://eninrac.com/market-research-service/market-tracking-and-sizing">
+                                                        <a href="<?= base_url() ?>market-research-service/market-tracking-and-sizing">
                                                             Market Tracking &amp; Sizing
                                                             <span class="li-arrow">→</span>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a href="https://eninrac.com/market-research-service/market-analytics">
+                                                        <a href="<?= base_url() ?>market-research-service/market-analytics">
                                                             Market Analytics
                                                             <span class="li-arrow">→</span>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a href="https://eninrac.com/market-research-service/competitor-analysis">
+                                                        <a href="<?= base_url() ?>market-research-service/competitor-analysis">
                                                             Competitor Analysis
                                                             <span class="li-arrow">→</span>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a href="https://eninrac.com/market-research-service/research-on-demand-tracking">
+                                                        <a href="<?= base_url() ?>market-research-service/research-on-demand-tracking">
                                                             Research on Demand Tracking
                                                             <span class="li-arrow">→</span>
                                                         </a>
@@ -107,29 +107,29 @@
                                             <div class="servicemenu-wrap">
                                                 <div style="width: calc(100% - 25px);border-bottom: 1px solid #d8d7d7;" class="d-flex justify-content-between align-items-center gap-5 mb-3">
                                                     <h3 class="fs-16 fw-bold">Strategy & Innovation</h3>
-                                                    <a href="https://eninrac.com/strategy-and-innovation" class="position-relative fs-14" style="left: -15px;">View <span class="ms-2 cta -arrow"></span></a>
+                                                    <a href="<?= base_url() ?>strategy-and-innovation" class="position-relative fs-14" style="left: -15px;">View <span class="ms-2 cta -arrow"></span></a>
                                                 </div>
                                                 <ul class="servicemenu-ul">
                                                     <li>
-                                                        <a href="https://eninrac.com/strategy-and-innovation/change-management">
+                                                        <a href="<?= base_url() ?>strategy-and-innovation/change-management">
                                                             Change Management
                                                             <span class="li-arrow">→</span>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a href="https://eninrac.com/strategy-and-innovation/growth-strategy">
+                                                        <a href="<?= base_url() ?>strategy-and-innovation/growth-strategy">
                                                             Growth Strategy
                                                             <span class="li-arrow">→</span>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a href="https://eninrac.com/strategy-and-innovation/product-innovation-strategy">
+                                                        <a href="<?= base_url() ?>strategy-and-innovation/product-innovation-strategy">
                                                             Product Innovation Strategy
                                                             <span class="li-arrow">→</span>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a href="https://eninrac.com/strategy-and-innovation/operations-strategy">
+                                                        <a href="<?= base_url() ?>strategy-and-innovation/operations-strategy">
                                                             Operations Strategy
                                                             <span class="li-arrow">→</span>
                                                         </a>
@@ -141,14 +141,14 @@
                                 </li>
                                 <li class="row service-item">
                                     <div class="col-md-5">
-                                        <a href="https://eninrac.com/transformation-and-sustainability" class="d-flex w-100 align-items-center justify-content-between gap-2 service-link-active fw-500">
+                                        <a href="<?= base_url() ?>transformation-and-sustainability" class="d-flex w-100 align-items-center justify-content-between gap-2 service-link-active fw-500">
                                             Transformation & Sustainability
                                         </a>
                                     </div>
                                 </li>
                                 <li class="row service-item">
                                     <div class="col-md-5">
-                                        <a href="https://eninrac.com/training-and-pro-bono-services" class="d-flex w-100 align-items-center justify-content-between gap-2 service-link-active fw-500">
+                                        <a href="<?= base_url() ?>training-and-pro-bono-services" class="d-flex w-100 align-items-center justify-content-between gap-2 service-link-active fw-500">
                                             Training & Pro-Bono Services
                                         </a>
                                     </div>
