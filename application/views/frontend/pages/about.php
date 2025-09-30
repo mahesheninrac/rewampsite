@@ -1,62 +1,5 @@
 <style>
-    .about-block {
-        padding: 80px 0;
-        border-radius: 44px;
-    }
 
-    .about-card-wrapper {
-        height: 160vh;
-    }
-
-    .about-cards-item {
-        min-height: 90vh;
-
-
-    }
-
-    .about-features__item {
-        min-height: 250px;
-    }
-
-    .about-card__icon,
-    .about-features__icon {
-        flex-grow: 1;
-        margin-bottom: 24px;
-    }
-
-    .value-card {
-        padding: 32px;
-        border-radius: 24px;
-        background-color: #eeeeec;
-    }
-
-    .value-card__icon {
-        margin-bottom: 40px;
-    }
-
-    .value-card__icon img {
-        display: block;
-        width: 60px;
-        height: 60px;
-    }
-
-    .about-features__icon img,
-    .value-item__icon img {
-        width: 60px;
-        height: 60px;
-    }
-
-    .fs-12 {
-        font-size: 12px;
-    }
-
-    /*  */
-    .press-release .news {
-        border-radius: 32px;
-        padding: 24px;
-        background: #fff;
-        color: #000000;
-    }
 </style>
 <section class="about-section">
     <div class="container">
@@ -234,6 +177,14 @@
         margin-bottom: 20px;
     }
 
+    .news__image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        transition: transform 0.2s linear;
+    }
+
     .news-info__title {
         font-size: 20px;
         line-height: 28px;
@@ -281,8 +232,41 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4"></div>
-                <div class="col-md-4"></div>
+
+                <div class="col-md-4">
+                    <a href="" class="news">
+                        <div class="news__image">
+                            <img src="https://tumodo.io/storage/uploads/5b94a33f6f3e21cca7e1f228fed4e65a.webp"
+                                class="img-fluid" alt="">
+                        </div>
+                        <div class="press-logo"></div>
+                        <div class="news-info">
+                            <div class="news-info__title">
+                                Saudi Arabia’s Expo 2030 fuels surge in business, event travel across the Kingdom
+                            </div>
+                            <div class="news-info__text" style="-webkit-box-orient: vertical;"> “Expo 2030 is set to be
+                                a significant event for Saudi
+                                Arabia, establishing Riyadh as a hub of global dialogue and innovation,”</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="" class="news">
+                        <div class="news__image">
+                            <img src="https://tumodo.io/storage/uploads/5b94a33f6f3e21cca7e1f228fed4e65a.webp"
+                                class="img-fluid" alt="">
+                        </div>
+                        <div class="press-logo"></div>
+                        <div class="news-info">
+                            <div class="news-info__title">
+                                Saudi Arabia’s Expo 2030 fuels surge in business, event travel across the Kingdom
+                            </div>
+                            <div class="news-info__text" style="-webkit-box-orient: vertical;"> “Expo 2030 is set to be
+                                a significant event for Saudi
+                                Arabia, establishing Riyadh as a hub of global dialogue and innovation,”</div>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -293,7 +277,6 @@
         <h2 class="title-h2 text-white">Our team</h2>
         <div class="mt-4">
             <div class="row row-gap-5">
-
                 <div class="col-md-3">
                     <div class="team-item d-flex align-items-center flex-column">
                         <div class="team-item__image">

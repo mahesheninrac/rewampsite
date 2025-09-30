@@ -215,16 +215,28 @@ modal.addEventListener("click", (e) => {
 const revealELs = (element = '[data-reveal]', currentClass = '_visible', delay = 300) => {
     const El = document.querySelectorAll(element);
     if (El) {
+
         const io = new IntersectionObserver((entries) => {
+
             entries.forEach(e => {
+
                 if (e.isIntersecting) {
-                    let el_delay = e.target.getAttribute('[data-delay]')
+                    let el_delay = e.target.getAttribute('data-delay')
+
+
                     delay = el_delay ? el_delay : delay;
+                    let el = e.target
+
+                    if (el.dataset.left && el.dataset.top) {
+                        if (el.dataset.left) el.style.left = el.dataset.left;
+                        if (el.dataset.top) el.style.top = el.dataset.top;
+                        let p = e.target.parentElement;
+                        p.style.height = "200px"
+
+                    }
+
                     setTimeout(function() {
-
-
                         e.target.classList.add(currentClass);
-
                         io.unobserve(e.target);
                     }, delay)
                 }
@@ -237,7 +249,8 @@ const revealELs = (element = '[data-reveal]', currentClass = '_visible', delay =
 }
 
 revealELs()
-revealELs("[data-msg-reveal]", "show")
+revealELs("[data-msg-reveal]", "show");
+revealELs(".fact");
  </script>
 
 

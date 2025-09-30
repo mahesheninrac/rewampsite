@@ -29,6 +29,20 @@ class Home_Controller extends Default_Controller
             'default_page' => false,
         ]);
     }
+
+    public function career()
+    {
+        $this->load->view('frontend/theme', [
+            'theme' => 'career',
+            'title' => 'Eco System Reports',
+            'meta' => [
+                'title' => 'Eco System Reports',
+                'description' => 'Eco System Reports', // Add your description
+                'keywords' => 'Eco System Reports',
+            ],
+            'default_page' => false,
+        ]);
+    }
     public function webinar()
     {
         $this->load->view('frontend/theme', [
@@ -56,5 +70,4 @@ class Home_Controller extends Default_Controller
             'default_page' => true,
         ]);
     }
-
 }
