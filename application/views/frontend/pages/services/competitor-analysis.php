@@ -20,7 +20,7 @@
                     </div>
                     <div class="col-md-7">
                         <div class="border-radius-40">
-                            <img src="<?= base_url(); ?>assets/images/aandc.png" alt="Bridging gaps in  &amp; Market Research" class="img-fluid">
+                            <img src="<?= base_url(); ?>assets/images/services/competitor-analysis.png" alt="Bridging gaps in  &amp; Market Research" class="img-fluid">
                         </div>
                     </div>
                 </div>

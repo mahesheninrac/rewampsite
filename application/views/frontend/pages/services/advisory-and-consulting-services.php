@@ -214,7 +214,7 @@
                                 </clipPath>
                             </defs>
                             <g class="cls-36">
-                                <circle xmlns="http://www.w3.org/2000/svg" class="dropAnimation" data-delay="1200" id="white-blank" cx="363.41" cy="309.6" r="37.83" fill="#fff"/>
+                                <circle xmlns="http://www.w3.org/2000/svg" class="dropAnimation" data-delay="1200" id="white-blank" cx="363.41" cy="309.6" r="37.83" fill="#fff" />
                                 <g class="dropAnimation" data-delay="1300" id="Mckinsy">
                                     <path class="cls-35" d="M549.62,329.55c-12.32,40.29-54.7,63.04-94.66,50.83-39.96-12.22-62.37-54.78-50.05-95.07,12.32-40.29,54.7-63.04,94.66-50.83,39.96,12.22,62.37,54.78,50.05,95.07Z"></path>
                                     <path class="cls-14" d="M424.97,289.43h4.04v.76h-.76c-.13,0-.37.15-.7.46s-.5.54-.5.7v11.61c0,.16.17.39.5.7s.57.46.7.46h.76v.76h-5.96v-.76h.76c.13,0,.36-.15.68-.46.32-.31.48-.54.48-.7v-11.24l-5.61,13.44-5.6-13.67v11.47c0,.16.16.39.48.7.32.31.55.46.68.46h.76v.76h-4.8v-.76h.76c.16,0,.4-.15.72-.46.32-.31.48-.54.48-.7v-11.6c0-.16-.16-.39-.48-.7s-.56-.46-.72-.46h-.76v-.76h4.48l4.64,11.56h.12l4.84-11.56ZM434.57,303.31c.68.04,1.36-.11,1.96-.44.5-.34.91-.79,1.2-1.32h.64c-.29.99-.83,1.89-1.58,2.6-.82.68-1.87,1.03-2.94.96-1.29.05-2.52-.52-3.32-1.52-.83-1.03-1.27-2.32-1.24-3.64-.07-1.43.43-2.83,1.4-3.88.87-.93,2.09-1.46,3.36-1.44.68-.02,1.37.11,2,.36.58.25,1.11.59,1.56,1.02l-1.46,2.29-.6.04c.14-.68.1-1.39-.12-2.05-.26-.63-.92-1.01-1.6-.9-.87-.06-1.71.35-2.2,1.08-.52.86-.77,1.85-.72,2.84-.03,1.03.32,2.04.98,2.84.67.77,1.66,1.2,2.69,1.15ZM444.49,304.87h-6.04v-.76h.77c.16,0,.4-.15.72-.46s.48-.54.48-.7v-11.6c0-.16-.16-.39-.48-.7s-.57-.46-.72-.46h-.77v-.76h6.04v.76h-.76c-.16,0-.4.15-.72.46s-.48.54-.48.7v6.32l5.52-6.16c.11-.13,0-.39-.28-.76s-.51-.56-.64-.56h-.74v-.76h5.6v.76h-.76c-.38.13-.72.34-1.01.6-.54.41-.85.68-.96.78l-3.76,4.04,5.4,7.17c.26.31.56.57.9.8.27.25.59.43.94.52h1.12c.27-.05.5-.2.68-.4.29-.27.44-.5.44-.68v-6.31c0-.16-.15-.38-.44-.64-.18-.2-.42-.34-.68-.4h-.6v-.76h3.56v8.12c0,.19.15.41.46.68.18.19.41.33.66.4h1.24c.13,0,.34-.13.64-.4s.44-.5.44-.68v-6.32c0-.16-.15-.38-.44-.64s-.51-.4-.64-.4h-.64v-.76h3.16l.4,2.03c.54-.57,1.12-1.11,1.74-1.6.63-.47,1.4-.71,2.18-.68.74-.01,1.46.28,1.98.8.55.55.85,1.3.82,2.08v5.49c0,.19.15.41.44.68s.51.4.64.4h.64v.76h-5.24v-.76h.55c.26-.06.5-.2.68-.4.29-.27.44-.5.44-.68v-5.36c.02-.45-.12-.89-.4-1.24-.3-.34-.75-.51-1.2-.48-.79.02-1.55.3-2.18.78-.73.52-1.1.95-1.1,1.3v5c0,.19.15.41.44.68.18.2.42.34.68.4h.56v.76h-14.31l-5.37-7.72-1.56,1.68v4.12c0,.16.16.39.48.7s.56.46.72.46h.76v.76ZM449.85,322.28l-.05-.05c.51.43,1.02.85,1.54,1.28s1.07.84,1.66,1.24h.92v.8h-1.68c-.68.01-1.36-.11-2-.36-.68-.3-1.3-.73-1.84-1.24-.61.61-1.34,1.08-2.14,1.38-.93.32-1.91.48-2.9.46-1.25,0-2.47-.44-3.41-1.26-.99-.8-1.56-2.02-1.52-3.3h0c-.01-.94.23-1.86.68-2.68.44-.79,1.07-1.46,1.82-1.96-.36-.46-.66-.95-.9-1.48-.24-.56-.35-1.15-.34-1.76-.06-.95.31-1.88,1-2.54.76-.63,1.74-.96,2.73-.9.57-.02,1.14.06,1.68.24.36.15.74.23,1.12.24.15,0,.3-.01.44-.04.12-.04.22-.13.28-.24h.68v3.64h-.68c-.11-.75-.47-1.44-1.02-1.96-.63-.75-1.56-1.18-2.54-1.16-.7-.04-1.4.17-1.96.58-.48.39-.75,1-.72,1.62,0,.6.21,1.18.6,1.64.43.5.98.89,1.6,1.12.99,1.07,2.05,2.14,3.2,3.22s2.24,2.08,3.28,3.02c.28-.46.49-.96.62-1.48.13-.56.19-1.13.18-1.71.03-.62-.21-1.23-.66-1.66-.49-.43-1.13-.65-1.78-.62v-.77h5.49v.72h-.6c-.13,0-.4.23-.78.68-.29.27-.49.62-.58,1v.04c-.03.77-.16,1.53-.4,2.26-.23.71-.57,1.38-1.01,1.98h0ZM444.61,324.6c.63,0,1.26-.09,1.86-.28.53-.18,1.04-.43,1.5-.75l-.12-.08c-1.14-1.02-2.26-2.06-3.36-3.12-1.1-1.07-2.17-2.19-3.2-3.36-.38.4-.69.86-.92,1.37-.24.61-.35,1.26-.32,1.92.03,1.16.56,2.25,1.46,2.98.82.82,1.94,1.3,3.1,1.32h0ZM455.7,292.47h-.04c-.34,0-.66-.13-.9-.36-.25-.22-.39-.55-.38-.88v-.04c-.02-.36.12-.7.38-.94.54-.45,1.33-.45,1.88,0,.26.24.4.59.38.94h-.04s.04,0,.04.04c0,.34-.13.66-.38.88-.23.23-.54.36-.86.36h-.08ZM465.85,324.52c1.1.06,2.19-.22,3.12-.8.81-.61,1.45-1.41,1.88-2.32h.81c-.44,1.3-1.27,2.44-2.36,3.26-1.13.81-2.49,1.22-3.88,1.18-2.05.07-4.02-.81-5.32-2.39-1.34-1.59-2.05-3.62-2-5.7-.05-2.02.6-4,1.84-5.6,1.22-1.54,3.11-2.4,5.08-2.32.72-.02,1.44.1,2.12.34.57.23,1.18.34,1.8.34.19,0,.38-.03.56-.1.15-.08.28-.18.4-.3h.56v5.45h-.68c-.12-1.1-.55-2.14-1.24-3-.75-1.16-2.06-1.84-3.44-1.8-1.17-.06-2.32.37-3.16,1.18-.88,1.06-1.37,2.4-1.37,3.78v-.08c-.03.29-.05.59-.06.88,0,.29-.02.6-.02.92,0,.37,0,.75.04,1.14s.05.74.08,1.06c.11,1.3.66,2.52,1.56,3.46.97.98,2.31,1.49,3.69,1.42ZM478.48,302.07c.05.84-.28,1.66-.9,2.24-.64.55-1.46.84-2.3.8-.55.02-1.1-.09-1.6-.3-.4-.19-.84-.3-1.28-.3-.15-.01-.31.02-.44.1l-.32.26h-.46v-3.52h.6c.11.69.44,1.32.94,1.8.64.75,1.59,1.16,2.58,1.12.5.03,1-.08,1.44-.32.35-.22.55-.61.52-1.02.04-.49-.2-.96-.62-1.22-.4-.25-.83-.47-1.26-.66-.38-.16-.71-.3-1.02-.44s-.66-.28-1.06-.44c-.57-.26-1.08-.62-1.52-1.06-.41-.45-.63-1.05-.6-1.66-.05-.77.24-1.52.8-2.05,1.04-.74,2.39-.9,3.58-.44.34.17.72.26,1.1.26.12,0,.23-.02.34-.06.1-.04.18-.12.22-.22h.52v3.07h-.6c-.1-.61-.38-1.17-.82-1.6-.54-.66-1.36-1.03-2.22-1-.46-.04-.92.09-1.3.36-.27.23-.43.56-.42.92-.03.37.14.73.44.96.38.26.78.49,1.2.68.38.16.73.3,1.06.44l1.1.44c.57.24,1.1.58,1.56,1,.51.48.79,1.15.76,1.85h-.02ZM481.1,316.71c1.03,1,1.58,2.4,1.5,3.84.07,1.44-.47,2.85-1.5,3.86-.92.91-2.16,1.42-3.46,1.42-1.31,0-2.57-.5-3.5-1.42-1.03-1.01-1.57-2.42-1.5-3.86-.15-2.74,1.94-5.08,4.67-5.23.11,0,.22,0,.33,0,1.3,0,2.55.49,3.48,1.4h-.02ZM480.62,322.2v.08c.03-.29.04-.59.06-.88s.02-.59.02-.88,0-.58-.02-.86-.03-.54-.06-.78c-.06-.73-.36-1.42-.86-1.96-.57-.52-1.33-.78-2.1-.72-.75-.05-1.49.21-2.05.72-.49.53-.79,1.2-.86,1.92v-.05c-.05.28-.09.56-.1.84,0,.29-.02.59-.02.88s0,.58.02.86c.01.26.05.52.1.78.08.71.38,1.38.86,1.92.54.54,1.29.81,2.05.76.78.07,1.55-.2,2.12-.74.47-.53.76-1.18.84-1.88ZM483.9,305.13c-1.28.02-2.5-.54-3.3-1.54-.87-1.02-1.33-2.32-1.3-3.66-.04-1.37.43-2.71,1.32-3.76.8-.98,2.02-1.53,3.28-1.48.98-.05,1.94.32,2.62,1.02.63.67.99,1.54,1.02,2.46l.04.72-6.64.53c.01.96.35,1.89.96,2.63.62.83,1.61,1.3,2.64,1.26.69.04,1.37-.11,1.98-.44.49-.32.9-.76,1.18-1.28h.6c-.25.99-.78,1.88-1.52,2.58-.81.66-1.83,1-2.87.93v.02ZM483.86,295.45c-.89-.07-1.75.33-2.26,1.06-.45.66-.71,1.43-.74,2.22l5-.43c.09-.67,0-1.35-.22-1.98-.22-.59-.81-.89-1.78-.89v.02ZM495.94,324.81c.16,0,.38-.14.66-.42s.42-.5.42-.66v-5.46c.02-.43-.12-.85-.38-1.18-.31-.33-.76-.5-1.22-.46-.71.02-1.39.28-1.94.72-.65.48-.98.88-.98,1.2v5.2c0,.16.14.38.42.66s.49.42.62.42h.6v.76h-5.12v-.76h.56c.16,0,.38-.14.66-.42s.42-.5.42-.66v-5.46c.02-.44-.12-.88-.4-1.22-.31-.33-.75-.5-1.2-.46-.73.02-1.42.29-1.98.76-.65.51-.98.93-.98,1.28v5.12c0,.16.14.38.42.66s.5.42.66.42h.56v.76h-5.12v-.76h.6c.13,0,.34-.14.62-.42s.42-.5.42-.66v-6.37c0-.16-.14-.37-.42-.64s-.48-.4-.62-.4h-.6v-.76h3.07l.4,1.92c.59-.61,1.12-1.13,1.6-1.54.59-.45,1.31-.67,2.05-.62.63-.01,1.24.18,1.76.54.52.37.85.95.92,1.58.61-.59,1.17-1.08,1.68-1.48.58-.42,1.28-.63,2-.6.72-.02,1.43.25,1.96.74.56.55.85,1.32.8,2.1v5.46c0,.16.14.38.42.66s.48.42.62.42h.6v.76h-5.12v-.76l.56.03ZM489.26,296.82c-.17-.26-.38-.49-.62-.68-.34-.29-.57-.44-.68-.44h-.44v-.79h5.4v.76h-.64c-.13,0-.31.13-.52.4-.18.19-.29.43-.32.68l2.39,4.92,2.2-4.88c0-.27-.11-.53-.3-.72-.23-.27-.41-.4-.54-.4h-.66v-.76h4.04v.76h-.44c-.13,0-.34.14-.62.42-.22.2-.4.44-.54.7l-3.41,7.24-2.94,5.64-.87-.44,3.04-5.48-3.53-6.93ZM507.39,315.34c1.13-.04,2.21.48,2.88,1.4.73,1.08,1.09,2.37,1.02,3.68.05,1.37-.36,2.73-1.16,3.84-.67.96-1.78,1.53-2.96,1.52-.73.04-1.46-.14-2.1-.5-.56-.38-1.02-.9-1.34-1.5v4.8c0,.19.15.41.44.68s.51.4.64.4h.65v.73h-5.27v-.76h.64c.26-.05.49-.2.66-.4.22-.16.37-.41.42-.68v-11.16c0-.16-.14-.37-.42-.64-.17-.2-.4-.34-.66-.4h-.64v-.8h3.24l.32,2.08c.36-.7.89-1.31,1.54-1.76.63-.39,1.36-.58,2.1-.56v.03ZM509.39,322.06v.04l.08-.8c.03-.27.04-.53.04-.8,0-.23-.01-.47-.04-.7-.03-.23-.05-.45-.08-.66-.07-.7-.35-1.36-.8-1.9-.44-.46-1.07-.71-1.71-.68-.75-.03-1.47.25-2,.78-.52.55-.91,1.21-1.12,1.94v2.6c0,.75.3,1.48.84,2,.54.55,1.28.86,2.05.84h.04c.72.05,1.42-.22,1.92-.74.45-.56.72-1.23.78-1.94v.03ZM531.99,323.74c0,.16.15.38.44.66s.51.42.64.42h.6v.76h-5.24v-.76h.58c.14,0,.34-.14.64-.42s.44-.5.44-.66v-5.43c.01-.44-.12-.87-.38-1.22-.29-.35-.73-.54-1.18-.5-.79.03-1.56.31-2.18.8-.74.54-1.1.96-1.1,1.28v5.04c0,.19.15.41.44.68.18.2.42.34.68.4h.59v.76h-8.49l-.28-2.08c-.42.55-.89,1.07-1.4,1.54-.52.49-1.21.75-1.92.74-.68,0-1.33-.27-1.8-.76-.51-.52-.79-1.23-.76-1.96-.08-.87.35-1.7,1.1-2.14.67-.39,1.39-.68,2.14-.86l2.6-.52.04-1.2c.03-.6-.17-1.2-.56-1.66-.52-.47-1.22-.69-1.92-.62-.68-.08-1.36.23-1.74.8-.3.67-.27,1.45.1,2.08h-.72l-1.37-2c1.11-1.09,2.61-1.67,4.16-1.6.98-.03,1.95.24,2.76.78.74.51,1.16,1.36,1.12,2.26v5.36c0,.16.15.37.44.64s.51.4.64.4h1.2c.27-.06.51-.2.68-.4.29-.27.44-.48.44-.64v-6.33c0-.16-.15-.37-.44-.64-.18-.2-.42-.34-.68-.4h-.6v-.8h3.16l.4,2.08c.53-.57,1.1-1.1,1.71-1.6.63-.48,1.41-.72,2.2-.68.74-.01,1.46.27,1.98.8.55.55.85,1.3.82,2.08l.02,5.51ZM518.19,320.2l-2.39.6c-.51.08-.98.34-1.32.74-.25.36-.37.79-.36,1.22v.04c0,.41.15.81.44,1.1.28.3.67.47,1.08.46h.06c.54-.02,1.05-.23,1.44-.6.41-.32.75-.72,1.02-1.16l.03-2.4ZM543.63,315.59v.76h-.48c-.11,0-.3.14-.58.42-.21.2-.41.42-.58.66l-3.36,7.28-3,5.6-.84-.44,3-5.48-3.52-6.92c-.17-.26-.38-.49-.62-.68-.34-.29-.55-.44-.66-.44h-.48v-.76h5.4v.76h-.6c-.13,0-.31.13-.54.4-.19.18-.31.42-.34.68l2.39,4.92,2.21-4.94c0-.26-.11-.51-.3-.68-.23-.27-.41-.4-.54-.4h-.64v-.75h4.08Z"></path>
@@ -1287,7 +1287,7 @@
                 </form>
             </div>
             <div class=" trial-form--tumodo-image d-none d-md-block">
-                <img src="<?=base_url(); ?>assets/images/bridge-logo.svg" style="transform: scale(1.7) translate(140px, 59px);" alt="">
+                <img src="<?= base_url(); ?>assets/images/bridge-logo.svg" style="transform: scale(1.7) translate(140px, 59px);" alt="">
             </div>
         </div>
     </div>
@@ -1306,7 +1306,7 @@
                 </div>
                 <div class="col-md-7">
                     <div class="">
-                        <img src="https://tumodo.io/storage/uploads/47d2ab8932cd2d556e5f88865bae1cc5.png"
+                        <img src="<?= base_url(); ?>assets/images/services/faq-banner.png"
                             class="img-fluid" alt="">
                     </div>
                 </div>
@@ -1323,87 +1323,81 @@
                 <div class="row row-gap-4">
                     <div class="col-md-6">
                         <div class="available-tile _light-grey-bg">
-                            <div class="available-tile--img">
-                                <img src="https://tumodo.io/storage/uploads/b6029132ca1358d04d6c912233addb1c.png"
+                            <div class="available-tile--img static-animation" data-msg-reveal style="margin-bottom: 24px;height: auto;background: #0055fe;padding: 10px;border-radius: 10px;">
+                                <img src="<?= base_url() ?>assets/images/services/featured/business-intelligence.png"
                                     class="img-fluid" alt="">
                             </div>
-                            <div class="available-tile--title">Flights and trains</div>
+                            <div class="available-tile--title">Business Intelligence</div>
                             <p>Book train tickets across Europe. Pay securely by bank transfer and get instant
                                 confirmations on your device.</p>
-                            <a href="" class="btn btn-primary " style="margin-top:auto;width: max-content;">See more <i
+                            <a href="<?= base_url() ?>advisory-and-consulting-services/business-intelligence" class="btn btn-primary" style="margin-top:auto;width: max-content;">See more <i
                                     class="icofont-long-arrow-up" style="transform: rotate(45deg);"></i></a>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="available-tile _light-blue2-bg">
-                            <div class="available-tile--img static-animation" data-msg-reveal>
-                                <img src="https://tumodo.io/storage/uploads/b6029132ca1358d04d6c912233addb1c.png"
+                            <div class="available-tile--img static-animation" data-msg-reveal style="margin-bottom: 24px;height: auto;background: #0055fe;padding: 10px;border-radius: 10px;">
+                                <img src="<?= base_url() ?>assets/images/services/featured/due_diligence.png"
                                     class="img-fluid" alt="">
                             </div>
-                            <div class="available-tile--title">Flights and trains</div>
+                            <div class="available-tile--title">Due Diligence</div>
                             <p>Book train tickets across Europe. Pay securely by bank transfer and get instant
                                 confirmations on your device.</p>
-                            <a href="" class="btn btn-primary " style="margin-top:auto;width: max-content;">See more <i
+                            <a href="<?= base_url() ?>advisory-and-consulting-services/due-diligence" class="btn btn-primary " style="margin-top:auto;width: max-content;">See more <i
                                     class="icofont-long-arrow-up" style="transform: rotate(45deg);"></i></a>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="available-tile _dark-blue-bg">
-                            <div class="available-tile--img">
-                                <img src="https://tumodo.io/storage/uploads/b6029132ca1358d04d6c912233addb1c.png"
-                                    class="img-fluid" alt="">
+                            <div class="available-tile--img static-animation" data-msg-reveal style="margin-bottom: 24px;height: auto;background: #01112f30;padding: 10px;border-radius: 10px;">
+                                <img src="<?= base_url() ?>assets/images/services/featured/benchmarking-services.png" class="img-fluid" alt="">
                             </div>
-                            <div class="text-white available-tile--title">Flights and trains</div>
+                            <div class="text-white available-tile--title">Benchmarking Services</div>
                             <p class="text-white">Book train tickets across Europe. Pay securely by bank transfer and
-                                get instant
-                                confirmations on your device.</p>
+                                get instant confirmations on your device.</p>
+                            <a href="<?= base_url() ?>advisory-and-consulting-services/benchmarking-services" class="btn btn-primary" style="margin-top:auto;width: max-content;background: #0048d7;">See more <i class="icofont-long-arrow-up" style="transform: rotate(45deg);"></i></a>
 
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="available-tile bg bg-secondary static-animation" data-msg-reveal>
-                            <div class="available-tile--img">
-                                <img src="https://tumodo.io/storage/uploads/b6029132ca1358d04d6c912233addb1c.png"
-                                    class="img-fluid" alt="">
+                        <div class="available-tile bg bg-secondary">
+                            <div class="available-tile--img static-animation" data-msg-reveal style="margin-bottom: 24px;height: auto;background: #01112f30;padding: 10px;border-radius: 10px;">
+                                <img src="<?= base_url() ?>assets/images/services/featured/oa-advisory-services.png" class="img-fluid" alt="">
                             </div>
-                            <div class="text-white available-tile--title">Flights and trains</div>
+                            <div class="text-white available-tile--title">Open Access Advisory Services</div>
                             <p class="text-white">Book train tickets across Europe. Pay securely by bank transfer and
-                                get instant
-                                confirmations on your device.</p>
-
+                                get instant confirmations on your device.</p>
+                            <a href="<?= base_url() ?>advisory-and-consulting-services/open-access-services" class="btn btn-primary" style="margin-top:auto;width: max-content;">See more <i class="icofont-long-arrow-up" style="transform: rotate(45deg);"></i></a>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="available-tile _light-grey-bg static-animation" data-msg-reveal>
-                            <div class="available-tile--img">
-                                <img src="https://tumodo.io/storage/uploads/b6029132ca1358d04d6c912233addb1c.png"
-                                    class="img-fluid" alt="">
+                        <div class="available-tile _light-grey-bg h-100">
+                            <div class="available-tile--img static-animation"  data-msg-reveal>
+                                <img src="https://eninrac.com/horizon/assets/insight-upload/stakeholder-comments-and-observations-on-the-draft-guidelines-for-the-virtual-power-purchase-agreement-vppa-.jpg"
+                                    class="img-fluid" alt="" style="border-radius: 12px;object-fit: cover;">
                             </div>
-                            <div class="available-tile--title">Eninrac Horizon latest Blog</div>
-                            <p>Book train tickets across Europe. Pay securely by bank transfer and get instant
-                                confirmations on your device.</p>
-                            <a href="https://eninrac.com/horizon/" target="_blank" class="btn btn-primary "
+                            <div class="available-tile--title">Stakeholder Comments And Observations On The Draft...</div>
+                            <p>Eninrac Consulting analyzes India’s VPPA draft guidelines, highlighting key risks, challenges, and global best practices.</p>
+                            <a href="https://eninrac.com/horizon/the-c-suite-intelligence/stakeholder-comments-and-observations-on-the-draft-guidelines-for-the-virtual-power-purchase-agreement-vppa" target="_blank" class="btn btn-primary "
                                 style="margin-top:auto;width: max-content;">See more <i class="icofont-long-arrow-up"
                                     style="transform: rotate(45deg);"></i></a>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="available-tile static-animation" data-msg-reveal style="background:#635bff;">
-                            <div class="available-tile--img">
-                                <img src="https://tumodo.io/storage/uploads/555866d0d91f504418652eb7d0d0af3b.png"
-                                    class="img-fluid" alt="">
+                        <div class="available-tile h-100" style="background:#635bff;">
+                            <div class="available-tile--img static-animation" data-msg-reveal>
+                                <img src="<?= base_url() ?>assets/images/services/featured/store.png" class="img-fluid" alt=""  style="border-radius: 12px;object-fit: cover;">
                             </div>
-                            <div class="text-white available-tile--title">Market Latest Report</div>
-                            <p class="text-white">Book train tickets across Europe. Pay securely by bank transfer and
-                                get instant
-                                confirmations on your device.</p>
-
+                            <div class="text-white available-tile--title">India Critical Minerals Market 2025-2030:</div>
+                            <p class="text-white">India's critical minerals market is projected to surpass ₹1.2 lakh crore (approx. US$15 billion) by 2030, fueled by accelerating EV adoption, renewable energy expansion,</p>
+                            <a href="https://store.eninrac.com/reports/india-critical-minerals-market-2025-2030-domestic-export-value-chain-investment-trends-and-china-comparison" target="_blank" class="btn btn-primary"
+                                style="margin-top:auto;width: max-content;background: #0048d7;">See more <i class="icofont-long-arrow-up" style="transform: rotate(45deg);"></i></a>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="available-tile _dark-blue-bg">
-                            <div class="available-tile--img static-animation" data-msg-reveal>
-                                <img src="https://tumodo.io/storage/uploads/79f723253c25e22d7a8638a46b32b69a.png"
+                            <div class="available-tile--img static-animation" data-msg-reveal style="margin-bottom: 24px;height: auto;background: #01112f30;padding: 10px;border-radius: 10px;">
+                                <img src="<?= base_url() ?>assets/images/services/featured/24x7-support.png"
                                     class="img-fluid" alt="">
                             </div>
                             <div class="text-white available-tile--title static-animation" data-msg-reveal>24/7 customer
@@ -1415,9 +1409,8 @@
                     </div>
                     <div class="col-md-6">
                         <div class="available-tile _light-grey-bg">
-                            <div class="available-tile--img static-animation" data-msg-reveal>
-                                <img src="https://tumodo.io/storage/uploads/b6029132ca1358d04d6c912233addb1c.png"
-                                    class="img-fluid" alt="">
+                            <div class="available-tile--img static-animation" data-msg-reveal style="margin-bottom: 24px;height: auto;background: #0055fe;padding: 10px;border-radius: 10px;">
+                                <img src="<?= base_url() ?>assets/images/services/featured/get-extra-with-eninrac.png" class="img-fluid" alt="">
                             </div>
                             <div class=" available-tile--title">Get extra, with Eninrac</div>
                             <p class="">Book train tickets across Europe. Pay securely by bank transfer and
