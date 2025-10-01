@@ -20,7 +20,7 @@
                     </div>
                     <div class="col-md-7">
                         <div class="border-radius-40">
-                            <img src="<?= base_url(); ?>assets/images/aandc.png" alt="Bridging gaps in  &amp; Market Research" class="img-fluid">
+                            <img src="<?= base_url(); ?>assets/images/services/business-intelligence.png" alt="Bridging gaps in  &amp; Market Research" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -1323,11 +1323,10 @@
                 <div class="row row-gap-4">
                     <div class="col-md-6">
                         <div class="available-tile _light-grey-bg">
-                            <div class="available-tile--img">
-                                <img src="https://tumodo.io/storage/uploads/b6029132ca1358d04d6c912233addb1c.png"
-                                    class="img-fluid" alt="">
+                            <div class="available-tile--img static-animation" style="height: 165px;" data-msg-reveal>
+                                <img src="<?= base_url(); ?>assets/images/services/featured/advisory-services.png" class="img-fluid" alt="">
                             </div>
-                            <div class="available-tile--title">Flights and trains</div>
+                            <div class="available-tile--title">Advisory Consulting Services</div>
                             <p>Book train tickets across Europe. Pay securely by bank transfer and get instant
                                 confirmations on your device.</p>
                             <a href="" class="btn btn-primary " style="margin-top:auto;width: max-content;">See more <i
@@ -1336,11 +1335,10 @@
                     </div>
                     <div class="col-md-6">
                         <div class="available-tile _light-blue2-bg">
-                            <div class="available-tile--img static-animation" data-msg-reveal>
-                                <img src="https://tumodo.io/storage/uploads/b6029132ca1358d04d6c912233addb1c.png"
-                                    class="img-fluid" alt="">
+                            <div class="available-tile--img static-animation" style="height: 165px;" data-msg-reveal>
+                                <img src="<?= base_url(); ?>assets/images/services/featured/due-diligence.png" class="img-fluid" alt="">
                             </div>
-                            <div class="available-tile--title">Flights and trains</div>
+                            <div class="available-tile--title">Due Diligence</div>
                             <p>Book train tickets across Europe. Pay securely by bank transfer and get instant
                                 confirmations on your device.</p>
                             <a href="" class="btn btn-primary " style="margin-top:auto;width: max-content;">See more <i

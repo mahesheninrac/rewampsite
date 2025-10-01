@@ -52,7 +52,7 @@
                                 <li class="row service-item">
                                     <div class="col-md-5">
                                         <div class="d-flex w-100 align-items-center justify-content-between gap-2 service-link" data-service="services-2">
-                                            <span class="fw-500">Market Tracking & Sizing</span>
+                                            <span class="fw-500">Market Research Service</span>
                                             <i class="icofont-rounded-right"></i>
                                         </div>
                                     </div>
@@ -60,7 +60,7 @@
                                         <div class="">
                                             <div class="servicemenu-wrap">
                                                 <div style="width: calc(100% - 25px);border-bottom: 1px solid #d8d7d7;" class="d-flex justify-content-between align-items-center gap-5 mb-3">
-                                                    <h3 class="fs-16 fw-bold">Market Tracking &amp; Sizing</h3>
+                                                    <h3 class="fs-16 fw-600">Market Research Service</h3>
                                                     <a href="<?= base_url() ?>market-research-service" class="position-relative fs-14" style="left: -15px;">View <span class="ms-2 cta -arrow"></span></a>
                                                 </div>
                                                 <ul class="servicemenu-ul">
@@ -106,7 +106,7 @@
                                         <div class="">
                                             <div class="servicemenu-wrap">
                                                 <div style="width: calc(100% - 25px);border-bottom: 1px solid #d8d7d7;" class="d-flex justify-content-between align-items-center gap-5 mb-3">
-                                                    <h3 class="fs-16 fw-bold">Strategy & Innovation</h3>
+                                                    <h3 class="fs-16 fw-600">Strategy & Innovation</h3>
                                                     <a href="<?= base_url() ?>strategy-and-innovation" class="position-relative fs-14" style="left: -15px;">View <span class="ms-2 cta -arrow"></span></a>
                                                 </div>
                                                 <ul class="servicemenu-ul">

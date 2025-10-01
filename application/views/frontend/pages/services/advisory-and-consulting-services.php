@@ -222,6 +222,8 @@
                             <g class="cls-36">
                                 <circle xmlns="http://www.w3.org/2000/svg" class="dropAnimation" data-delay="1200"
                                     id="white-blank" cx="363.41" cy="309.6" r="37.83" fill="#fff" />
+                                <circle xmlns="http://www.w3.org/2000/svg" class="dropAnimation" data-delay="1200"
+                                    id="white-blank" cx="363.41" cy="309.6" r="37.83" fill="#fff" />
                                 <g class="dropAnimation" data-delay="1300" id="Mckinsy">
                                     <path class="cls-35"
                                         d="M549.62,329.55c-12.32,40.29-54.7,63.04-94.66,50.83-39.96-12.22-62.37-54.78-50.05-95.07,12.32-40.29,54.7-63.04,94.66-50.83,39.96,12.22,62.37,54.78,50.05,95.07Z">
@@ -3000,6 +3002,8 @@
             <div class=" trial-form--tumodo-image d-none d-md-block">
                 <img src="<?= base_url(); ?>assets/images/bridge-logo.svg"
                     style="transform: scale(1.7) translate(140px, 59px);" alt="">
+                <img src="<?= base_url(); ?>assets/images/bridge-logo.svg"
+                    style="transform: scale(1.7) translate(140px, 59px);" alt="">
             </div>
         </div>
     </div>
@@ -3018,8 +3022,7 @@
                 </div>
                 <div class="col-md-7">
                     <div class="">
-                        <img src="https://tumodo.io/storage/uploads/47d2ab8932cd2d556e5f88865bae1cc5.png"
-                            class="img-fluid" alt="">
+                        <img src="<?= base_url(); ?>assets/images/services/faq-banner.png" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
@@ -3035,87 +3038,103 @@
                 <div class="row row-gap-4">
                     <div class="col-md-6">
                         <div class="available-tile _light-grey-bg">
-                            <div class="available-tile--img">
-                                <img src="https://tumodo.io/storage/uploads/b6029132ca1358d04d6c912233addb1c.png"
+                            <div class="available-tile--img static-animation" data-msg-reveal
+                                style="margin-bottom: 24px;height: auto;background: #0055fe;padding: 10px;border-radius: 10px;">
+                                <img src="<?= base_url() ?>assets/images/services/featured/business-intelligence.png"
                                     class="img-fluid" alt="">
                             </div>
-                            <div class="available-tile--title">Flights and trains</div>
+                            <div class="available-tile--title">Business Intelligence</div>
                             <p>Book train tickets across Europe. Pay securely by bank transfer and get instant
                                 confirmations on your device.</p>
-                            <a href="" class="btn btn-primary " style="margin-top:auto;width: max-content;">See more <i
+                            <a href="<?= base_url() ?>advisory-and-consulting-services/business-intelligence"
+                                class="btn btn-primary" style="margin-top:auto;width: max-content;">See more <i
                                     class="icofont-long-arrow-up" style="transform: rotate(45deg);"></i></a>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="available-tile _light-blue2-bg">
-                            <div class="available-tile--img static-animation" data-msg-reveal>
-                                <img src="https://tumodo.io/storage/uploads/b6029132ca1358d04d6c912233addb1c.png"
+                            <div class="available-tile--img static-animation" data-msg-reveal
+                                style="margin-bottom: 24px;height: auto;background: #0055fe;padding: 10px;border-radius: 10px;">
+                                <img src="<?= base_url() ?>assets/images/services/featured/due_diligence.png"
                                     class="img-fluid" alt="">
                             </div>
-                            <div class="available-tile--title">Flights and trains</div>
+                            <div class="available-tile--title">Due Diligence</div>
                             <p>Book train tickets across Europe. Pay securely by bank transfer and get instant
                                 confirmations on your device.</p>
-                            <a href="" class="btn btn-primary " style="margin-top:auto;width: max-content;">See more <i
+                            <a href="<?= base_url() ?>advisory-and-consulting-services/due-diligence"
+                                class="btn btn-primary " style="margin-top:auto;width: max-content;">See more <i
                                     class="icofont-long-arrow-up" style="transform: rotate(45deg);"></i></a>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="available-tile _dark-blue-bg">
-                            <div class="available-tile--img">
-                                <img src="https://tumodo.io/storage/uploads/b6029132ca1358d04d6c912233addb1c.png"
+                            <div class="available-tile--img static-animation" data-msg-reveal
+                                style="margin-bottom: 24px;height: auto;background: #01112f30;padding: 10px;border-radius: 10px;">
+                                <img src="<?= base_url() ?>assets/images/services/featured/benchmarking-services.png"
                                     class="img-fluid" alt="">
                             </div>
-                            <div class="text-white available-tile--title">Flights and trains</div>
+                            <div class="text-white available-tile--title">Benchmarking Services</div>
                             <p class="text-white">Book train tickets across Europe. Pay securely by bank transfer and
-                                get instant
-                                confirmations on your device.</p>
+                                get instant confirmations on your device.</p>
+                            <a href="<?= base_url() ?>advisory-and-consulting-services/benchmarking-services"
+                                class="btn btn-primary"
+                                style="margin-top:auto;width: max-content;background: #0048d7;">See more <i
+                                    class="icofont-long-arrow-up" style="transform: rotate(45deg);"></i></a>
 
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="available-tile bg bg-secondary static-animation" data-msg-reveal>
-                            <div class="available-tile--img">
-                                <img src="https://tumodo.io/storage/uploads/b6029132ca1358d04d6c912233addb1c.png"
+                        <div class="available-tile bg bg-secondary">
+                            <div class="available-tile--img static-animation" data-msg-reveal
+                                style="margin-bottom: 24px;height: auto;background: #01112f30;padding: 10px;border-radius: 10px;">
+                                <img src="<?= base_url() ?>assets/images/services/featured/oa-advisory-services.png"
                                     class="img-fluid" alt="">
                             </div>
-                            <div class="text-white available-tile--title">Flights and trains</div>
+                            <div class="text-white available-tile--title">Open Access Advisory Services</div>
                             <p class="text-white">Book train tickets across Europe. Pay securely by bank transfer and
-                                get instant
-                                confirmations on your device.</p>
-
+                                get instant confirmations on your device.</p>
+                            <a href="<?= base_url() ?>advisory-and-consulting-services/open-access-services"
+                                class="btn btn-primary" style="margin-top:auto;width: max-content;">See more <i
+                                    class="icofont-long-arrow-up" style="transform: rotate(45deg);"></i></a>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="available-tile _light-grey-bg static-animation" data-msg-reveal>
-                            <div class="available-tile--img">
-                                <img src="https://tumodo.io/storage/uploads/b6029132ca1358d04d6c912233addb1c.png"
-                                    class="img-fluid" alt="">
+                        <div class="available-tile _light-grey-bg h-100">
+                            <div class="available-tile--img static-animation" data-msg-reveal>
+                                <img src="https://eninrac.com/horizon/assets/insight-upload/stakeholder-comments-and-observations-on-the-draft-guidelines-for-the-virtual-power-purchase-agreement-vppa-.jpg"
+                                    class="img-fluid" alt="" style="border-radius: 12px;object-fit: cover;">
                             </div>
-                            <div class="available-tile--title">Eninrac Horizon latest Blog</div>
-                            <p>Book train tickets across Europe. Pay securely by bank transfer and get instant
-                                confirmations on your device.</p>
-                            <a href="https://eninrac.com/horizon/" target="_blank" class="btn btn-primary "
-                                style="margin-top:auto;width: max-content;">See more <i class="icofont-long-arrow-up"
-                                    style="transform: rotate(45deg);"></i></a>
+                            <div class="available-tile--title">Stakeholder Comments And Observations On The Draft...
+                            </div>
+                            <p>Eninrac Consulting analyzes India’s VPPA draft guidelines, highlighting key risks,
+                                challenges, and global best practices.</p>
+                            <a href="https://eninrac.com/horizon/the-c-suite-intelligence/stakeholder-comments-and-observations-on-the-draft-guidelines-for-the-virtual-power-purchase-agreement-vppa"
+                                target="_blank" class="btn btn-primary " style="margin-top:auto;width: max-content;">See
+                                more <i class="icofont-long-arrow-up" style="transform: rotate(45deg);"></i></a>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="available-tile static-animation" data-msg-reveal style="background:#635bff;">
-                            <div class="available-tile--img">
-                                <img src="https://tumodo.io/storage/uploads/555866d0d91f504418652eb7d0d0af3b.png"
-                                    class="img-fluid" alt="">
+                        <div class="available-tile h-100" style="background:#635bff;">
+                            <div class="available-tile--img static-animation" data-msg-reveal>
+                                <img src="<?= base_url() ?>assets/images/services/featured/store.png" class="img-fluid"
+                                    alt="" style="border-radius: 12px;object-fit: cover;">
                             </div>
-                            <div class="text-white available-tile--title">Market Latest Report</div>
-                            <p class="text-white">Book train tickets across Europe. Pay securely by bank transfer and
-                                get instant
-                                confirmations on your device.</p>
-
+                            <div class="text-white available-tile--title">India Critical Minerals Market 2025-2030:
+                            </div>
+                            <p class="text-white">India's critical minerals market is projected to surpass ₹1.2 lakh
+                                crore (approx. US$15 billion) by 2030, fueled by accelerating EV adoption, renewable
+                                energy expansion,</p>
+                            <a href="https://store.eninrac.com/reports/india-critical-minerals-market-2025-2030-domestic-export-value-chain-investment-trends-and-china-comparison"
+                                target="_blank" class="btn btn-primary"
+                                style="margin-top:auto;width: max-content;background: #0048d7;">See more <i
+                                    class="icofont-long-arrow-up" style="transform: rotate(45deg);"></i></a>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="available-tile _dark-blue-bg">
-                            <div class="available-tile--img static-animation" data-msg-reveal>
-                                <img src="https://tumodo.io/storage/uploads/79f723253c25e22d7a8638a46b32b69a.png"
+                            <div class="available-tile--img static-animation" data-msg-reveal
+                                style="margin-bottom: 24px;height: auto;background: #01112f30;padding: 10px;border-radius: 10px;">
+                                <img src="<?= base_url() ?>assets/images/services/featured/24x7-support.png"
                                     class="img-fluid" alt="">
                             </div>
                             <div class="text-white available-tile--title static-animation" data-msg-reveal>24/7 customer
@@ -3127,8 +3146,9 @@
                     </div>
                     <div class="col-md-6">
                         <div class="available-tile _light-grey-bg">
-                            <div class="available-tile--img static-animation" data-msg-reveal>
-                                <img src="https://tumodo.io/storage/uploads/b6029132ca1358d04d6c912233addb1c.png"
+                            <div class="available-tile--img static-animation" data-msg-reveal
+                                style="margin-bottom: 24px;height: auto;background: #0055fe;padding: 10px;border-radius: 10px;">
+                                <img src="<?= base_url() ?>assets/images/services/featured/get-extra-with-eninrac.png"
                                     class="img-fluid" alt="">
                             </div>
                             <div class=" available-tile--title">Get extra, with Eninrac</div>
@@ -3157,9 +3177,9 @@
                             <p>Didn't find the answer? <br> Email us at <a
                                     href="mailto:connect@eninrac.com">connect@eninrac.com</a>
                             </p>
-                            <div class="faq-block--tumodo-image">
-                                <img loading="lazy" src="https://tumodo.io/img/tumodo-main.svg" alt="Tumodo element">
-                            </div>
+                            <!-- <div class="faq-block--tumodo-image">
+                    <img loading="lazy" src="https://tumodo.io/img/tumodo-main.svg" alt="Tumodo element">
+                </div> -->
                         </div>
                     </div>
                     <div class="col-md-7">
