@@ -19,7 +19,7 @@ class Home_Controller extends Default_Controller
     public function about()
     {
         $this->load->view('frontend/theme', [
-            'theme' => 'about',
+            'theme' => 'company/about',
             'title' => 'Eco System Reports',
             'meta' => [
                 'title' => 'Eco System Reports',
@@ -33,7 +33,20 @@ class Home_Controller extends Default_Controller
     public function career()
     {
         $this->load->view('frontend/theme', [
-            'theme' => 'career',
+            'theme' => 'company/career',
+            'title' => 'Eco System Reports',
+            'meta' => [
+                'title' => 'Eco System Reports',
+                'description' => 'Eco System Reports', // Add your description
+                'keywords' => 'Eco System Reports',
+            ],
+            'default_page' => false,
+        ]);
+    }
+    public function contact()
+    {
+        $this->load->view('frontend/theme', [
+            'theme' => 'company/contact',
             'title' => 'Eco System Reports',
             'meta' => [
                 'title' => 'Eco System Reports',

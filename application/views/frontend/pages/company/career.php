@@ -23,101 +23,106 @@
                     </div>
                 </div>
                 <div class="col-md-1"></div>
-                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                    <div class="video-block">
+                        <img loading="lazy" src="https://tumodo.io/storage/uploads/9aea38fd004488abedc8db5c86e42a49.png"
+                            style="width: 500px; height: 314px;object-fit:cover" alt="">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
 <style>
+.facts-block {
+    padding: 180px 0;
+}
+
+.facts.js-facts-grid {
+    height: 1000px;
+    transition: height 0.2s linear;
+}
+
+.facts-stamp {
+    position: absolute;
+    left: 30%;
+    top: 0;
+    width: 40%;
+    height: 40px;
+}
+
+.fact {
+    width: calc(25% - 20px * 3 / 4);
+    padding: 32px;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    transition: top 0.8s linear 0.1s, left 0.8s linear 0.1s;
+}
+
+
+
+.fact:nth-child(2) {
+    top: 12%;
+    left: 37%;
+}
+
+.fact:nth-child(3) {
+    top: 0%;
+    left: 76%;
+}
+
+.fact:nth-child(4) {
+    top: 13%;
+    left: 74%;
+}
+
+.fact:nth-child(5) {
+    top: 23%;
+    left: 64%;
+}
+
+.fact__icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+
+.fact__text {
+    font-size: 18px;
+    line-height: 120%;
+}
+
+@media screen and (max-width: 2599px) {
     .facts-block {
-        padding: 180px 0;
+        padding: 80px 0 120px;
     }
 
-    .facts.js-facts-grid {
-        height: 1000px;
-        transition: height 0.2s linear;
-    }
-
-    .facts-stamp {
-        position: absolute;
-        left: 30%;
-        top: 0;
-        width: 40%;
-        height: 40px;
-    }
-
+    /* fact */
     .fact {
-        width: calc(25% - 20px * 3 / 4);
-        padding: 32px;
-        border-radius: 40px;
-        margin-bottom: 20px;
-        transition: top 0.8s linear 0.1s, left 0.8s linear 0.1s;
-    }
-
-
-
-    .fact:nth-child(2) {
-        top: 12%;
-        left: 37%;
-    }
-
-    .fact:nth-child(3) {
-        top: 0%;
-        left: 76%;
-    }
-
-    .fact:nth-child(4) {
-        top: 13%;
-        left: 74%;
-    }
-
-    .fact:nth-child(5) {
-        top: 23%;
-        left: 64%;
+        padding: 24px;
+        border-radius: 32px;
     }
 
     .fact__icon {
-        width: 52px;
-        height: 52px;
-        border-radius: 50%;
-        background-color: #fff;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 24px;
+        width: 32px;
+        height: 32px;
+        margin-bottom: 16px;
     }
-
 
     .fact__text {
-        font-size: 18px;
-        line-height: 120%;
+        font-size: 16px;
     }
+}
 
-    @media screen and (max-width: 2599px) {
-        .facts-block {
-            padding: 80px 0 120px;
-        }
-
-        /* fact */
-        .fact {
-            padding: 24px;
-            border-radius: 32px;
-        }
-
-        .fact__icon {
-            width: 32px;
-            height: 32px;
-            margin-bottom: 16px;
-        }
-
-        .fact__text {
-            font-size: 16px;
-        }
-    }
-
-    .border-radius-32 {
-        border-radius: 32px;
-    }
+.border-radius-32 {
+    border-radius: 32px;
+}
 </style>
 <section>
     <div class="container">
@@ -213,9 +218,9 @@
                 </div>
                 <div class="col-md-1"></div>
                 <div class="col-md-6">
-                    <div>
-                        <img src="https://Eninrac.io/storage/uploads/42efe53f8e8fc524fc34e07eb2c82f09.webp"
-                            alt="group hr discussion " class="img-fluid border-radius-32" style="max-width: 500px;">
+                    <div class="video-block">
+                        <img loading="lazy" style="width: 500px; height: 314px;object-fit:cover"
+                            src="https://tumodo.io/storage/uploads/42efe53f8e8fc524fc34e07eb2c82f09.webp" alt="">
                     </div>
                 </div>
             </div>
