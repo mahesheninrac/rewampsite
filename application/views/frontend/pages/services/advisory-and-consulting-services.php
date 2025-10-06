@@ -1,3 +1,14 @@
+<style>
+    .owl-carousel-showcase .owl-item.active.center .item-wrapper img {
+        transform: scale(1.14);
+        transition: all 0.3s ease;
+    }
+
+    .owl-carousel-showcase .owl-item .item-wrapper {
+        padding: 15px;
+    }
+</style>
+
 <section class="page-service">
     <div class="content">
         <div class="wrap">
@@ -1153,7 +1164,7 @@
                 <h2 class="mb-4">Access a future-proof business travel platform</h2>
                 <div class="row row-gap-3">
                     <div class="col-md-6">
-                        <div class="service-tile _light-grey-bg static-animation" data-msg-reveal data-delay="500">
+                        <div class="service-tile _light-grey-bg static-animation h-100" data-msg-reveal data-delay="500">
                             <div class="text-start">
                                 <h3 class="service-tile--title">User-friendly design</h3>
                                 <p>Tumodo’s user-friendly interface helps navigate all travel-related processes easily, making organising business travel simple and efficient.</p>
@@ -1161,25 +1172,23 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="service-tile _light-grey-bg static-animation" data-msg-reveal data-delay="500">
-                            <div class="text-end">
-                                <h3 class="service-tile--title">6th block Lorem ipsum dolor</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing
-                                    elit. Dolorum, voluptatum.</p>
-                            </div>
+                        <div class="service-tile _light-grey-bg static-animation p-0 h-100" data-msg-reveal data-delay="500">
+                            <video id="videoPlayer-placeholder" class="w-100" oncontextmenu="return false" autoplay muted loop>
+                                <source src="<?= base_url() ?>assets/video/block-6.mp4">
+                                Your browser does not support HTML video.
+                            </video>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="service-tile _light-grey-bg static-animation" data-msg-reveal data-delay="500">
-                            <div class="text-start">
-                                <h3 class="service-tile--title">7th block Lorem ipsum dolor</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing
-                                    elit. Dolorum, voluptatum.</p>
-                            </div>
+                        <div class="service-tile _light-grey-bg static-animation p-0 h-100" data-msg-reveal data-delay="500">
+                            <video id="videoPlayer-placeholder" class="w-100" oncontextmenu="return false" autoplay muted loop>
+                                <source src="<?= base_url() ?>assets/video/block-7.mp4">
+                                Your browser does not support HTML video.
+                            </video>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="service-tile _light-grey-bg static-animation" data-msg-reveal data-delay="500">
+                        <div class="service-tile _light-grey-bg static-animation h-100" data-msg-reveal data-delay="500">
                             <div class="text-end">
                                 <h3 class="service-tile--title">Monitoring flights</h3>
                                 <p>Track employee flights directly in your personal account. Receive instant notifications about flight cancellations or delays in the most convenient way.</p>
@@ -1187,7 +1196,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="service-tile _light-grey-bg static-animation" data-msg-reveal data-delay="500">
+                        <div class="service-tile _light-grey-bg static-animation h-100" data-msg-reveal data-delay="500">
                             <div class="text-start">
                                 <h3 class="service-tile--title">Budget control</h3>
                                 <p>Travel policies and approval schemes help to save up to 35% of the company’s budget. Give employees access to bookings without the risk of overpayments.</p>
@@ -1195,24 +1204,40 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="service-tile _light-grey-bg static-animation" data-msg-reveal data-delay="500">
-                            <div class="text-end">
-                                <h3 class="service-tile--title">10th block Lorem ipsum dolor</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing
-                                    elit. Dolorum, voluptatum.</p>
+                        <div class="service-tile _light-grey-bg static-animation p-0 h-100" data-msg-reveal data-delay="500">
+                            <video id="videoPlayer-placeholder" class="w-100" oncontextmenu="return false" autoplay muted loop>
+                                <source src="<?= base_url() ?>assets/video/block-budget.mp4">
+                                Your browser does not support HTML video.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="_light-grey-bg h-100">
+                            <div class="d-flex flex-column justify-content-center h-100">
+                                <div class="owl-carousel-showcase">
+                                    <div class="owl-carousel owl-theme">
+                                        <div class="item-wrapper">
+                                            <img src="https://eninrac.com/assets/upload/transformers-in-transition-mapping-india-01.jpg" alt="">
+                                        </div>
+                                        <div class="item-wrapper">
+                                            <img src="https://eninrac.com/assets/upload/critical_minerals_market_flyer-2.jpg" alt="">
+                                        </div>
+                                        <div class="item-wrapper">
+                                            <img src="https://eninrac.com/assets/upload/critical_minerals_market_flyer-2.jpg" alt="">
+                                        </div>
+                                        <div class="item-wrapper">
+                                            <img src="https://eninrac.com/assets/upload/critical_minerals_market_flyer-2.jpg" alt="">
+                                        </div>
+                                        <div class="item-wrapper">
+                                            <img src="https://eninrac.com/assets/upload/critical_minerals_market_flyer-2.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="service-tile _light-grey-bg static-animation" data-msg-reveal data-delay="500">
-                            <div class="text-start">
-                                <h3 class="service-tile--title">Analytics and reporting</h3>
-                                <p>Monitor your airfare costs and get advanced statistics online. Our new reporting feature shows you price trends for your trips and compares the average booking price against the booking window. This helps you book smartly and save money.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="service-tile _light-grey-bg static-animation" data-msg-reveal data-delay="500">
+                        <div class="service-tile _light-grey-bg static-animation h-100" data-msg-reveal data-delay="500">
                             <div class="text-start">
                                 <h3 class="service-tile--title">12th block Lorem ipsum dolor</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, voluptatum.</p>
@@ -1220,7 +1245,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="service-tile _light-grey-bg static-animation" data-msg-reveal data-delay="500">
+                        <div class="service-tile _light-grey-bg static-animation h-100" data-msg-reveal data-delay="500">
                             <div class="text-start">
                                 <h3 class="service-tile--title">Online booking</h3>
                                 <p>Everything you are used to and even more, in one platform. Advanced functionality, flexible filters and selection of flights according to your preferences.</p>
@@ -1228,12 +1253,11 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="service-tile _light-grey-bg static-animation" data-msg-reveal data-delay="500">
-                            <div class="text-end">
-                                <h3 class="service-tile--title">14th block Lorem ipsum dolor</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing
-                                    elit. Dolorum, voluptatum.</p>
-                            </div>
+                        <div class="service-tile _light-grey-bg static-animation p-0 h-100" data-msg-reveal data-delay="500">
+                            <video id="videoPlayer-placeholder" class="w-100" oncontextmenu="return false" autoplay muted loop>
+                                <source src="<?= base_url() ?>assets/video/block-12.mp4">
+                                Your browser does not support HTML video.
+                            </video>
                         </div>
                     </div>
                 </div>
@@ -1372,7 +1396,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="available-tile _light-grey-bg h-100">
-                            <div class="available-tile--img static-animation"  data-msg-reveal>
+                            <div class="available-tile--img static-animation" data-msg-reveal>
                                 <img src="https://eninrac.com/horizon/assets/insight-upload/stakeholder-comments-and-observations-on-the-draft-guidelines-for-the-virtual-power-purchase-agreement-vppa-.jpg"
                                     class="img-fluid" alt="" style="border-radius: 12px;object-fit: cover;">
                             </div>
@@ -1386,7 +1410,7 @@
                     <div class="col-md-6">
                         <div class="available-tile h-100" style="background:#635bff;">
                             <div class="available-tile--img static-animation" data-msg-reveal>
-                                <img src="<?= base_url() ?>assets/images/services/featured/store.png" class="img-fluid" alt=""  style="border-radius: 12px;object-fit: cover;">
+                                <img src="<?= base_url() ?>assets/images/services/featured/store.png" class="img-fluid" alt="" style="border-radius: 12px;object-fit: cover;">
                             </div>
                             <div class="text-white available-tile--title">India Critical Minerals Market 2025-2030:</div>
                             <p class="text-white">India's critical minerals market is projected to surpass ₹1.2 lakh crore (approx. US$15 billion) by 2030, fueled by accelerating EV adoption, renewable energy expansion,</p>
