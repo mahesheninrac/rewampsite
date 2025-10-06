@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-md-5">
                     <div class="">
-                        <h1>Join us at Eninrac</h1>
+                        <h1>Come work with us </h1>
                         <div class="main-first__text">
 
                             <p class="fs-16 text-dark">Eninrac is known for its commitment to transforming the future of
@@ -34,95 +34,95 @@
     </div>
 </section>
 <style>
-.facts-block {
-    padding: 180px 0;
-}
-
-.facts.js-facts-grid {
-    height: 1000px;
-    transition: height 0.2s linear;
-}
-
-.facts-stamp {
-    position: absolute;
-    left: 30%;
-    top: 0;
-    width: 40%;
-    height: 40px;
-}
-
-.fact {
-    width: calc(25% - 20px * 3 / 4);
-    padding: 32px;
-    border-radius: 40px;
-    margin-bottom: 20px;
-    transition: top 0.8s linear 0.1s, left 0.8s linear 0.1s;
-}
-
-
-
-.fact:nth-child(2) {
-    top: 12%;
-    left: 37%;
-}
-
-.fact:nth-child(3) {
-    top: 0%;
-    left: 76%;
-}
-
-.fact:nth-child(4) {
-    top: 13%;
-    left: 74%;
-}
-
-.fact:nth-child(5) {
-    top: 23%;
-    left: 64%;
-}
-
-.fact__icon {
-    width: 52px;
-    height: 52px;
-    border-radius: 50%;
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 24px;
-}
-
-
-.fact__text {
-    font-size: 18px;
-    line-height: 120%;
-}
-
-@media screen and (max-width: 2599px) {
     .facts-block {
-        padding: 80px 0 120px;
+        padding: 180px 0;
     }
 
-    /* fact */
+    .facts.js-facts-grid {
+        height: 1000px;
+        transition: height 0.2s linear;
+    }
+
+    .facts-stamp {
+        position: absolute;
+        left: 30%;
+        top: 0;
+        width: 40%;
+        height: 40px;
+    }
+
     .fact {
-        padding: 24px;
-        border-radius: 32px;
+        width: calc(25% - 20px * 3 / 4);
+        padding: 32px;
+        border-radius: 40px;
+        margin-bottom: 20px;
+        transition: top 0.8s linear 0.1s, left 0.8s linear 0.1s;
+    }
+
+
+
+    .fact:nth-child(2) {
+        top: 12%;
+        left: 37%;
+    }
+
+    .fact:nth-child(3) {
+        top: 0%;
+        left: 76%;
+    }
+
+    .fact:nth-child(4) {
+        top: 13%;
+        left: 74%;
+    }
+
+    .fact:nth-child(5) {
+        top: 23%;
+        left: 64%;
     }
 
     .fact__icon {
-        width: 32px;
-        height: 32px;
-        margin-bottom: 16px;
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 24px;
     }
+
 
     .fact__text {
-        font-size: 16px;
+        font-size: 18px;
+        line-height: 120%;
     }
-}
 
-.border-radius-32 {
-    border-radius: 32px;
-}
+    @media screen and (max-width: 2599px) {
+        .facts-block {
+            padding: 80px 0 120px;
+        }
+
+        /* fact */
+        .fact {
+            padding: 24px;
+            border-radius: 32px;
+        }
+
+        .fact__icon {
+            width: 32px;
+            height: 32px;
+            margin-bottom: 16px;
+        }
+
+        .fact__text {
+            font-size: 16px;
+        }
+    }
+
+    .border-radius-32 {
+        border-radius: 32px;
+    }
 </style>
 <section>
     <div class="container">

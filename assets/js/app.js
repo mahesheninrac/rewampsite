@@ -68,6 +68,22 @@ function handleImgScroll() {
 window.addEventListener('scroll', handleImgScroll);
 window.addEventListener('load', handleImgScroll);
 
+$('.service-tile .owl-carousel').owlCarousel({
+    items: 1,
+    loop: true,
+    margin: 10,
+    dots: false,
+    nav: false,
+    autoplay: true,
+    center: true,
+    autoplayTimeout: 3000,
+    responsive: {
+        0: { items: 2 },
+        600: { items: 2 },
+        1000: { items: 2 }
+    }
+});
+
 
 
 $('.logo-carousel').owlCarousel({

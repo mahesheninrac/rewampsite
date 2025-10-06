@@ -3083,7 +3083,7 @@
                         </div>
 
                         <script>
-                            window.addEventListener("DOMContentLoaded", function () {
+                            window.addEventListener("DOMContentLoaded", function() {
                                 revealELs(".dropAnimation", "animate-top-bottom")
                             })
                         </script>

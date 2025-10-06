@@ -156,10 +156,19 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="service-tile _light-grey-bg static-animation" data-msg-reveal data-delay="500">
-                            <div class="text-start">
-                                <h3 class="service-tile--title">12th block Lorem ipsum dolor</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, voluptatum.</p>
+                        <div class="service-tile _light-grey-bg p-0 static-animation" data-msg-reveal data-delay="500">
+                            <div class="">
+                                <div class="owl-carousel owl-theme">
+                                    <div class="item">
+                                        <img src="<?= base_url(); ?>assets/images/services/carousel-image-1.webp"
+                                            alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="<?= base_url(); ?>assets/images/services/carousel-image-1.webp"
+                                            alt="">
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -33,7 +33,6 @@
     </div>
 </section>
 
-
 <section>
     <div class="container">
         <div class="py-5">
@@ -409,7 +408,7 @@
 
 
 <script>
-    window.addEventListener("DOMContentLoaded", function() {
-        revealELs(".dropAnimation", "animate-top-bottom")
-    })
+window.addEventListener("DOMContentLoaded", function() {
+    revealELs(".dropAnimation", "animate-top-bottom")
+})
 </script>
