@@ -247,6 +247,30 @@
  <script src="<?= base_url() ?>assets/js/app.js"></script>
  <script src="<?= base_url() ?>assets/js/script.js"></script>
 
+ <script>
+     $('.owl-carousel-showcase .owl-carousel').owlCarousel({
+         items: 1,
+         loop: true,
+         margin: 5,
+         dots: false,
+         nav: false,
+         autoplay: true,
+         center: true,
+         autoplayTimeout: 3000,
+         responsive: {
+             0: {
+                 items: 2
+             },
+             600: {
+                 items: 2
+             },
+             1000: {
+                 items: 2
+             }
+         }
+     });
+ </script>
+
  </body>
 
  </html>
