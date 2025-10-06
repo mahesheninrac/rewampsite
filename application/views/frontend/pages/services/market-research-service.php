@@ -210,12 +210,12 @@
                                 <input class="form-control" type="text" name="company" placeholder="company">
                             </div>
                         </div>
-                        <div class="col-md-6 ">
+                        <div class="col-md-6">
                             <div class="form-group">
                                 <input class="form-control" type="email" name="email" placeholder="email">
                             </div>
                         </div>
-                        <div class="col-md-6 ">
+                        <div class="col-md-6">
                             <div class="form-group">
                                 <input class="form-control" type="number" name="phone" placeholder="+91 1234567890">
                             </div>
@@ -237,7 +237,6 @@
         </div>
     </div>
 </section>
-
 
 <section class="advantages-wrap">
     <div class="fullwidth static-animation" data-msg-reveal>
@@ -408,7 +407,7 @@
 
 
 <script>
-window.addEventListener("DOMContentLoaded", function() {
-    revealELs(".dropAnimation", "animate-top-bottom")
-})
+    window.addEventListener("DOMContentLoaded", function() {
+        revealELs(".dropAnimation", "animate-top-bottom")
+    })
 </script>
