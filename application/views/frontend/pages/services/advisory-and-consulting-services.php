@@ -425,7 +425,6 @@
                             <p class="">Book train tickets across Europe. Pay securely by bank transfer and
                                 get instant
                                 confirmations on your device.</p>
-
                         </div>
                     </div>
                 </div>

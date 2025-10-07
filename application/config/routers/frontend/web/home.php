@@ -4,3 +4,4 @@ $route["privacy-policy"] = 'Home_Controller/privacy_policy';
 $route["about"] = 'Home_Controller/about';
 $route["career"] = 'Home_Controller/career';
 $route["contact"] = 'Home_Controller/contact';
+$route["market-response"] = 'Home_Controller/marketresponse';

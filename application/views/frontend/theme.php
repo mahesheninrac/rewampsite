@@ -6,6 +6,14 @@ if (!defined('BASEPATH')) {
 // require(APPPATH . 'views/functions/autoload.php');
 $template = 'layouts';
 
+$folder = APPPATH . 'views/frontend/functions/';
+$a = scandir($folder);
+$a = array_diff($a, array('..', '.', 'autoload.php'));
+$a = array_values($a);
+foreach ($a as $key => $value) {
+    require($folder . $value);
+}
+
 
 defined('BASEPATH') or exit('No direct script access allowed');
 if (!empty($theme)) {
