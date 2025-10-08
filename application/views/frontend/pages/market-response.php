@@ -74,15 +74,17 @@
             "title": "Detailed market study on India’s fertilizer & bio fertilizer sector & its outlook",
             "date": "17.04.2023",
             "readTime": "7 min",
-            "link": "https://eninrac.com/market-response/detailed-market-study-on-india-rsquo-s-fertilizer-and-bio-fertilizer-sector-and-its-outlook"
+            "link": "marketsponse/detailed-market-study-on-india-rsquo-s-fertilizer-and-bio-fertilizer-sector-and-its-outlook"
         },
+
+
         {
             "img": "https://eninrac.com/assets/upload/Case_Study-SM-Jan-W2-Wednesday-2024.jpg",
             "category": "Articles",
             "title": "Detailed study upon analyzing the gas network demand for\n                        Peninsular\n                        Malaysia",
             "date": "09.05.2024",
             "readTime": "7 min",
-            "link": "https://eninrac.com/market-response/detailed-study-upon-analyzing-the-gas-network-demand-for-peninsular-malaysia"
+            "link": "market-response/detailed-study-upon-analyzing-the-gas-network-demand-for-peninsular-malaysia"
         },
         {
             "img": "https://eninrac.com/assets/upload/Case_Study-SM-Dec-W5-Friday-2023.jpg",
@@ -90,7 +92,7 @@
             "title": "Evaluating the Indian Electrical Contacts Market: A\n                        Comprehensive\n                        Analysis of Key Switchgear Manufacturers, Their Products, Applicable Voltage Ranges, and\n                        Competitive\n                        Dynamics",
             "date": "23.11.2023",
             "readTime": "3 min",
-            "link": "https://eninrac.com/market-response/evaluating-the-indian-electrical-contacts-market-a-comprehensive-analysis-of-key-switchgear-manufacturers-their-products-applicable-voltage-ranges-and-competitive-dynamics"
+            "link": "market-response/evaluating-the-indian-electrical-contacts-market-a-comprehensive-analysis-of-key-switchgear-manufacturers-their-products-applicable-voltage-ranges-and-competitive-dynamics"
         },
         {
             "img": "https://eninrac.com/assets/upload/Case-Study-SM-Oct-W3-Wednesday.jpg",
@@ -98,7 +100,7 @@
             "title": "Strategic Insights: Analyzing the Waste Management Industry and\n                        Facility Management Market Trends up to 2030",
             "date": "11.06.2025",
             "readTime": "3 min",
-            "link": "https://eninrac.com/market-response/strategic-insights-analyzing-the-waste-management-industry-and-facility-management-market-trends-up-to-2030"
+            "link": "market-response/strategic-insights-analyzing-the-waste-management-industry-and-facility-management-market-trends-up-to-2030"
         },
         {
             "img": "https://eninrac.com/assets/upload/case-study-my-sun-19-sept-2023.jpg",
@@ -106,7 +108,7 @@
             "title": "Eninrac's Dynamic Market Research Services: Empowering MYSUN\n                        with\n                        Real-Time Power Tariff Updates and Comprehensive Regulatory & Policy Insights",
             "date": "13.06.2023",
             "readTime": "9 min",
-            "link": "https://eninrac.com/market-response/eninracs-dynamic-market-research-services-empowering-mysun"
+            "link": "market-response/eninracs-dynamic-market-research-services-empowering-mysun"
         },
         {
             "img": "https://eninrac.com/assets/upload/Case_Study-SM-Aug-W1-Friday.jpg",
@@ -114,7 +116,7 @@
             "title": "Assessment and Planning for Sustainable Growth: A Case Study for\n                        Preparation of a 300 MW Wind Power Project in Gujarat",
             "date": "08.04.2025",
             "readTime": "9 min",
-            "link": "https://eninrac.com/market-response/assessment-and-planning-for-sustainable-growth-a-case-study-for-preparation-of-a-300-mw-wind-power-project-in-gujarat"
+            "link": "market-response/assessment-and-planning-for-sustainable-growth-a-case-study-for-preparation-of-a-300-mw-wind-power-project-in-gujarat"
         },
         {
             "img": "https://eninrac.com/assets/upload/Case-Study-SM-July-W3-Wednesday.jpg",
@@ -122,7 +124,7 @@
             "title": "Conducting a comprehensive study to examine the status track of\n                        power generation, transmission and distribution",
             "date": "13.07.2025",
             "readTime": "5 min",
-            "link": "https://eninrac.com/market-response/conducting-a-comprehensive-study-to-examine-the-status-track-of-power-generation-transmission-and-distribution"
+            "link": "market-response/conducting-a-comprehensive-study-to-examine-the-status-track-of-power-generation-transmission-and-distribution"
         },
         {
             "img": "https://eninrac.com/assets/upload/Case-Study-SM-June-W5-Friday.jpg",
@@ -130,7 +132,7 @@
             "title": "Transitioning to Green Energy: A Case Study on Eninrac's Due\n                        Diligence Services for Renewable Power Asset Identification",
             "date": "07.05.2025",
             "readTime": "8 min",
-            "link": "https://eninrac.com/market-response/transitioning-to-green-energy-a-case-study-on-eninracs-due-diligence-services-for-renewable-power-asset-identification"
+            "link": "market-response/transitioning-to-green-energy-a-case-study-on-eninracs-due-diligence-services-for-renewable-power-asset-identification"
         },
         {
             "img": "https://eninrac.com/assets/upload/case-studies-cover-june-w3-wednesday.jpg",
@@ -138,7 +140,7 @@
             "title": "Conducting a voice of consumer survey to understand the\n                        feasibility\n                        of “common mobility card” for public transport",
             "date": "27.01.2024",
             "readTime": "4 min",
-            "link": "https://eninrac.com/market-response/conducting-a-voice-of-consumer-survey-to-understand-the-feasibility-of-ldquo-common-mobility-card-rdquo-for-public-transport"
+            "link": "market-response/conducting-a-voice-of-consumer-survey-to-understand-the-feasibility-of-ldquo-common-mobility-card-rdquo-for-public-transport"
         },
         {
             "img": "https://eninrac.com/assets/upload/case-study-sm-may-w5-wednesday-cover.jpg",
@@ -146,7 +148,7 @@
             "title": "Identification solar rooftop market potential in India amidst\n                        competition from open access enabled through GOAR",
             "date": "09.11.2024",
             "readTime": "6 min",
-            "link": "https://eninrac.com/market-response/identification-solar-rooftop-market-potential-in-india-amidst-competition-from-open-access-enabled-through-goar"
+            "link": "market-response/identification-solar-rooftop-market-potential-in-india-amidst-competition-from-open-access-enabled-through-goar"
         },
         {
             "img": "https://eninrac.com/assets/upload/case-study-may-w4.jpg",
@@ -154,7 +156,7 @@
             "title": "Devising a market & strategy advisory for the client to tap\n                        business opportunity across battery energy storage in India",
             "date": "18.12.2023",
             "readTime": "7 min",
-            "link": "https://eninrac.com/market-response/devising-a-market-and-strategy-advisory-for-the-client-to-tap-business-opportunity-across-new-energies-market-in-india-on-battery-energy-storage"
+            "link": "/market-response/devising-a-market-and-strategy-advisory-for-the-client-to-tap-business-opportunity-across-new-energies-market-in-india-on-battery-energy-storage"
         },
         {
             "img": "assets/upload/default-image.png",
@@ -162,7 +164,7 @@
             "title": "Go-to-market study for setting solar panel manufacturing\n                        facility in\n                        Chhattisgarh",
             "date": "03.11.2024",
             "readTime": "7 min",
-            "link": "https://eninrac.com/market-response/go-to-market-study-for-setting-solar-panel-manufacturing-facility-in-chhattisgarh"
+            "link": "market-response/go-to-market-study-for-setting-solar-panel-manufacturing-facility-in-chhattisgarh"
         },
         {
             "img": "https://eninrac.com/assets/upload/case-stydy-refex.png",
@@ -288,14 +290,14 @@
 
         col.innerHTML = `
     <div class="w-100 eninrac-insight p-4 border-radius-20" style="background-color: white;">
-      <a href="${item.link}" class="news-blog text-decoration-none text-dark">
+      <a href="<?= base_url() ?>${item.link}" class="news-blog text-decoration-none text-dark">
         <div class="w-100 mb-2 overflow-hidden news__image" style="height: 157px;">
           <img src="${item.img}" 
                class="img-fluid rounded w-100 object-fit-cover d-block h-100" 
                alt=""
                style="transition: transform 0.2s linear;">
         </div>
-        <div class="p-1 bg-secondary rounded text-center text-light fs-12"
+        <div class="py-1 px-2 bg-primary-600 rounded text-center text-light fs-12"
              style="width: max-content;">
           ${item.category}
         </div>

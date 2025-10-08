@@ -300,4 +300,13 @@
   background-image: var(--gradient-1);
 }
 
+.light-grey-bg2 {
+  background-color: #dfeaff;
+}
+
+._dark-grey-bg {
+  background-color: #8d8f9b;
+  color: #fff;
+}
+
 /* Gradient Color End */

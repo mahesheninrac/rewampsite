@@ -239,6 +239,11 @@ const revealELs = (element = '[data-reveal]', currentClass = '_visible', delay =
                         e.target.classList.add(currentClass);
                         io.unobserve(e.target);
                     }, delay)
+                } else {
+                    let el = e.target
+                    if (currentClass === "benefit-show" && el.classList.contains("benefit-show")) {
+                        el.classList.remove("benefit-show");
+                    }
                 }
             });
         }, {
@@ -250,6 +255,7 @@ const revealELs = (element = '[data-reveal]', currentClass = '_visible', delay =
 
 revealELs()
 revealELs("[data-msg-reveal]", "show");
+revealELs(".benefit-section", "benefit-show", 90);
 revealELs(".fact");
  </script>
 
@@ -261,27 +267,27 @@ revealELs(".fact");
  <script src="<?= base_url() ?>assets/js/script.js"></script>
 
  <script>
-     $('.owl-carousel-showcase .owl-carousel').owlCarousel({
-         items: 1,
-         loop: true,
-         margin: 5,
-         dots: false,
-         nav: false,
-         autoplay: true,
-         center: true,
-         autoplayTimeout: 3000,
-         responsive: {
-             0: {
-                 items: 2
-             },
-             600: {
-                 items: 2
-             },
-             1000: {
-                 items: 2
-             }
-         }
-     });
+$('.owl-carousel-showcase .owl-carousel').owlCarousel({
+    items: 1,
+    loop: true,
+    margin: 5,
+    dots: false,
+    nav: false,
+    autoplay: true,
+    center: true,
+    autoplayTimeout: 3000,
+    responsive: {
+        0: {
+            items: 2
+        },
+        600: {
+            items: 2
+        },
+        1000: {
+            items: 2
+        }
+    }
+});
  </script>
 
  </body>
