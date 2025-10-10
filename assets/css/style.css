@@ -1266,15 +1266,6 @@ body {
   margin: 0 0 16px 0;
 }
 
-._light-blue2-bg {
-  background-color: #dfeaff;
-}
-
-._dark-blue-bg {
-  background-color: #0055fe;
-  color: #fff !important;
-}
-
 .service-top-item-lottie {
   position: absolute;
   left: 0;
@@ -1698,4 +1689,21 @@ body {
 
 .enin-accordion .chevron.up::before {
   transform: translate(-50%, -50%) rotate(-135deg);
+}
+
+.space {
+  padding: 120px 0 220px 0;
+  position: relative;
+}
+
+@media screen and (max-width:1279px) {
+  .space {
+    padding: 80px 0 180px 0;
+  }
+}
+
+@media screen and (max-width:2599px) {
+  .space {
+    padding: 90px 0 180px 0;
+  }
 }

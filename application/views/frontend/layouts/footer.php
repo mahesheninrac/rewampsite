@@ -239,11 +239,6 @@ const revealELs = (element = '[data-reveal]', currentClass = '_visible', delay =
                         e.target.classList.add(currentClass);
                         io.unobserve(e.target);
                     }, delay)
-                } else {
-                    let el = e.target
-                    if (currentClass === "benefit-show" && el.classList.contains("benefit-show")) {
-                        el.classList.remove("benefit-show");
-                    }
                 }
             });
         }, {

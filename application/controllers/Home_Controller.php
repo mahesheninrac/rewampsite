@@ -95,6 +95,19 @@ class Home_Controller extends Default_Controller
             'default_page' => false,
         ]);
     }
+    public function forwhom()
+    {
+        $this->load->view('frontend/theme', [
+            'theme' => 'forwhom',
+            'title' => 'Eco System Reports',
+            'meta' => [
+                'title' => 'Eco System Reports',
+                'description' => 'Eco System Reports', // Add your description
+                'keywords' => 'Eco System Reports',
+            ],
+            'default_page' => false,
+        ]);
+    }
     public function contact()
     {
         $this->load->view('frontend/theme', [

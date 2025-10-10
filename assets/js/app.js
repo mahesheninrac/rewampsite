@@ -86,7 +86,7 @@ $('.service-tile .owl-carousel').owlCarousel({
 
 $('.swiper-wrapper').owlCarousel({
     items: 1,
-    loop: true,
+    loop: false,
     margin: 10,
     dots: false,
     nav: false,
@@ -96,7 +96,7 @@ $('.swiper-wrapper').owlCarousel({
     responsive: {
         0: { items: 2 },
         600: { items: 2 },
-        1000: { items: 3 }
+        1000: { items: 4 }
     }
 });
 

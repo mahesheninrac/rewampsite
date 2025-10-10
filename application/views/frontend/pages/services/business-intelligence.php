@@ -1,12 +1,12 @@
 <style>
-.owl-carousel-showcase .owl-item.active.center .item-wrapper img {
-    transform: scale(1.14);
-    transition: all 0.3s ease;
-}
+    .owl-carousel-showcase .owl-item.active.center .item-wrapper img {
+        transform: scale(1.14);
+        transition: all 0.3s ease;
+    }
 
-.owl-carousel-showcase .owl-item .item-wrapper {
-    padding: 15px;
-}
+    .owl-carousel-showcase .owl-item .item-wrapper {
+        padding: 15px;
+    }
 </style>
 
 <section class="page-service">
@@ -464,7 +464,7 @@
 
 
 <script>
-window.addEventListener("DOMContentLoaded", function() {
-    revealELs(".dropAnimation", "animate-top-bottom")
-})
+    window.addEventListener("DOMContentLoaded", function() {
+        revealELs(".dropAnimation", "animate-top-bottom")
+    })
 </script>

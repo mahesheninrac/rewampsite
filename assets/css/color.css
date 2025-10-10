@@ -242,6 +242,10 @@
   background: var(--brown-100);
 }
 
+.bg-enin-blue {
+  background: var(--enin-blue)
+}
+
 .bg-brown-200 {
   background: var(--brown-200);
 }
@@ -300,6 +304,14 @@
   background-image: var(--gradient-1);
 }
 
+._light-grey-bg {
+  background-color: #f7f8fa;
+}
+
+._light-blue-bg {
+  background-color: #e6eeff;
+}
+
 .light-grey-bg2 {
   background-color: #dfeaff;
 }
@@ -307,6 +319,24 @@
 ._dark-grey-bg {
   background-color: #8d8f9b;
   color: #fff;
+}
+
+._light-blue2-bg {
+  background-color: #dfeaff;
+}
+
+._dark-blue-bg {
+  background-color: #0042c7;
+  color: #fff !important;
+}
+
+._purple-bg {
+  background-color: #635bff;
+  color: #fff;
+}
+
+._blue-grey-bg {
+  background-color: #d8dae7;
 }
 
 /* Gradient Color End */

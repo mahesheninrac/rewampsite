@@ -8,3 +8,4 @@ $route["market-response"] = 'Home_Controller/marketresponse';
 $route["impressions"] = 'Home_Controller/impressions';
 $route["lifeateninrac"] = 'Home_Controller/lifeateninrac';
 $route["benefits"] = 'Home_Controller/benefits';
+$route["for-whom"] = 'Home_Controller/forwhom';

@@ -1,232 +1,280 @@
-<div class="content">
-    <div class="wrap">
-        <div class="main-first main-first--enin">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="mb-5 mb-md-0 ">
-                        <h1>
-                            <span class="fw-500">Bridging gaps in </span>
-                            <span class="fw-light">Market Research</span>
-                        </h1>
-                        <div class="main-first__text">
-                            <p>Your one-stop solution for booking business travel quickly, simply and efficiently
-                            </p>
-                        </div>
-                        <a href="#" class="btn btn-dark text-center animate__animated animate__bounce">Get started</a>
-                        <div class="main-first--enin-image">
-                            <img src="https://omnicoreplus.com/assets/om-upload/bridge-logo-size-01-01.svg"
-                                alt="enin element" style="transform: scale(1.6) translate(-17px, 0px);">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="video-block js-video-block border-radius-40 overflow-auto position-relative">
-                        <img src="https://tumodo.io/storage/uploads/de53632c8f350f7da29956c4388e4f27.png"
-                            alt="Bridging gaps in  &amp; Market Research" class="img-fluid"
-                            style="height: 100%; object-fit:cover">
-                        <div class="video-block__play">
-                            <i class="icofont-ui-play"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="py-5">
-            <div class="row row-gap-4 main-block2 main-block2--steps position-relative" data-reveal>
-                <div class="col-md-3">
-                    <div class="position-relative main-block2-step main-block2-step--1">
-                        <div class="d-flex justify-content-center align-items-center bg-primary-600 mb-md-3 text-white "
-                            style="width: 34px; height: 34px;">1</div>
-                        <div class="main-block2-step__title fw-700">Search for hoteltests and flights</div>
-                        <div class="main-block2-step__image justify-content-md-end justify-content-start ">
-                            <img loading="lazy" src="https://omnicoreplus.com/assets/om-upload/Wind_renewafrica.jpg"
-                                alt="">
-                        </div>
-                        <div class="main-block2-step__text">
-                            <span>Select convenient flights and hotels</span> with high-quality service
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="position-relative  main-block2-step main-block2-step--2">
-                        <div class="d-flex justify-content-center align-items-center bg-primary-600 mb-md-3 text-white "
-                            style="width: 34px; height: 34px;">1</div>
-                        <div class="main-block2-step__title">Search for hotels and flights</div>
-                        <div class="main-block2-step__image justify-content-md-end">
-                            <img loading="lazy"
-                                src="https://omnicoreplus.com/assets/om-upload/floating_solar_th_bing.jpeg" alt="">
-                        </div>
-                        <div class="main-block2-step__text">
-                            <span>Select convenient flights and hotels</span> with high-quality service
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="position-relative main-block2-step main-block2-step--3">
-                        <div class="d-flex justify-content-center align-items-center bg-primary-600 mb-md-3 text-white "
-                            style="width: 34px; height: 34px;">1</div>
-                        <div class="main-block2-step__title">Search for hotels and flights</div>
-                        <div class="main-block2-step__image justify-content-md-end">
-                            <img loading="lazy"
-                                src="https://omnicoreplus.com/assets/om-upload/Indonesia-thermal-power-plant_th_bing.jpeg"
-                                alt="">
-                        </div>
-                        <div class="main-block2-step__text">
-                            <span>Select convenient flights and hotels</span> with high-quality service
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="position-relative main-block2-step main-block2-step--4">
-                        <div class="d-flex justify-content-center align-items-center bg-primary-600 mb-md-3 text-white "
-                            style="width: 34px; height: 34px;">1</div>
-                        <div class="main-block2-step__title">Search for hotels and flights</div>
-                        <div class="main-block2-step__image justify-content-md-end justify-content-center">
-                            <img loading="lazy"
-                                src="https://omnicoreplus.com/assets/om-upload/Robert_moses_niaga_upload_wikimedia_org1.jpg"
-                                alt="">
-                        </div>
-                        <div class="main-block2-step__text">
-                            <span>Select convenient flights and hotels</span> with high-quality service
-                        </div>
-                    </div>
-                </div>
-                <div class="main-block2--steps-bg d-none d-md-block"></div>
-            </div>
-        </div>
-
-        <div class="py-3">
-            <div>
-                <div class="row row-gap-3">
+<section class="page-service">
+    <div class="content">
+        <div class="wrap">
+            <div class="main-first main-first--enin title-img-wrap">
+                <div class="row">
                     <div class="col-md-6">
-                        <div class="row row-gap-3 h-100   flex-column">
-                            <div class="p-5 bg-primary-800 text-white border-radius-40" class="hidden animate-on-scroll"
-                                data-animate="animate__zoomIn">
-                                <h2>Forget about manual data collection</h2>
-                                <p>Analytics and reporting are always at hand and can be generated in a couple of
-                                    clicks
+                        <div class="mb-5 mb-md-0 pt-5 mt-5">
+                            <h1>
+                                <span class="fw-500">Eninrac: Market Research </span>
+                                <span class="fw-light"> Reinvented, Results Delivered</span>
+                            </h1>
+                            <div class="main-first__text">
+                                <p>Your one-stop solution for booking business travel quickly, simply and efficiently
                                 </p>
-                                <div class="">
-                                    <img src="./first-card.png" alt="">
-                                </div>
                             </div>
-                            <div class="p-1">
-                                <div class="p-md-5 border-radius-40 " style="background: #d8dae7;">
-                                    <div class="p-5 d-md-flex justify-content-between">
-                                        <h3 style="font-size: 20px;">Book all your business travel needs on a
-                                            centralised
-                                            platform</h3>
-                                        <img src="https://enin.io/storage/uploads/da988e20129536840c77fc14dd74d1b1.svg"
-                                            style="width: 42px; height: 42px;" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="pt-2 px-1 pb-1 ">
-                                <div class="">
-                                    <h2 class="title-h2">24/7 customer support</h2>
-                                    <p class="fs-16">We are always ready to assist you</p>
-                                </div>
-
-                                <div class="support-chat">
-                                    <!-- First chat block -->
-                                    <div class="support-chat__item">
-                                        <div data-msg-reveal data-delay="1000"
-                                            class="chat-client d-flex justify-content-end align-items-end gap-1 support-1">
-                                            <div class="support-chat__phrase "
-                                                style="border-radius: 20px 20px 0px 20px;">
-                                                <div class="support-chat__phrase-info">
-                                                    <span class="name">Employee:</span>
-                                                    <span class="date">16:29 </span>
-                                                </div>
-                                                <p>My flight was postponed by 6 hours, and I need to fly urgently.
-                                                    Could you exchange my ticket, please?</p>
-                                            </div>
-                                            <div class="support-chat__person">
-                                                <img src="https://enin.io/storage/uploads/7ca37345585191f318905498c7dc3684.png"
-                                                    alt="">
-                                            </div>
-                                        </div>
-
-                                        <div data-msg-reveal data-delay="1500"
-                                            class="chat-support support-2 d-flex justify-content-start align-items-end gap-1">
-                                            <div class="support-chat__person">
-                                                <img src="https://enin.io/storage/uploads/ae0f4c9d8c5b343e598df7ba56859fda.png"
-                                                    alt="">
-                                            </div>
-                                            <div class="support-chat__phrase"
-                                                style="border-radius: 20px 20px 20px 0px;">
-                                                <div class="support-chat__phrase-info">
-                                                    <span class="name">Support manager:</span>
-                                                    <span class="date">16:30 </span>
-                                                </div>
-                                                <p>Hi! We found a flight for you in 40 minutes, already exchanging!
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <a href="#" class="btn btn-dark text-center animate__animated animate__bounce">Get
+                                started</a>
+                            <div class="main-first--enin-image">
+                                <img src="https://omnicoreplus.com/assets/om-upload/bridge-logo-size-01-01.svg"
+                                    style="transform: scale(1.6) translate(-15px, 15px);" alt="enin element">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="row row-gap-3 flex-column">
-                            <div class="col">
-                                <div class="p-5 border-radius-40 bg-primary-100 ">
-                                    <h2>Webinar</h2>
-                                    <p>You will learn how we: save up to 35% of your travel budget</p>
-                                    <button class="btn mb-3 bg-light text-primary">Register</button>
-                                    <div class="">
-                                        <img src="./first-card.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="p-5 border-radius-40 bg-secondary-100 ">
-                                    <h2 class="title-h2 fw-normal mb-3 pe-1" style="line-height: 104%;">
-                                        Set up travel policies and approval schemes — kee everything
-                                        under control</h2>
-                                    <div class="d-flex justify-content-end align-items-end">
-                                        <img src="https://enin.io/storage/uploads/f30f1dedcbcb319da96a2da1282a734f.png"
-                                            class="img-fluid bg-light" style="height: 138px;">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="p-4 border-radius-40 row flex-column align-items-center row-gap-3"
-                                    style="background-color: #efefef;">
-                                    <div class="companies-logotips d-flex align-items-center justify-content-center">
-                                        <img loading="lazy"
-                                            src="https://enin.io/storage/uploads/315553a479f75e970d194b7adab0dd03.svg"
-                                            alt="Tabby">
-                                        <img loading="lazy"
-                                            src="https://enin.io/storage/uploads/9704c2bd3b61715ef6afa003a567812a.svg"
-                                            alt="Sage">
-                                        <img loading="lazy"
-                                            src="https://enin.io/storage/uploads/226bd7c8787b9ad88c5b19763f121360.png"
-                                            alt="Binance">
-                                    </div>
-                                    <p class="text-center">Discover how we’re changing the business travel
-                                        experience of over 300
-                                        companies</p>
-                                    <div class="w-100 d-flex align-items-center justify-content-center">
-                                        <button class="btn btn-dark px-md-3 letter-spacing-2">Read the
-                                            stories</button>
-                                    </div>
-
-                                </div>
+                        <div class="video-block mb-5 mb-md-0 pt-5 mt-5  overflow-hidden position-relative">
+                            <img src="https://tumodo.io/storage/uploads/de53632c8f350f7da29956c4388e4f27.png"
+                                alt="Bridging gaps in & Market Research"
+                                class="img-fluid position-absolute bottom-0 start-50 border-radius-40 translate-middle-x"
+                                style="width: 100%; object-fit: cover;">
+                            <div class="video-block__play position-absolute top-50 start-50 translate-middle">
+                                <i class="icofont-ui-play"></i>
                             </div>
                         </div>
                     </div>
 
                 </div>
             </div>
-
         </div>
-
     </div>
+</section>
 
-    <div class="fullwdith py-5 cursor-pointer" style="background-color: #d8dae7;">
+
+<section>
+    <div class="fullwidth">
+        <div class="container">
+            <div class="py-5">
+                <div class="row row-gap-4 main-block2 main-block2--steps position-relative" data-reveal>
+                    <div class="col-md-3">
+                        <div class="position-relative main-block2-step main-block2-step--1">
+                            <div class="d-flex justify-content-center align-items-center bg-enin-blue rounded mb-md-3 text-white "
+                                style="width: 34px; height: 34px;">1</div>
+                            <div class="main-block2-step__title ">Intelligence-as-a-Service (IaaS) </div>
+                            <div class="main-block2-step__image justify-content-md-end justify-content-start ">
+                                <img loading="lazy" src="https://omnicoreplus.com/assets/om-upload/Wind_renewafrica.jpg"
+                                    alt="">
+                            </div>
+                            <div class="main-block2-step__text mt-3">
+                                <span class="text-primary-500">Always-On</span> Research Partner
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="position-relative  main-block2-step main-block2-step--2">
+                            <div class="d-flex justify-content-center align-items-center bg-enin-blue rounded mb-md-3 text-white "
+                                style="width: 34px; height: 34px;">2</div>
+                            <div class="main-block2-step__title">AI-Powered Decision Modeling</div>
+                            <div class="main-block2-step__image justify-content-md-end">
+                                <img loading="lazy"
+                                    src="https://omnicoreplus.com/assets/om-upload/floating_solar_th_bing.jpeg" alt="">
+                            </div>
+                            <div class="main-block2-step__text mt-3">
+                                <span class="text-primary-500">AI-Powered Market </span> Forecasts & Demand Models
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="position-relative main-block2-step main-block2-step--3">
+                            <div class="d-flex justify-content-center align-items-center bg-enin-blue rounded mb-md-3 text-white "
+                                style="width: 34px; height: 34px;">3</div>
+                            <div class="main-block2-step__title">From Reports to Real-Time Insights</div>
+                            <div class="main-block2-step__image justify-content-md-end">
+                                <img loading="lazy"
+                                    src="https://omnicoreplus.com/assets/om-upload/Indonesia-thermal-power-plant_th_bing.jpeg"
+                                    alt="">
+                            </div>
+                            <div class="main-block2-step__text mt-3">
+                                <span class="text-primary-500">Transform Reports</span> into Real-Time Strategic
+                                Insights
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="position-relative main-block2-step main-block2-step--4">
+                            <div class="d-flex justify-content-center align-items-center bg-enin-blue rounded mb-md-3 text-white "
+                                style="width: 34px; height: 34px;">4</div>
+                            <div class="main-block2-step__title"> Cost-Efficient, Agile, Seamless</div>
+                            <div class="main-block2-step__image justify-content-md-end justify-content-center">
+                                <img loading="lazy"
+                                    src="https://omnicoreplus.com/assets/om-upload/Robert_moses_niaga_upload_wikimedia_org1.jpg"
+                                    alt="">
+                            </div>
+                            <div class="main-block2-step__text mt-3">
+                                <span class="text-primary-500">Save Up to 60% on Research</span> with Eninrac’s
+                                Integrated
+                                Platforms
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-block2--steps-bg d-none d-md-block"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="fullwidth">
+        <div class="container">
+            <div class="py-3">
+                <div>
+                    <div class="row row-gap-3">
+                        <div class="col-md-6">
+                            <div class="row row-gap-3 h-100   flex-column">
+                                <div class="px-5 pt-5 bg-enin-blue text-white border-radius-40"
+                                    class="hidden animate-on-scroll" data-animate="animate__zoomIn">
+                                    <h2>Automate Data Collection, Empower Decision-Making</h2>
+                                    <p>Eninrac enables swift, accurate analytics and reporting with minimal effort for
+                                        strategic decision-making.
+                                    </p>
+                                    <div class="" style="margin-right: -49px;">
+                                        <img src="https://tumodo.io/storage/uploads/e652af78e2e5b09ae1c7cb9e1424292e.webp"
+                                            alt="">
+                                    </div>
+                                </div>
+                                <div class="p-1">
+                                    <div class="p-md-5 border-radius-40 ">
+                                        <div class="p-5 d-md-flex justify-content-between">
+                                            <h3 style="font-size: 20px;">Book all your business travel needs on a
+                                                centralised
+                                                platform</h3>
+                                            <img src="https://tumodo.io/storage/uploads/da988e20129536840c77fc14dd74d1b1.svg"
+                                                style="width: 42px; height: 42px;" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pt-2 px-1 pb-1 ">
+                                    <div class="">
+                                        <h2 class="title-h2">24/7 customer support</h2>
+                                        <p class="fs-16">We are always ready to assist you</p>
+                                    </div>
+
+                                    <div class="support-chat">
+                                        <!-- First chat block -->
+                                        <div class="support-chat__item">
+                                            <div data-msg-reveal data-delay="1000"
+                                                class="chat-client d-flex justify-content-end align-items-end gap-1 support-1">
+                                                <div class="support-chat__phrase "
+                                                    style="border-radius: 20px 20px 0px 20px;">
+                                                    <div class="support-chat__phrase-info">
+                                                        <span class="name">Employee:</span>
+                                                        <span class="date">16:29 </span>
+                                                    </div>
+                                                    <p>My flight was postponed by 6 hours, and I need to fly urgently.
+                                                        Could you exchange my ticket, please?</p>
+                                                </div>
+                                                <div class="support-chat__person">
+                                                    <img src="https://enin.io/storage/uploads/7ca37345585191f318905498c7dc3684.png"
+                                                        alt="">
+                                                </div>
+                                            </div>
+
+                                            <div data-msg-reveal data-delay="1500"
+                                                class="chat-support support-2 d-flex justify-content-start align-items-end gap-1">
+                                                <div class="support-chat__person">
+                                                    <img src="https://tumodo.io/storage/uploads/ae0f4c9d8c5b343e598df7ba56859fda.png"
+                                                        alt="">
+                                                </div>
+                                                <div class="support-chat__phrase"
+                                                    style="border-radius: 20px 20px 20px 0px;">
+                                                    <div class="support-chat__phrase-info">
+                                                        <span class="name">Support manager:</span>
+                                                        <span class="date">16:30 </span>
+                                                    </div>
+                                                    <p>Hi! We found a flight for you in 40 minutes, already exchanging!
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="">
+
+                                    <?php require(APPPATH . 'views/frontend/components/pricing_carousel.php'); ?>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row row-gap-3 flex-column">
+                                <div class="col">
+                                    <div class="p-5 border-radius-40 ">
+                                        <h2 class="title-h2">Webinar</h2>
+                                        <p>You will learn how we: save up to 35% of your travel budget</p>
+
+                                        <div class="">
+                                            <img src="./first-card.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="p-5 border-radius-40 _light-blue2-bg ">
+                                        <h2 class="title-h2 fw-normal mb-3 pe-1">
+                                            Set up travel policies and approval schemes — kee everything
+                                            under control</h2>
+                                        <div class="d-flex justify-content-end align-items-end">
+                                            <img src="https://tumodo.io/storage/uploads/2f993a6ae651013a632f0d2f7cbcc7a0.webp"
+                                                class="img-fluid bg-light" style="height: 138px;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div
+                                        class="p-4 border-radius-40 row _light-grey-bg flex-column align-items-center row-gap-3">
+                                        <div
+                                            class="companies-logotips d-flex align-items-center justify-content-center">
+                                            <img loading="lazy"
+                                                src="https://tumodo.io/storage/uploads/315553a479f75e970d194b7adab0dd03.svg"
+                                                alt="Tabby">
+                                            <img loading="lazy"
+                                                src="https://tumodo.io/storage/uploads/9704c2bd3b61715ef6afa003a567812a.svg"
+                                                alt="Sage">
+                                            <img loading="lazy"
+                                                src="https://tumodo.io/storage/uploads/226bd7c8787b9ad88c5b19763f121360.png"
+                                                alt="Binance">
+                                        </div>
+                                        <p class="text-center">Discover how we’re changing the business travel
+                                            experience of over 300
+                                            companies</p>
+                                        <div class="w-100 d-flex align-items-center justify-content-center">
+                                            <button class="btn btn-dark px-md-3 letter-spacing-2">Read the
+                                                stories</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="p-5 d-flex gap-4 border-radius-40 _light-blue-bg">
+                                        <div class="flex-shrink-0" style="width: 188px;">
+                                            <img src="https://tumodo.io/storage/uploads/af91b4076777dfe13afb7c1a692dfc3d.webp"
+                                                alt="" class="img-fluid">
+                                        </div>
+                                        <div class=" d-flex flex-column justify-content-between">
+                                            <h3 class="title-h3">Streamline your documents</h3>
+                                            <p class="main-block__text fs-16">Integrate Tumodo with your accounting
+                                                system</p>
+                                            <button class="bg-enin-blue px-3 py-1 border-0 text-white rounded"
+                                                style="width: max-content;">Try it
+                                                for
+                                                free</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section>
+    <div class="fullwdith py-5 cursor-pointer">
         <div class="wrap">
             <h2 style="    margin-bottom: 44px;">Calculate your savings with Eninrac</h2>
             <div class="">
@@ -305,10 +353,10 @@
                     <div class="col-md-6">
                         <div class="bg-light border-radius-20 p-3 h-100 d-flex flex-column row-gap-3">
                             <p>Result</p>
-                            <h2>Fill in all the fields and find out your benefits with enin</h2>
+                            <h2 class="fs-24">Fill in all the fields and find out your benefits with enin</h2>
                             <button class="btn btn-primary " style="width: max-content;"> See the result</button>
                             <div class="w-100">
-                                <img src="https://enin.io/storage/uploads/5dfa2501099ba87f68175061d5cfa485.png"
+                                <img src="https://tumodo.io/storage/uploads/63fec9c2f0a283b8c1300a7938307b2b.webp"
                                     class="img-fluid" alt="">
                             </div>
                         </div>
@@ -318,8 +366,10 @@
             </div>
         </div>
     </div>
+</section>
 
-    <div class="fullwidth py-5" style="background-color: #f7f8fa;">
+<section>
+    <div class="fullwidth py-5 bg-light">
         <div class="wrap">
             <h2 style="margin-bottom: 44px;">Read our insights</h2>
             <div class="">
@@ -329,7 +379,7 @@
                             <a href="" class="news-blog text-decoration-none text-dark">
                                 <div class="w-100 mb-2 overflow-hidden news__image" style="height: 157px;">
                                     <img src="https://tumodo.io/storage/uploads/013b03c919ea3381209347eb6957a028.png"
-                                        class=" img-fluid w-100 object-fit-cover d-block h-100" alt=""
+                                        class=" img-fluid w-100 object-fit-cover  rounded d-block h-100" alt=""
                                         style="transition: transform 0.2s linear;">
                                 </div>
                                 <div class="p-1 bg-secondary rounded text-center text-light fs-12"
@@ -351,7 +401,7 @@
                             <a href="" class="news-blog text-decoration-none text-dark">
                                 <div class="w-100 mb-2 overflow-hidden news__image" style="height: 157px;">
                                     <img src="https://tumodo.io/storage/uploads/013b03c919ea3381209347eb6957a028.png"
-                                        class=" img-fluid w-100 object-fit-cover d-block h-100" alt=""
+                                        class=" img-fluid w-100 object-fit-cover rounded d-block h-100" alt=""
                                         style="transition: transform 0.2s linear;">
                                 </div>
                                 <div class="p-1 bg-secondary rounded text-center text-light fs-12"
@@ -373,7 +423,7 @@
                             <a href="" class="news-blog text-decoration-none text-dark">
                                 <div class="w-100 mb-2 overflow-hidden news__image" style="height: 157px;">
                                     <img src="https://tumodo.io/storage/uploads/013b03c919ea3381209347eb6957a028.png"
-                                        class=" img-fluid w-100 object-fit-cover d-block h-100" alt=""
+                                        class=" img-fluid w-100 object-fit-cover rounded d-block h-100" alt=""
                                         style="transition: transform 0.2s linear;">
                                 </div>
                                 <div class="p-1 bg-secondary rounded text-center text-light fs-12"
@@ -394,10 +444,12 @@
             </div>
         </div>
     </div>
-</div>
+</section>
+
+
 
 <section>
-    <div class="fullwidth py-5">
+    <div class="fullwidth space">
         <div class="wrap">
             <div class="d-flex flex-column gap-4">
                 <h2 class="title-h2 text-center ">More than 300 companies trust enin</h2>
@@ -442,7 +494,7 @@
 </section>
 
 <section id="scroll-section">
-    <div class="fullwidth py-5">
+    <div class="fullwidth">
         <div class="wrap">
             <section class="scroll-section">
                 <div class="scroll-list row row-gap-3">
@@ -544,26 +596,26 @@
                         </div>
                     </div>
                     <script>
-                        const faqItems = document.querySelectorAll('.js-faq-item');
+                    const faqItems = document.querySelectorAll('.js-faq-item');
 
-                        faqItems.forEach(item => {
-                            const question = item.querySelector('.faq-item-question');
+                    faqItems.forEach(item => {
+                        const question = item.querySelector('.faq-item-question');
 
-                            question.addEventListener('click', () => {
-                                const isActive = item.classList.contains('active');
-                                // Close all answers first
-                                faqItems.forEach(i => {
-                                    i.querySelector('.faq-item-answear').style.display = 'none';
-                                    i.classList.remove('active');
-                                });
-
-                                // Toggle the clicked one
-                                if (!isActive) {
-                                    item.querySelector('.faq-item-answear').style.display = 'block';
-                                    item.classList.add('active');
-                                }
+                        question.addEventListener('click', () => {
+                            const isActive = item.classList.contains('active');
+                            // Close all answers first
+                            faqItems.forEach(i => {
+                                i.querySelector('.faq-item-answear').style.display = 'none';
+                                i.classList.remove('active');
                             });
+
+                            // Toggle the clicked one
+                            if (!isActive) {
+                                item.querySelector('.faq-item-answear').style.display = 'block';
+                                item.classList.add('active');
+                            }
                         });
+                    });
                     </script>
                 </div>
             </div>
@@ -623,40 +675,40 @@
 </section>
 
 <style>
+.trial-form--tumodo-image {
+    position: absolute;
+    top: -32px;
+    right: 100%;
+    z-index: -1;
+    margin-right: -25%;
+}
+
+.trial-form--tumodo-image img {
+    max-width: none;
+    position: static;
+    width: auto;
+    height: 400px;
+}
+
+.trial-form-wrapper>picture,
+.trial-form-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media screen and (max-width: 1599px) {
     .trial-form--tumodo-image {
-        position: absolute;
-        top: -32px;
-        right: 100%;
-        z-index: -1;
-        margin-right: -25%;
+        top: -10px;
+        margin-right: -38%;
     }
 
     .trial-form--tumodo-image img {
-        max-width: none;
-        position: static;
-        width: auto;
-        height: 400px;
+        height: 325px;
     }
-
-    .trial-form-wrapper>picture,
-    .trial-form-wrapper img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: center;
-    }
-
-    @media screen and (max-width: 1599px) {
-        .trial-form--tumodo-image {
-            top: -10px;
-            margin-right: -38%;
-        }
-
-        .trial-form--tumodo-image img {
-            height: 325px;
-        }
-    }
+}
 </style>
