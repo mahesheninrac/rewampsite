@@ -120,7 +120,7 @@
                 <div>
                     <div class="row row-gap-3">
                         <div class="col-md-6">
-                            <div class="row row-gap-3 h-100   flex-column">
+                            <div class="row row-gap-3 flex-column">
                                 <div class="px-5 pt-5 bg-enin-blue text-white border-radius-40"
                                     class="hidden animate-on-scroll" data-animate="animate__zoomIn">
                                     <h2>Automate Data Collection, Empower Decision-Making</h2>
@@ -132,21 +132,39 @@
                                             alt="">
                                     </div>
                                 </div>
-                                <div class="p-1">
-                                    <div class="p-md-5 border-radius-40 ">
-                                        <div class="p-5 d-md-flex justify-content-between">
-                                            <h3 style="font-size: 20px;">Book all your business travel needs on a
-                                                centralised
-                                                platform</h3>
-                                            <img src="https://tumodo.io/storage/uploads/da988e20129536840c77fc14dd74d1b1.svg"
-                                                style="width: 42px; height: 42px;" alt="">
+                                <div class="">
+                                    <div
+                                        class="feature-slider owl-carousel owl-theme p-md-5 border-radius-40 _light-grey-bg">
+                                        <div class="item">
+                                            <div class=" d-md-flex justify-content-between">
+                                                <h3 class="title-h3 fs-20"> 50+ exclusive reports, custom research one
+                                                    platform for all your market intelligence needs.</h3>
+                                                <img src="https://tumodo.io/storage/uploads/da988e20129536840c77fc14dd74d1b1.svg"
+                                                    style="width: 42px; height: 42px;" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class=" d-md-flex justify-content-between">
+                                                <h3 class="title-h3 fs-20"> Centralize your corporate research: annual
+                                                    subscriptions, pay-per-use, and custom insights. </h3>
+                                                <img src="https://tumodo.io/storage/uploads/da988e20129536840c77fc14dd74d1b1.svg"
+                                                    style="width: 42px; height: 42px;" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class=" d-md-flex justify-content-between">
+                                                <h3 class="title-h3 fs-20">All your energy transition market insights in
+                                                    one integrated research platform.</h3>
+                                                <img src="https://tumodo.io/storage/uploads/da988e20129536840c77fc14dd74d1b1.svg"
+                                                    style="width: 42px; height: 42px;" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="pt-2 px-1 pb-1 ">
                                     <div class="">
-                                        <h2 class="title-h2">24/7 customer support</h2>
-                                        <p class="fs-16">We are always ready to assist you</p>
+                                        <h3 class="title-h3">Research support anytime, 24x7</h3>
+                                        <p class="fs-16">Committed to helping you, always.</p>
                                     </div>
 
                                     <div class="support-chat">
@@ -191,7 +209,6 @@
                                 </div>
 
                                 <div class="">
-
                                     <?php require(APPPATH . 'views/frontend/components/pricing_carousel.php'); ?>
                                 </div>
                             </div>
@@ -200,8 +217,9 @@
                             <div class="row row-gap-3 flex-column">
                                 <div class="col">
                                     <div class="p-5 border-radius-40 ">
-                                        <h2 class="title-h2">Webinar</h2>
-                                        <p>You will learn how we: save up to 35% of your travel budget</p>
+                                        <h2 class="title-h2">Save up to 60% - maximize efficiency and reduce costs with
+                                            Eninrac’s tailored solutions.</h2>
+                                        <p>Clear, competitive pricing without surprises.</p>
 
                                         <div class="">
                                             <img src="./first-card.png" alt="">
@@ -211,8 +229,8 @@
                                 <div class="col">
                                     <div class="p-5 border-radius-40 _light-blue2-bg ">
                                         <h2 class="title-h2 fw-normal mb-3 pe-1">
-                                            Set up travel policies and approval schemes — kee everything
-                                            under control</h2>
+                                            Set up your research needs and customize them as you like - keep everything
+                                            under control.</h2>
                                         <div class="d-flex justify-content-end align-items-end">
                                             <img src="https://tumodo.io/storage/uploads/2f993a6ae651013a632f0d2f7cbcc7a0.webp"
                                                 class="img-fluid bg-light" style="height: 138px;">
@@ -234,12 +252,11 @@
                                                 src="https://tumodo.io/storage/uploads/226bd7c8787b9ad88c5b19763f121360.png"
                                                 alt="Binance">
                                         </div>
-                                        <p class="text-center">Discover how we’re changing the business travel
-                                            experience of over 300
-                                            companies</p>
+                                        <p class="text-center">250+ companies trust Eninrac for market-winning insights.
+                                        </p>
                                         <div class="w-100 d-flex align-items-center justify-content-center">
-                                            <button class="btn btn-dark px-md-3 letter-spacing-2">Read the
-                                                stories</button>
+                                            <button class="btn btn-dark px-md-3 letter-spacing-2">Discover Our
+                                                Impact</button>
                                         </div>
 
                                     </div>
@@ -252,13 +269,11 @@
                                                 alt="" class="img-fluid">
                                         </div>
                                         <div class=" d-flex flex-column justify-content-between">
-                                            <h3 class="title-h3">Streamline your documents</h3>
-                                            <p class="main-block__text fs-16">Integrate Tumodo with your accounting
-                                                system</p>
+                                            <h3 class="title-h3">Streamline your research workflows efficiently.</h3>
+                                            <p class="main-block__text fs-16">Eninrac: Your all-in-one market research
+                                                solution, seamlessly integrated.</p>
                                             <button class="bg-enin-blue px-3 py-1 border-0 text-white rounded"
-                                                style="width: max-content;">Try it
-                                                for
-                                                free</button>
+                                                style="width: max-content;">Request a Call</button>
                                         </div>
                                     </div>
                                 </div>
@@ -286,12 +301,14 @@
                                     <div class="position-raltive border-radius-20 p-3 bg-light">
                                         <p class="fs-16 fw-400">Total spend on travel by the company per month</p>
                                         <p>0$ +</p>
+                                        <input type="number" class="form-control" placeholder="Please enter value">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="position-raltive border-radius-20 p-3 bg-light">
                                         <p class="fs-16 fw-400">Total spend on travel by the company per month</p>
                                         <p>0$ +</p>
+                                        <input type="number" class="form-control" placeholder="Please enter value">
                                     </div>
                                 </div>
                                 <div class="col-md-12">
@@ -375,19 +392,20 @@
             <div class="">
                 <div class="row row-gap-5">
                     <div class="col-md-4 col-sm-6">
-                        <div class="w-100 p-4 border-radius-20" style="background-color: white;">
+                        <div class="w-100 p-4 border-radius-20 h-100" style="background-color: white;">
                             <a href="" class="news-blog text-decoration-none text-dark">
                                 <div class="w-100 mb-2 overflow-hidden news__image" style="height: 157px;">
-                                    <img src="https://tumodo.io/storage/uploads/013b03c919ea3381209347eb6957a028.png"
+                                    <img src="https://eninrac.com/horizon/assets/insight-upload/india-s-transformer-market.png"
                                         class=" img-fluid w-100 object-fit-cover  rounded d-block h-100" alt=""
                                         style="transition: transform 0.2s linear;">
                                 </div>
                                 <div class="p-1 bg-secondary rounded text-center text-light fs-12"
                                     style="width: max-content;">
-                                    Articles
+                                    Insights
                                 </div>
                                 <div class="news-info">
-                                    <p class="fs-20 fw-600 mb-1">What to Include in an Employee Travel Policy?</p>
+                                    <p class="fs-20 fw-600 mb-1">Transformer Sales Surge: ₹75,000 Crore Opportunity
+                                        Ahead</p>
                                     <div class="text-muted fs-14">
                                         <span>10.06.2025</span><span>7 min</span>
                                     </div>
@@ -397,19 +415,19 @@
                     </div>
 
                     <div class="col-md-4 col-sm-6">
-                        <div class="w-100 p-4 border-radius-20" style="background-color: white;">
+                        <div class="w-100 p-4 border-radius-20 h-100" style="background-color: white;">
                             <a href="" class="news-blog text-decoration-none text-dark">
                                 <div class="w-100 mb-2 overflow-hidden news__image" style="height: 157px;">
-                                    <img src="https://tumodo.io/storage/uploads/013b03c919ea3381209347eb6957a028.png"
+                                    <img src="https://eninrac.com/horizon/assets/insight-upload/solar-plant2.jpg"
                                         class=" img-fluid w-100 object-fit-cover rounded d-block h-100" alt=""
                                         style="transition: transform 0.2s linear;">
                                 </div>
                                 <div class="p-1 bg-secondary rounded text-center text-light fs-12"
                                     style="width: max-content;">
-                                    Articles
+                                    Insights
                                 </div>
                                 <div class="news-info">
-                                    <p class="fs-20 fw-600 mb-1">What to Include in an Employee Travel Policy?</p>
+                                    <p class="fs-20 fw-600 mb-1">Solar Parks Development Status in India</p>
                                     <div class="text-muted fs-14">
                                         <span>10.06.2025</span><span>7 min</span>
                                     </div>
@@ -419,19 +437,20 @@
                     </div>
 
                     <div class="col-md-4 col-sm-6">
-                        <div class="w-100 p-4 border-radius-20" style="background-color: white;">
+                        <div class="w-100 p-4 border-radius-20 h-100" style="background-color: white;">
                             <a href="" class="news-blog text-decoration-none text-dark">
                                 <div class="w-100 mb-2 overflow-hidden news__image" style="height: 157px;">
-                                    <img src="https://tumodo.io/storage/uploads/013b03c919ea3381209347eb6957a028.png"
+                                    <img src="https://eninrac.com/horizon/assets/insight-upload/picture1.jpg"
                                         class=" img-fluid w-100 object-fit-cover rounded d-block h-100" alt=""
                                         style="transition: transform 0.2s linear;">
                                 </div>
                                 <div class="p-1 bg-secondary rounded text-center text-light fs-12"
                                     style="width: max-content;">
-                                    Articles
+                                    Insights
                                 </div>
                                 <div class="news-info">
-                                    <p class="fs-20 fw-600 mb-1">What to Include in an Employee Travel Policy?</p>
+                                    <p class="fs-20 fw-600 mb-1">EU Solar Market 2024: Utility- Scale Resilience Amidst
+                                        A Slumping Rooftop</p>
                                     <div class="text-muted fs-14">
                                         <span>10.06.2025</span><span>7 min</span>
                                     </div>
@@ -502,49 +521,50 @@
                     <div class="scroll-list-texts col-md-5">
                         <div class="scroll-list-item js-scroll-list-item"
                             data-image="ev-pcs-electricity-consumption-summary-october-24.jpg">
-                            <div class="scroll-list-item__number">1/5 advantages of enin</div>
-                            <div class="title-h2">Arrange a business trip in 2 minutes</div>
+                            <div class="scroll-list-item__number">1/5 Advantages of Eninrac</div>
+                            <div class="title-h2">Speed Up Your Research Cycles</div>
                             <div class="scroll-list-item__text">
-                                <p>Manage business trips with enin easily. Book tickets and accommodation in just
-                                    a couple of clicks.</p>
+                                <p>Access reliable data, insights, and forecasts in minutes through Eninrac’s integrated
+                                    research platform. Streamline every stage - from market scoping to report delivery -
+                                    and accelerate decision-making.</p>
                             </div>
                         </div>
                         <div class="scroll-list-item js-scroll-list-item"
                             data-image="powering-progress-the-transmission-grid-of-india.jpg">
-                            <div class="scroll-list-item__number ">2/5 advantages of enin</div>
-                            <div class="title-h2">Corporate travel simplified</div>
+                            <div class="scroll-list-item__number ">2/5 Advantages of Eninrac</div>
+                            <div class="title-h2">Seamless Data Integration</div>
                             <div class="scroll-list-item__text">
-                                <p>Manage business trips with enin easily. Book tickets and accommodation in just
-                                    a couple of clicks, accumulate personal and corporate bonuses and monitor travel
-                                    statuses online. Use enin where it is convenient for you: telephone, mail,
-                                    compute.</p>
+                                <p>Integrate Eninrac with your internal systems for effortless access to dashboards,
+                                    project trackers, and deliverables. Eliminate manual data compilation insights
+                                    update automatically across your teams.</p>
                             </div>
                         </div>
                         <div class="scroll-list-item js-scroll-list-item" data-image="india-power-grid-2025.jpg">
-                            <div class="scroll-list-item__number">2/5 advantages of enin</div>
-                            <div class="title-h2">Corporate travel simplified</div>
+                            <div class="scroll-list-item__number">3/5 advantages of Eninrac</div>
+                            <div class="title-h2">Save Up to 60% on Research Costs</div>
                             <div class="scroll-list-item__text">
-                                <p>Set up integration with your accounting system and collect all necessary
-                                    documents automatically. Forget about manual data input and receive flight
-                                    certificates in case of lost boarding passes.</p>
+                                <p>Optimize your budget with Eninrac’s subscription models and on-demand support. Reduce
+                                    overhead costs of hiring research staff and gain scalable access to cross-sector
+                                    intelligence.</p>
                             </div>
                         </div>
                         <div class="scroll-list-item js-scroll-list-item"
                             data-image="indias-power-transmission-surge.jpg">
-                            <div class="scroll-list-item__number">2/5 advantages of enin</div>
-                            <div class="title-h2">Corporate travel simplified</div>
+                            <div class="scroll-list-item__number">4/5 advantages of Eninrac</div>
+                            <div class="title-h2">Real-Time Market Intelligence</div>
                             <div class="scroll-list-item__text">
-                                <p>Set up integration with your accounting system and collect all necessary
-                                    documents automatically. Forget about manual data input and receive flight
-                                    certificates in case of lost boarding passes.</p>
+                                <p>Monitor market movements through live dashboards regulatory updates, project
+                                    databases, and competitor actions all in one place. Customize reports with just a
+                                    few clicks.</p>
                             </div>
                         </div>
                         <div class="scroll-list-item js-scroll-list-item">
-                            <div class="scroll-list-item__number">1/5 advantages of enin</div>
-                            <div class="title-h2">Arrange a business trip in 2 minutes</div>
+                            <div class="scroll-list-item__number">5/5 advantages of Eninrac</div>
+                            <div class="title-h2">24x7 Expert Support</div>
                             <div class="scroll-list-item__text">
-                                <p>Manage business trips with enin easily. Book tickets and accommodation in just
-                                    a couple of clicks.</p>
+                                <p>Our research specialists are available anytime to assist with project queries, market
+                                    updates, and data validation ensuring smooth delivery from concept to completion..
+                                </p>
                             </div>
                         </div>
                         <!-- Add more items (3, 4, 5) similarly -->

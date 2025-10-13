@@ -38,7 +38,11 @@
         <div class="py-5">
             <div class="pt-5 mb-5">
                 <h3 class="title-h3 text-center ">Life at Eninrac</h3>
-                <p class=" text-center mt-3">Witness what our services have done for your businesses
+                <p class=" text-center mt-3">
+                    eninrac is a leading provider of research, analytics and advisory services
+                    for your business nestled under different industry with unique insights to stakeholders across the
+                    globe. eninrac blends extensive knowledge of all aspects of your business industry to provide
+                    unmatched analytical insights, innovative strategies, and measurable value creation.
                 </p>
             </div>
             <div class="row row-gap-3">

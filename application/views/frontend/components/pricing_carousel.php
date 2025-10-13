@@ -50,7 +50,6 @@
         width: 90%;
         max-width: 380px;
         background: white;
-        text-align: center;
         border-radius: 20px;
         box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
         transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
@@ -105,7 +104,7 @@
     }
 
     .threedcarosule .offer-description {
-        font-size: 16px;
+        font-size: 14px;
         color: #6b7280;
         line-height: 1.5;
         max-width: 300px;
@@ -221,32 +220,38 @@
         }
 
         .threedcarosule .offer-description {
-            font-size: 14px;
+            font-size: 12px;
         }
     }
     </style>
     <div class="carousel-container">
-        <div class="carousel-wrapper bg-light p-5">
-            <h4 class="title-h4 mb-3">Cashless payment — based on the specifics of your business
-            </h4>
-            <div class="carousel-track p-5" id="carouselTrack">
+        <div class="carousel-wrapper bg-light p-4">
+            <h3 class="title-h3 mb-2">Business-specific tariff plans with convenient cashless payment options.
+            </h3>
+
+            <p class="fs-14  mb-3">Flexible payment options: choose advance payment, pay-per-use, or annual
+                subscription.</p>
+            <div class="carousel-track" id="carouselTrack">
                 <div class="carousel-slide p-3">
-                    <div class="offer-label text-start mb-2 fs-12">Individual offer</div>
-                    <div class="payment__value fs-20">100+ trips per month</div>
-                    <div class="offer-description">We will gladly prepare a customised
-                        offer for you</div>
+                    <div class="offer-label text-start mb-2 fs-12 text-primary">Advance payment</div>
+                    <div class="payment__value fs-18">Subscription Package</div>
+                    <div class="offer-description fs-12"> Unlimited access to core market insights, trend trackers, and
+                        quarterly custom research requests bundled in a predictable monthly plan.</div>
                 </div>
                 <div class="carousel-slide p-3">
-                    <div class="offer-label text-start mb-2 fs-12">Business plan</div>
-                    <div class="payment__value fs-20">50+ trips per month</div>
-                    <div class="offer-description">Perfect for growing businesses with
-                        regular transportation needs</div>
+                    <div class="offer-label text-start mb-2 fs-12 text-primary">pay-per-use</div>
+                    <div class="payment__value fs-18"> On-Demand Flex Plan</div>
+                    <div class="offer-description fs-12">Pay-per-use for specialized reports, rapid market intelligence,
+                        and
+                        ad-hoc custom research—ideal for clients with dynamic and changing needs.</div>
                 </div>
                 <div class="carousel-slide p-3">
-                    <div class="offer-label text-start mb-2 fs-12">Starter package</div>
-                    <div class="payment__value fs-20">25+ trips per month</div>
-                    <div class="offer-description">Ideal for small teams and occasional
-                        business travel</div>
+                    <div class="offer-label text-start mb-2 fs-12 text-primary">annual subscription</div>
+                    <div class="payment__value fs-18">Enterprise Partnership </div>
+                    <div class="offer-description fs-12">Dedicated research team with sector specialization, priority
+                        delivery
+                        on 20+ custom requests per month, and exclusive access to proprietary analysis tools and
+                        frameworks.</div>
                 </div>
             </div>
         </div>

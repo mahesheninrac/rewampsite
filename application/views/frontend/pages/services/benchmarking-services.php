@@ -1,12 +1,12 @@
 <style>
-.owl-carousel-showcase .owl-item.active.center .item-wrapper img {
-    transform: scale(1.14);
-    transition: all 0.3s ease;
-}
+    .owl-carousel-showcase .owl-item.active.center .item-wrapper img {
+        transform: scale(1.14);
+        transition: all 0.3s ease;
+    }
 
-.owl-carousel-showcase .owl-item .item-wrapper {
-    padding: 15px;
-}
+    .owl-carousel-showcase .owl-item .item-wrapper {
+        padding: 15px;
+    }
 </style>
 
 <section class="page-service">
@@ -43,7 +43,6 @@
         </div>
     </div>
 </section>
-
 
 <section>
     <div class="container">
@@ -227,7 +226,6 @@
     </div>
 </section>
 
-<!-- Contact form -->
 <section id="contact-form-section">
     <div class="fullwidth" style="overflow: hidden;">
         <div class="wrap py-5 position-relative">
@@ -278,7 +276,6 @@
         </div>
     </div>
 </section>
-
 
 <section class="advantages-wrap">
     <div class="fullwidth static-animation" data-msg-reveal>
@@ -433,8 +430,6 @@
     </div>
 </section>
 
-
-<!-- footer FAQS  -->
 <section id="foterfaq" class="faq-wrap" style="background: #f7f8fa;">
     <div class="fullwidth py-5">
         <div class="wrap">
@@ -461,10 +456,8 @@
     </div>
 </section>
 
-
-
 <script>
-window.addEventListener("DOMContentLoaded", function() {
-    revealELs(".dropAnimation", "animate-top-bottom")
-})
+    window.addEventListener("DOMContentLoaded", function() {
+        revealELs(".dropAnimation", "animate-top-bottom")
+    })
 </script>

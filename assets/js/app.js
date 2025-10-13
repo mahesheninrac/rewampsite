@@ -10,39 +10,6 @@ const observer = new IntersectionObserver(entries => {
 
 steps.forEach(step => observer.observe(step));
 
-
-
-// document.addEventListener("DOMContentLoaded", () => {
-//     const chatItems = document.querySelectorAll(".support-chat__item");
-//     const delayBetweenMessages = 1000; // delay per message
-//     const delayBetweenItems = 800;     // delay between chat blocks
-
-//     function animateMessages(item, callback) {
-//         const messages = item.querySelectorAll(":scope > div");
-//         messages.forEach((msg, index) => {
-//             setTimeout(() => {
-//                 msg.classList.add("show");
-//                 if (index === messages.length - 1 && callback) {
-//                     setTimeout(callback, delayBetweenMessages);
-//                 }
-//             }, index * delayBetweenMessages);
-//         });
-//     }
-
-//     function startAnimation(index = 0) {
-//         if (index >= chatItems.length) return;
-//         animateMessages(chatItems[index], () => {
-//             setTimeout(() => startAnimation(index + 1), delayBetweenItems);
-//         });
-//     }
-
-//     startAnimation(); // start from the first chat
-// });
-
-
-
-
-
 function handleImgScroll() {
     const Imgitems = document.querySelectorAll('.scroll-list-item.js-scroll-list-item');
     const image = document.getElementById('active-image');
@@ -90,7 +57,7 @@ $('.swiper-wrapper').owlCarousel({
     margin: 10,
     dots: false,
     nav: false,
-    autoplay: true,
+    autoplay: false,
     center: false,
     autoplayTimeout: 3000,
     responsive: {
@@ -100,6 +67,21 @@ $('.swiper-wrapper').owlCarousel({
     }
 });
 
+$('.feature-slider').owlCarousel({
+    items: 1,
+    loop: true,
+    margin: 10,
+    dots: true,
+    nav: false,
+    autoplay: true,
+    center: false,
+    autoplayTimeout: 3000,
+    responsive: {
+        0: { items: 1 },
+        600: { items: 1 },
+        1000: { items: 1 }
+    }
+});
 
 
 $('.logo-carousel').owlCarousel({
