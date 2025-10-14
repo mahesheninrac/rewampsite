@@ -4,220 +4,304 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Why People Love Eninrac</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            width: 100%;
+        }
+
+        h2 {
+            text-align: center;
+            color: white;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            font-weight: 600;
+        }
+
+        .cards-wrapper {
+            display: flex;
+            gap: 20px;
+            height: 500px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            cursor: pointer;
+            transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+            overflow: hidden;
+            position: relative;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-without {
+            width: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .card-with {
+            width: 50%;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+
+        .cards-wrapper:hover .card-without:not(:hover) {
+            width: 30%;
+        }
+
+        .cards-wrapper:hover .card-with:not(:hover) {
+            width: 30%;
+        }
+
+        .cards-wrapper:hover .card-without:hover {
+            width: 70%;
+        }
+
+        .cards-wrapper:hover .card-with:hover {
+            width: 70%;
+        }
+
+        .card-content {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            color: white;
+        }
+
+        .card-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            opacity: 1;
+            transition: opacity 0.3s ease;
+        }
+
+        .card-icon {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 2rem;
+            opacity: 1;
+            transition: all 0.6s ease;
+        }
+
+        .card:hover .card-icon {
+            transform: scale(1.1);
+        }
+
+        .card-items {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.6s ease;
+            pointer-events: none;
+        }
+
+        .card:hover .card-items {
+            opacity: 1;
+            transform: translateY(0);
+            pointer-events: auto;
+        }
+
+        .card:hover .card-icon {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 1.5rem;
+        }
+
+        .card-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            background: rgba(255, 255, 255, 0.15);
+            padding: 15px 20px;
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+        }
+
+        .card-item:hover {
+            background: rgba(255, 255, 255, 0.25);
+            transform: translateX(10px);
+        }
+
+        .card-item-icon {
+            width: 24px;
+            height: 24px;
+            flex-shrink: 0;
+        }
+
+        .card-item span {
+            font-size: 1rem;
+            line-height: 1.4;
+        }
+
+        .minimized-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            text-align: center;
+            transition: opacity 0.3s ease;
+        }
+
+        .card:hover .minimized-content {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .expanded-content {
+            opacity: 0;
+            transition: opacity 0.3s ease 0.2s;
+        }
+
+        .card:hover .expanded-content {
+            opacity: 1;
+        }
+
+        @media (max-width: 768px) {
+            .cards-wrapper {
+                flex-direction: column;
+                height: auto;
+            }
+
+            .card {
+                width: 100% !important;
+                min-height: 400px;
+            }
+
+            h2 {
+                font-size: 2rem;
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <div class="py-5">
-        <div class="row mb-3">
-            <div class="col-md-3">
-                <div class="eninrac-card">
-                    <div class="ip-card">
-                        <div class="ip-card-area">
-                            <img src="https://eninrac.com/assets/images/imp/mck.png" alt="why-eninrac-03.png"
-                                style="width: 100px;">
-                            <h4 class="eninrac-card-title">Mr. Amit Garg</h4>
-                            <p class="eninrac-card-content">Director</p>
-                            <p class="eninrac-card-content">Gurgaon, India</p>
-                        </div>
-                        <div class="flip-area">
-                            <p class="eninrac-card-content">The data to information model prepared by the Eninrac team
-                                for was an interesting piece.
-                                It was a detailed one, unit wise dismantling opportunity was evaluated for each thermal
-                                plant</p>
+    <div class="container">
+        <h2>Why do people love Eninrac?</h2>
+        <div class="cards-wrapper">
+            <!-- Without Eninrac Card -->
+            <div class="card card-without">
+                <div class="card-content">
+                    <div class="minimized-content">
+                        <svg class="card-icon" viewBox="0 0 120 120" fill="none">
+                            <circle cx="60" cy="60" r="50" fill="rgba(255,255,255,0.2)" />
+                            <path d="M40 40L80 80M80 40L40 80" stroke="white" stroke-width="8" stroke-linecap="round" />
+                        </svg>
+                        <h3 class="card-title">Without Eninrac</h3>
+                    </div>
+                    <div class="expanded-content">
+                        <h3 class="card-title">Without Eninrac</h3>
+                        <div class="card-items">
+                            <div class="card-item">
+                                <svg class="card-item-icon" viewBox="0 0 24 24" fill="none">
+                                    <circle cx="12" cy="12" r="10" fill="rgba(255,255,255,0.3)" />
+                                    <path d="M8 8L16 16M16 8L8 16" stroke="white" stroke-width="2"
+                                        stroke-linecap="round" />
+                                </svg>
+                                <span>Ineffective budget allocation</span>
+                            </div>
+                            <div class="card-item">
+                                <svg class="card-item-icon" viewBox="0 0 24 24" fill="none">
+                                    <circle cx="12" cy="12" r="10" fill="rgba(255,255,255,0.3)" />
+                                    <path d="M8 8L16 16M16 8L8 16" stroke="white" stroke-width="2"
+                                        stroke-linecap="round" />
+                                </svg>
+                                <span>Overpayments</span>
+                            </div>
+                            <div class="card-item">
+                                <svg class="card-item-icon" viewBox="0 0 24 24" fill="none">
+                                    <circle cx="12" cy="12" r="10" fill="rgba(255,255,255,0.3)" />
+                                    <path d="M8 8L16 16M16 8L8 16" stroke="white" stroke-width="2"
+                                        stroke-linecap="round" />
+                                </svg>
+                                <span>Long approval process</span>
+                            </div>
+                            <div class="card-item">
+                                <svg class="card-item-icon" viewBox="0 0 24 24" fill="none">
+                                    <circle cx="12" cy="12" r="10" fill="rgba(255,255,255,0.3)" />
+                                    <path d="M8 8L16 16M16 8L8 16" stroke="white" stroke-width="2"
+                                        stroke-linecap="round" />
+                                </svg>
+                                <span>Travel policy violations</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="eninrac-card">
-                    <div class="ip-card">
-                        <div class="ip-card-area">
-                            <img src="https://eninrac.com/assets/images/imp/hfe.png" alt="why-eninrac-03.png"
-                                style="width: 100px;">
-                            <h4 class="eninrac-card-title">Mr. Gaurav Saini</h4>
-                            <p class="eninrac-card-content">Manager</p>
-                            <p class="eninrac-card-content">New Delhi, India</p>
-                        </div>
-                        <div class="flip-area">
-                            <p class="eninrac-card-content">Eninrac Consulting is a proficient consulting firm having
-                                highly qualified and experienced professionals. I am associated with them for last 2
-                                years and I am fully satisfied with the commitment of the team and the services provided
-                                by them.</p>
-                        </div>
+
+            <!-- With Eninrac Card -->
+            <div class="card card-with">
+                <div class="card-content">
+                    <div class="minimized-content">
+                        <svg class="card-icon" viewBox="0 0 120 120" fill="none">
+                            <circle cx="60" cy="60" r="50" fill="rgba(255,255,255,0.2)" />
+                            <path d="M40 60L55 75L85 45" stroke="white" stroke-width="8" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                        <h3 class="card-title">With Eninrac</h3>
                     </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="eninrac-card">
-                    <div class="ip-card">
-                        <div class="ip-card-area">
-                            <img src="https://eninrac.com/assets/images/imp/kalpataru.png" alt="why-eninrac-03.png"
-                                style="width: 100px;">
-                            <h4 class="eninrac-card-title">Mr. Vikram Sharma</h4>
-                            <p class="eninrac-card-content">General Manager</p>
-                            <p class="eninrac-card-content">Mumbai, India</p>
-                        </div>
-                        <div class="flip-area">
-                            <p class="eninrac-card-content">The market research reports of Eninrac have been very
-                                insightful. They are market disrupters in their own kind. The way they present the
-                                information is interesting.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="eninrac-card">
-                    <div class="ip-card">
-                        <div class="ip-card-area">
-                            <img src="https://eninrac.com/assets/images/imp/ge.png" alt="why-eninrac-03.png"
-                                style="width: 100px;">
-                            <h4 class="eninrac-card-title">Ms. Samhita Das Sharma</h4>
-                            <p class="eninrac-card-content">Vice President</p>
-                            <p class="eninrac-card-content">Gurgaon, India</p>
-                        </div>
-                        <div class="flip-area">
-                            <p class="eninrac-card-content">The business intelligence service of Eninrac team was
-                                fantastic for us. We hope they maintain their services level and wish them best for
-                                future</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3">
-                <div class="eninrac-card">
-                    <div class="ip-card">
-                        <div class="ip-card-area">
-                            <img src="https://eninrac.com/assets/images/imp/jgreen.png" alt="why-eninrac-03.png"
-                                style="width: 100px;">
-                            <h4 class="eninrac-card-title">Mr. Hironobu Miyata</h4>
-                            <p class="eninrac-card-content">Chairman &amp; MD</p>
-                            <p class="eninrac-card-content">Tokyo, Japan</p>
-                        </div>
-                        <div class="flip-area">
-                            <p class="eninrac-card-content">The project delivery by Eninrac Consulting team was highly
-                                satisfactory and exceeded our expectations. I on behalf of our Japanese promoters thanks
-                                Eninrac Consulting and look forward to more strategic collaboration in future.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="eninrac-card">
-                    <div class="ip-card">
-                        <div class="ip-card-area">
-                            <img src="https://eninrac.com/assets/images/imp/mizuho.png" alt="why-eninrac-03.png"
-                                style="width: 100px;">
-                            <h4 class="eninrac-card-title">Mr. Katsumi Onishi</h4>
-                            <p class="eninrac-card-content">Lead Consultant</p>
-                            <p class="eninrac-card-content">Tokyo, Japan</p>
-                        </div>
-                        <div class="flip-area">
-                            <p class="eninrac-card-content">The study on structuring investments in key infrastructure
-                                segments of entire South East Asia and India served our Global Strategic Investment
-                                Department well in designing market approach. We thank Eninrac team for the good
-                                analytical report.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="eninrac-card">
-                    <div class="ip-card">
-                        <div class="ip-card-area">
-                            <img src="https://eninrac.com/assets/images/imp/tata.png" alt="why-eninrac-03.png"
-                                style="width: 100px;">
-                            <h4 class="eninrac-card-title">Mr. Debshankar Banerjee</h4>
-                            <p class="eninrac-card-content">Head - Business Development &amp; SCM</p>
-                            <p class="eninrac-card-content">Hyderabad, India</p>
-                        </div>
-                        <div class="flip-area">
-                            <p class="eninrac-card-content">Getting custom research support on cryogenic tankers from
-                                eninrac consulting was a good experience. Their team is very professional and have
-                                supported us through very robustly.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="eninrac-card">
-                    <div class="ip-card">
-                        <div class="ip-card-area">
-                            <img src="https://eninrac.com/assets/images/imp/indonesia.png" alt="why-eninrac-03.png"
-                                style="width: 100px;">
-                            <h4 class="eninrac-card-title"></h4>
-                            <p class="eninrac-card-content-position">Hon'ble Ambassador of Republic of Indonesia</p>
-                            <p class="eninrac-card-content">New Delhi, India</p>
-                        </div>
-                        <div class="flip-area">
-                            <p class="eninrac-card-content">Reflecting upon the past cooperation with Eninrac
-                                Consulting, the Embassy found that the 2019 study on coal consumption and future demand
-                                in India until 2030 has been beneficial for formulating key policies for our country in
-                                relation to Indian dynamics. We look forward to continue our co-operation and receive
-                                help from Eninrac team through their expertise on coal related aspects.</p>
+                    <div class="expanded-content">
+                        <h3 class="card-title">With Eninrac</h3>
+                        <div class="card-items">
+                            <div class="card-item">
+                                <svg class="card-item-icon" viewBox="0 0 24 24" fill="none">
+                                    <circle cx="12" cy="12" r="10" fill="rgba(255,255,255,0.3)" />
+                                    <path d="M8 12L11 15L16 9" stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                                <span>Smart budget optimization</span>
+                            </div>
+                            <div class="card-item">
+                                <svg class="card-item-icon" viewBox="0 0 24 24" fill="none">
+                                    <circle cx="12" cy="12" r="10" fill="rgba(255,255,255,0.3)" />
+                                    <path d="M8 12L11 15L16 9" stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                                <span>Cost savings guaranteed</span>
+                            </div>
+                            <div class="card-item">
+                                <svg class="card-item-icon" viewBox="0 0 24 24" fill="none">
+                                    <circle cx="12" cy="12" r="10" fill="rgba(255,255,255,0.3)" />
+                                    <path d="M8 12L11 15L16 9" stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                                <span>Instant approvals</span>
+                            </div>
+                            <div class="card-item">
+                                <svg class="card-item-icon" viewBox="0 0 24 24" fill="none">
+                                    <circle cx="12" cy="12" r="10" fill="rgba(255,255,255,0.3)" />
+                                    <path d="M8 12L11 15L16 9" stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                                <span>100% policy compliance</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <script>
-        // A helper function to generate a random date in DD.MM.YYYY format
-        function generateRandomDate() {
-            const year = Math.floor(Math.random() * 3) + 2023; // Random year between 2023-2025
-            const month = Math.floor(Math.random() * 12) + 1;
-            const day = Math.floor(Math.random() * 28) + 1; // Using 28 to keep it simple for all months
-
-            const formattedDay = day.toString().padStart(2, '0');
-            const formattedMonth = month.toString().padStart(2, '0');
-
-            return `${formattedDay}.${formattedMonth}.${year}`;
-        }
-
-        // Select all the individual card containers
-        const cardElements = document.querySelectorAll('.eninrac-card');
-
-        const extractedData = Array.from(cardElements).map(card => {
-            // --- START: MODIFIED & SAFER CODE ---
-
-            // 1. Safely get the image
-            const imageElement = card.querySelector('.ip-card-area img');
-            // Use the image src if the element exists, otherwise provide a default or empty string
-            const image = imageElement ? imageElement.getAttribute('src') : 'assets/upload/default-image.png';
-
-            // 2. Safely get the title
-            const titleElement = card.querySelector('.eninrac-card-title');
-            // Check if the title element and its text exist
-            const title = titleElement && titleElement.childNodes[0] ? titleElement.childNodes[0].textContent.trim() : 'Untitled';
-
-            const descriptionElement = card.querySelector(".ip-card-area p:nth-of-type(1)").textContent
-            const descriptionElement2 = card.querySelector(".ip-card-area p:nth-of-type(2)").textContent
-
-            const commentElement = card.querySelector(".flip-area p").textContent
-            // --- END: MODIFIED & SAFER CODE ---
-
-            // Generate random data for read time and date
-            const randomReadTime = `${Math.floor(Math.random() * 8) + 3} min`; // Random time from 3 to 10 min
-            const randomDate = generateRandomDate();
-
-            // Return a new object with the extracted and randomized data
-            return {
-                img: image,
-                category: "Articles",
-                title: title,
-                date: randomDate,
-                readTime: randomReadTime,
-                companyPosition: descriptionElement,
-                playerName: descriptionElement2,
-                commentDesc: commentElement
-            };
-        });
-
-        console.log(extractedData);
-    </script>
 </body>
 
 </html>

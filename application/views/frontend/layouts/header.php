@@ -25,6 +25,8 @@
 
                         </div>
                         <div class="right d-flex align-items-center gap-2 fs-16" style="font-size: 16px;">
+                            <a href="http://eninrac.com/horizon"
+                                class="bg-primary text-light py-1 px-2 rounded">Horizon</a>
                             <i class="icofont-ui-search"></i>
                             <span class="stock"> Store</span>
                             <span class="language">Login </span>
@@ -38,7 +40,8 @@
                 </div>
             </div>
         </div>
-        <div class="mobile-view-only bg-primary d-flex d-md-none position-relative" style="height:70px;padding-left: 1.375rem;padding-right: 1.375rem;">
+        <div class="mobile-view-only bg-primary d-flex d-md-none position-relative"
+            style="height:70px;padding-left: 1.375rem;padding-right: 1.375rem;">
             <?php require(APPPATH . 'views/frontend/components/mobile_menu_helper.php'); ?>
         </div>
     </header>

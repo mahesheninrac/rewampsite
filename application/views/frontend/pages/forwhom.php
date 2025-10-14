@@ -215,11 +215,17 @@
                 <div class="pt-3">
                     <div class="row">
                         <div class="col-md-4">
-                            <?php require(APPPATH . 'views/frontend/components/footerfaq.php'); ?>
+                            <div class="d-flex justify-content-around flex-column h-100">
+                                <?php require(APPPATH . 'views/frontend/components/footerfaq.php'); ?>
+                                <div>
+                                    <p>What are the benefits of corporate travel programs?</p>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-md-8">
-                            <div class="">
-
+                            <div class="border-radius-40 overflow-hidden position-relative">
+                                <img src="<?= base_url() ?>/assets/images/Banner-test-2.png" class="img-fluid"
+                                    alt="eninrac icon collection services">
                             </div>
                         </div>
                     </div>
@@ -232,40 +238,40 @@
 <?php require(APPPATH . 'views/frontend/components/pagecontact.php'); ?>
 
 <style>
-.cards-wrapper {
-    display: flex;
-    gap: 20px;
-    height: 500px;
-}
+    .cards-wrapper {
+        display: flex;
+        gap: 20px;
+        height: 500px;
+    }
 
-.card {
-    background: white;
-    border-radius: 20px;
-    padding: 40px;
-    cursor: pointer;
-    transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
-    overflow: hidden;
-    position: relative;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
-}
+    .card {
+        background: white;
+        border-radius: 20px;
+        padding: 40px;
+        cursor: pointer;
+        transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    }
 
-.advantage-block__right._active {
-    width: 70%;
-}
+    .advantage-block__right._active {
+        width: 70%;
+    }
 
-.advantage-block__left._active {
-    width: 70%;
-}
+    .advantage-block__left._active {
+        width: 70%;
+    }
 
-.advantage-block__left,
-.advantage-block__right {
-    position: relative;
-    border-radius: 20px;
-    padding: 40px;
-    width: calc(100% - 70% - 20px);
-    overflow: hidden;
-    transition: width 0.4s linear;
-}
+    .advantage-block__left,
+    .advantage-block__right {
+        position: relative;
+        border-radius: 20px;
+        padding: 40px;
+        width: calc(100% - 70% - 20px);
+        overflow: hidden;
+        transition: width 0.4s linear;
+    }
 </style>
 
 <section>

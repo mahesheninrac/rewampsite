@@ -1,12 +1,12 @@
 <style>
-.owl-carousel-showcase .owl-item.active.center .item-wrapper img {
-    transform: scale(1.14);
-    transition: all 0.3s ease;
-}
+    .owl-carousel-showcase .owl-item.active.center .item-wrapper img {
+        transform: scale(1.14);
+        transition: all 0.3s ease;
+    }
 
-.owl-carousel-showcase .owl-item .item-wrapper {
-    padding: 15px;
-}
+    .owl-carousel-showcase .owl-item .item-wrapper {
+        padding: 15px;
+    }
 </style>
 
 <section class="page-service">
@@ -287,7 +287,10 @@
                 <div class="col-md-5">
                     <div class="advantages-box__left">
                         <h2>Eninrac specials</h2>
-                        <?php require(APPPATH . 'views/frontend/components/footerfaq.php'); ?>
+                        <?php
+                        $faq_Title = "test";
+                        $faq_Description = "Test description";
+                        require(APPPATH . 'views/frontend/components/footerfaq.php'); ?>
                     </div>
                 </div>
                 <div class="col-md-7">
@@ -464,7 +467,7 @@
 
 
 <script>
-window.addEventListener("DOMContentLoaded", function() {
-    revealELs(".dropAnimation", "animate-top-bottom")
-})
+    window.addEventListener("DOMContentLoaded", function() {
+        revealELs(".dropAnimation", "animate-top-bottom")
+    })
 </script>

@@ -1,3 +1,38 @@
+<style>
+    .block-1s-image {
+        width: 216px;
+        flex-shrink: 0;
+    }
+
+    .block-1s-image img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+    }
+
+    @media screen and (max-width: 767px) {
+        .block-1s-image {
+            height: 127px;
+        }
+    }
+
+    @media screen and (max-width: 1099px) {
+        .main-block--1s {
+            flex-direction: column;
+        }
+
+        .block-1s-image {
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 1599px) {
+        .block-1s-image {
+            width: 188px;
+        }
+    }
+</style>
 <section class="page-service">
     <div class="content">
         <div class="wrap">
@@ -262,11 +297,12 @@
                                     </div>
                                 </div>
 
+
                                 <div class="col">
-                                    <div class="p-5 d-flex gap-4 border-radius-40 _light-blue-bg">
-                                        <div class="flex-shrink-0" style="width: 188px;">
+                                    <div class="p-5 main-block--1s d-flex gap-4 border-radius-40 _light-blue-bg">
+                                        <div cl ass="block-1s-image">
                                             <img src="https://tumodo.io/storage/uploads/af91b4076777dfe13afb7c1a692dfc3d.webp"
-                                                alt="" class="img-fluid">
+                                                alt="">
                                         </div>
                                         <div class=" d-flex flex-column justify-content-between">
                                             <h3 class="title-h3">Streamline your research workflows efficiently.</h3>
@@ -289,105 +325,12 @@
 
 
 <section>
-    <div class="fullwdith py-5 cursor-pointer">
-        <div class="wrap">
-            <h2 style="    margin-bottom: 44px;">Calculate your savings with Eninrac</h2>
-            <div class="">
-                <div class="row row-gap-3">
-                    <div class="col-md-6">
-                        <div class="">
-                            <div class="row row-gap-3">
-                                <div class="col-md-6">
-                                    <div class="position-raltive border-radius-20 p-3 bg-light">
-                                        <p class="fs-16 fw-400">Total spend on travel by the company per month</p>
-                                        <p>0$ +</p>
-                                        <input type="number" class="form-control" placeholder="Please enter value">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="position-raltive border-radius-20 p-3 bg-light">
-                                        <p class="fs-16 fw-400">Total spend on travel by the company per month</p>
-                                        <p>0$ +</p>
-                                        <input type="number" class="form-control" placeholder="Please enter value">
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="bg-light border-radius-20 p-3">
-                                        <p class="fs-16 fw-400">Number of employees</p>
-                                        <div
-                                            class="checkbox-list num-employee d-flex flex-wrap gap-2 align-items-center justify-content-start">
-                                            <label class="checkbox-item ">
-                                                <input required="" checked="" type="radio" name="col-personal"
-                                                    value="10-20">
-                                                <span class="">10-20</span>
-                                            </label>
-                                            <label class="checkbox-item">
-                                                <input required="" checked="" type="radio" name="col-personal"
-                                                    value="10-20">
-                                                <span>10-20</span>
-                                            </label>
-                                            <label class="checkbox-item">
-                                                <input required="" checked="" type="radio" name="col-personal"
-                                                    value="10-20">
-                                                <span>10-20</span>
-                                            </label>
-                                            <label class="checkbox-item">
-                                                <input required="" checked="" type="radio" name="col-personal"
-                                                    value="10-20">
-                                                <span>10-20</span>
-                                            </label>
-                                            <label class="checkbox-item">
-                                                <input required="" checked="" type="radio" name="col-personal"
-                                                    value="10-20">
-                                                <span>10-20</span>
-                                            </label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="bg-light border-radius-20 p-3">
-                                        <p>Current process of arranging business trips</p>
-                                        <div
-                                            class="d-flex flex-column align-items-start justify-content-start row-gap-2">
-                                            <label class="checkbox-item _active">
-                                                <input required="" type="radio" name="method" value="self">
-                                                <span>Independently</span>
-                                            </label>
-                                            <label class="checkbox-item">
-                                                <input required="" type="radio" name="method" value="offline">
-                                                <span>Agency</span>
-                                            </label>
-                                            <label class="checkbox-item">
-                                                <input required="" type="radio" name="method" value="online">
-                                                <span>Travel manager</span>
-                                            </label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="bg-light border-radius-20 p-3 h-100 d-flex flex-column row-gap-3">
-                            <p>Result</p>
-                            <h2 class="fs-24">Fill in all the fields and find out your benefits with enin</h2>
-                            <button class="btn btn-primary " style="width: max-content;"> See the result</button>
-                            <div class="w-100">
-                                <img src="https://tumodo.io/storage/uploads/63fec9c2f0a283b8c1300a7938307b2b.webp"
-                                    class="img-fluid" alt="">
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php require(APPPATH . 'views/frontend/components/enincalculator.php'); ?>
 </section>
 
-<section>
-    <div class="fullwidth py-5 bg-light">
-        <div class="wrap">
+<section class="read-our-insight" id="readourinsights">
+    <div class="fullwidth py-5 bg-light space">
+        <div class="container">
             <h2 style="margin-bottom: 44px;">Read our insights</h2>
             <div class="">
                 <div class="row row-gap-5">
@@ -469,7 +412,7 @@
 
 <section>
     <div class="fullwidth space">
-        <div class="wrap">
+        <div class="container">
             <div class="d-flex flex-column gap-4">
                 <h2 class="title-h2 text-center ">More than 300 companies trust enin</h2>
                 <div class="">
@@ -616,26 +559,26 @@
                         </div>
                     </div>
                     <script>
-                    const faqItems = document.querySelectorAll('.js-faq-item');
+                        const faqItems = document.querySelectorAll('.js-faq-item');
 
-                    faqItems.forEach(item => {
-                        const question = item.querySelector('.faq-item-question');
+                        faqItems.forEach(item => {
+                            const question = item.querySelector('.faq-item-question');
 
-                        question.addEventListener('click', () => {
-                            const isActive = item.classList.contains('active');
-                            // Close all answers first
-                            faqItems.forEach(i => {
-                                i.querySelector('.faq-item-answear').style.display = 'none';
-                                i.classList.remove('active');
+                            question.addEventListener('click', () => {
+                                const isActive = item.classList.contains('active');
+                                // Close all answers first
+                                faqItems.forEach(i => {
+                                    i.querySelector('.faq-item-answear').style.display = 'none';
+                                    i.classList.remove('active');
+                                });
+
+                                // Toggle the clicked one
+                                if (!isActive) {
+                                    item.querySelector('.faq-item-answear').style.display = 'block';
+                                    item.classList.add('active');
+                                }
                             });
-
-                            // Toggle the clicked one
-                            if (!isActive) {
-                                item.querySelector('.faq-item-answear').style.display = 'block';
-                                item.classList.add('active');
-                            }
                         });
-                    });
                     </script>
                 </div>
             </div>
@@ -695,40 +638,40 @@
 </section>
 
 <style>
-.trial-form--tumodo-image {
-    position: absolute;
-    top: -32px;
-    right: 100%;
-    z-index: -1;
-    margin-right: -25%;
-}
-
-.trial-form--tumodo-image img {
-    max-width: none;
-    position: static;
-    width: auto;
-    height: 400px;
-}
-
-.trial-form-wrapper>picture,
-.trial-form-wrapper img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-
-@media screen and (max-width: 1599px) {
     .trial-form--tumodo-image {
-        top: -10px;
-        margin-right: -38%;
+        position: absolute;
+        top: -32px;
+        right: 100%;
+        z-index: -1;
+        margin-right: -25%;
     }
 
     .trial-form--tumodo-image img {
-        height: 325px;
+        max-width: none;
+        position: static;
+        width: auto;
+        height: 400px;
     }
-}
+
+    .trial-form-wrapper>picture,
+    .trial-form-wrapper img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    @media screen and (max-width: 1599px) {
+        .trial-form--tumodo-image {
+            top: -10px;
+            margin-right: -38%;
+        }
+
+        .trial-form--tumodo-image img {
+            height: 325px;
+        }
+    }
 </style>

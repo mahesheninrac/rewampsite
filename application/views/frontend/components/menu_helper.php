@@ -17,15 +17,14 @@
     </div>
     <ul class="nav-right p-0 list-unstyled d-md-flex gap-3">
         <li class="fs-16 navbar_dropdown_item">
-            <a href="#" class="navbar_top_item">Company</a>
-            <?php require(APPPATH . 'views/frontend/components/menu/company.php'); ?>
+            <a href="<?= base_url() ?>for-whom/" class="navbar_top_item">For Whom</a>
         </li>
         <li class="fs-16 navbar_dropdown_item">
             <a href="#" class="navbar_top_item">One Source</a>
             <?php require(APPPATH . 'views/frontend/components/menu/one-source.php'); ?>
         </li>
         <li class="fs-16 navbar_dropdown_item">
-            <a href="https://eninrac.com/horizon/" class="navbar_top_item">Horizon</a>
+            <a href="<?= base_url() ?>benefits/" class="navbar_top_item">Benefits</a>
         </li>
     </ul>
 </div>
@@ -44,8 +43,10 @@
                     const isActive = serviceMenu.classList.contains('active');
                     if (!isActive) {
                         // hide all other menus first
-                        let serviceWrap = item.parentElement.parentElement.parentElement.querySelectorAll(".servicemenu-wrap")
-                        let serviceLinkIcon = item.parentElement.parentElement.parentElement.querySelectorAll(".service-link .icofont-rounded-right")
+                        let serviceWrap = item.parentElement.parentElement.parentElement.querySelectorAll(
+                            ".servicemenu-wrap")
+                        let serviceLinkIcon = item.parentElement.parentElement.parentElement
+                            .querySelectorAll(".service-link .icofont-rounded-right")
                         serviceWrap.forEach(ul => ul.classList.remove('active'));
                         serviceLinkIcon.forEach(i => i.style.display = "none");
                         // then show the current one

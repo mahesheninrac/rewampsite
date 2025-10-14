@@ -1,228 +1,228 @@
 <!-- pricing_carousel -->
 <div class="pt-2 px-1 pb-1 threedcarosule">
     <style>
-    .threedcarosule .carousel-wrapper {
-        background: #e1e2ee;
-        padding: 20px;
-        border-radius: 20px;
-        max-width: 500px;
-        margin: auto;
-    }
+        .threedcarosule .carousel-wrapper {
+            background: #e1e2ee;
+            padding: 20px;
+            border-radius: 20px;
+            max-width: 500px;
+            margin: auto;
+        }
 
-    .payment__value {
-        font-size: 36px;
-        line-height: 120%;
-        flex-grow: 1;
-        margin-bottom: 32px;
-    }
-
-    @media screen and (max-width: 2599px) {
         .payment__value {
-            font-size: 24px;
-            margin-bottom: 24px;
+            font-size: 36px;
+            line-height: 120%;
+            flex-grow: 1;
+            margin-bottom: 32px;
         }
-    }
 
-
-
-    .threedcarosule .carousel-container {
-        max-width: 700px;
-        width: 100%;
-        position: relative;
-    }
-
-    .threedcarosule .carousel-wrapper {
-        position: relative;
-        height: 400px;
-        perspective: 1000px;
-    }
-
-    .threedcarosule .carousel-track {
-        position: relative;
-        height: 100%;
-        width: 100%;
-    }
-
-    .threedcarosule .carousel-slide {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 90%;
-        max-width: 380px;
-        background: white;
-        border-radius: 20px;
-        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-        transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
-        cursor: pointer;
-        min-height: 180px;
-    }
-
-    .threedcarosule .carousel-slide:nth-child(1) {
-        z-index: 4;
-        transform: scale(1) translateX(0);
-    }
-
-    .threedcarosule .carousel-slide:nth-child(2) {
-        z-index: 3;
-        transform: scale(0.7) translateX(35%);
-        opacity: 0.8;
-    }
-
-    .threedcarosule .carousel-slide:nth-child(3) {
-        z-index: 2;
-        transform: scale(0.5) translateX(85%);
-        opacity: 0.6;
-    }
-
-    .threedcarosule .carousel-slide.active {
-        z-index: 10 !important;
-        transform: scale(1) translateX(0) !important;
-        opacity: 1 !important;
-
-    }
-
-    .threedcarosule .carousel-slide.next-1 {
-        z-index: 9 !important;
-        transform: scale(0.7) translateX(35%) !important;
-        opacity: 0.8 !important;
-
-    }
-
-    .threedcarosule .carousel-slide.next-2 {
-        z-index: 8 !important;
-        transform: scale(0.5) translateX(85%) !important;
-        opacity: 0.6 !important;
-
-    }
-
-    .threedcarosule .trips-count {
-        font-size: 2.5rem;
-        font-weight: 700;
-        color: #1a1a1a;
-        margin-bottom: 24px;
-        line-height: 1.2;
-    }
-
-    .threedcarosule .offer-description {
-        font-size: 14px;
-        color: #6b7280;
-        line-height: 1.5;
-        max-width: 300px;
-        margin: 0 auto;
-    }
-
-    .threedcarosule .carousel-nav {
-        top: 50%;
-        width: 40px;
-        height: 40px;
-        background: white;
-        border: none;
-        border-radius: 50%;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: all 0.3s ease;
-        z-index: 10;
-    }
-
-    .threedcarosule .carousel-nav:hover {
-        background: #f8fafc;
-        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
-
-    }
-
-    .threedcarosule .carousel-nav svg {
-        width: 24px;
-        height: 24px;
-        fill: #4b5563;
-        transition: fill 0.3s ease;
-    }
-
-    .threedcarosule .carousel-nav:hover svg {
-        fill: #1f2937;
-    }
-
-
-    @media screen and (max-width: 768px) {
-        .threedcarosule .carousel-nav {
-            width: 40px;
-            height: 40px;
+        @media screen and (max-width: 2599px) {
+            .payment__value {
+                font-size: 24px;
+                margin-bottom: 24px;
+            }
         }
 
 
 
-        .threedcarosule .carousel-slide {
-            padding: 30px 20px;
-            left: 10%;
-            width: 85%;
-            max-width: 300px;
+        .threedcarosule .carousel-container {
+            max-width: 700px;
+            width: 100%;
+            position: relative;
         }
 
-        .threedcarosule .carousel-slide.active {
-            transform: scale(1) translateX(0)
+        .threedcarosule .carousel-wrapper {
+            position: relative;
+            height: 400px;
+            perspective: 1000px;
         }
 
-        .threedcarosule .carousel-slide.next-1 {
-            transform: scale(0.7) translateX(35%)
-        }
-
-        .threedcarosule .carousel-slide.next-2 {
-            transform: scale(0.5) translateX(85%)
-        }
-
-
-
-        .threedcarosule .trips-count {
-            font-size: 2rem;
-        }
-    }
-
-    @media screen and (max-width: 480px) {
-        .threedcarosule .carousel-nav.prev {
-            left: 5px;
-            top: 20px;
-            transform: none;
-        }
-
-        .threedcarosule .carousel-nav.next {
-            right: 5px;
-            top: 20px;
-            transform: none;
+        .threedcarosule .carousel-track {
+            position: relative;
+            height: 100%;
+            width: 100%;
         }
 
         .threedcarosule .carousel-slide {
-            left: 5%;
-            width: 80%;
-            max-width: 280px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 90%;
+            max-width: 380px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+            min-height: 180px;
+        }
+
+        .threedcarosule .carousel-slide:nth-child(1) {
+            z-index: 4;
+            transform: scale(1) translateX(0);
+        }
+
+        .threedcarosule .carousel-slide:nth-child(2) {
+            z-index: 3;
+            transform: scale(0.7) translateX(35%);
+            opacity: 0.8;
+        }
+
+        .threedcarosule .carousel-slide:nth-child(3) {
+            z-index: 2;
+            transform: scale(0.5) translateX(85%);
+            opacity: 0.6;
         }
 
         .threedcarosule .carousel-slide.active {
-            left: 5% !important;
-        }
-
-        .threedcarosule .carousel-slide.next-1 {
-            left: 5% !important;
+            z-index: 10 !important;
             transform: scale(1) translateX(0) !important;
+            opacity: 1 !important;
+
+        }
+
+        .threedcarosule .carousel-slide.next-1 {
+            z-index: 9 !important;
+            transform: scale(0.7) translateX(35%) !important;
+            opacity: 0.8 !important;
+
         }
 
         .threedcarosule .carousel-slide.next-2 {
-            left: 5% !important;
-            transform: scale(0.7) translateX(35%) !important;
+            z-index: 8 !important;
+            transform: scale(0.5) translateX(85%) !important;
+            opacity: 0.6 !important;
+
         }
 
-
-
-
         .threedcarosule .trips-count {
-            font-size: 1.8rem;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 24px;
+            line-height: 1.2;
         }
 
         .threedcarosule .offer-description {
-            font-size: 12px;
+            font-size: 14px;
+            color: #6b7280;
+            line-height: 1.5;
+            max-width: 300px;
+            margin: 0 auto;
         }
-    }
+
+        .threedcarosule .carousel-nav {
+            top: 50%;
+            width: 40px;
+            height: 40px;
+            background: white;
+            border: none;
+            border-radius: 50%;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            z-index: 10;
+        }
+
+        .threedcarosule .carousel-nav:hover {
+            background: #f8fafc;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+
+        }
+
+        .threedcarosule .carousel-nav svg {
+            width: 24px;
+            height: 24px;
+            fill: #4b5563;
+            transition: fill 0.3s ease;
+        }
+
+        .threedcarosule .carousel-nav:hover svg {
+            fill: #1f2937;
+        }
+
+
+        @media screen and (max-width: 768px) {
+            .threedcarosule .carousel-nav {
+                width: 40px;
+                height: 40px;
+            }
+
+
+
+            .threedcarosule .carousel-slide {
+                padding: 30px 20px;
+                left: 10%;
+                width: 85%;
+                max-width: 300px;
+            }
+
+            .threedcarosule .carousel-slide.active {
+                transform: scale(1) translateX(0)
+            }
+
+            .threedcarosule .carousel-slide.next-1 {
+                transform: scale(0.7) translateX(35%)
+            }
+
+            .threedcarosule .carousel-slide.next-2 {
+                transform: scale(0.5) translateX(85%)
+            }
+
+
+
+            .threedcarosule .trips-count {
+                font-size: 2rem;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .threedcarosule .carousel-nav.prev {
+                left: 5px;
+                top: 20px;
+                transform: none;
+            }
+
+            .threedcarosule .carousel-nav.next {
+                right: 5px;
+                top: 20px;
+                transform: none;
+            }
+
+            .threedcarosule .carousel-slide {
+                left: 5%;
+                width: 80%;
+                max-width: 280px;
+            }
+
+            .threedcarosule .carousel-slide.active {
+                left: 5% !important;
+            }
+
+            .threedcarosule .carousel-slide.next-1 {
+                left: 5% !important;
+                transform: scale(1) translateX(0) !important;
+            }
+
+            .threedcarosule .carousel-slide.next-2 {
+                left: 5% !important;
+                transform: scale(0.7) translateX(35%) !important;
+            }
+
+
+
+
+            .threedcarosule .trips-count {
+                font-size: 1.8rem;
+            }
+
+            .threedcarosule .offer-description {
+                font-size: 12px;
+            }
+        }
     </style>
     <div class="carousel-container">
         <div class="carousel-wrapper bg-light p-4">
@@ -274,153 +274,153 @@
     </div>
 
     <script>
-    class Carousel {
-        constructor() {
-            this.track = document.getElementById('carouselTrack');
-            this.prevBtn = document.getElementById('prevBtn');
-            this.nextBtn = document.getElementById('nextBtn');
+        class Carousel {
+            constructor() {
+                this.track = document.getElementById('carouselTrack');
+                this.prevBtn = document.getElementById('prevBtn');
+                this.nextBtn = document.getElementById('nextBtn');
 
-            this.slides = document.querySelectorAll('.carousel-slide');
+                this.slides = document.querySelectorAll('.carousel-slide');
 
-            this.currentSlide = 0;
-            this.totalSlides = this.slides.length;
+                this.currentSlide = 0;
+                this.totalSlides = this.slides.length;
 
-            this.init();
-        }
+                this.init();
+            }
 
-        init() {
-            this.prevBtn.addEventListener('click', () => this.prevSlide());
-            this.nextBtn.addEventListener('click', () => this.nextSlide());
+            init() {
+                this.prevBtn.addEventListener('click', () => this.prevSlide());
+                this.nextBtn.addEventListener('click', () => this.nextSlide());
 
-            this.dots.forEach((dot, index) => {
-                dot.addEventListener('click', () => this.goToSlide(index));
-            });
+                this.dots.forEach((dot, index) => {
+                    dot.addEventListener('click', () => this.goToSlide(index));
+                });
 
-            // Add click listeners to slides for navigation
-            this.slides.forEach((slide, index) => {
-                slide.addEventListener('click', () => {
-                    if (index !== this.currentSlide) {
-                        this.goToSlide(index);
+                // Add click listeners to slides for navigation
+                this.slides.forEach((slide, index) => {
+                    slide.addEventListener('click', () => {
+                        if (index !== this.currentSlide) {
+                            this.goToSlide(index);
+                        }
+                    });
+                });
+
+                // Initialize the stacked layout
+                this.updateCarousel();
+
+                // Auto-play (optional)
+                this.startAutoPlay();
+
+                // Pause auto-play on hover
+                const container = document.querySelector('.carousel-container');
+                container.addEventListener('mouseenter', () => this.stopAutoPlay());
+                container.addEventListener('mouseleave', () => this.startAutoPlay());
+
+                // Touch/swipe support
+                this.addTouchSupport();
+            }
+
+            updateCarousel() {
+                this.slides.forEach((slide, index) => {
+                    // Remove all classes
+                    slide.classList.remove('active', 'next-1', 'next-2',
+                        'next-3', 'hidden');
+
+                    // Calculate position relative to current slide
+                    let position = (index - this.currentSlide + this
+                        .totalSlides) % this.totalSlides;
+
+                    if (position === 0) {
+                        slide.classList.add('active');
+                    } else if (position === 1) {
+                        slide.classList.add('next-1');
+                    } else if (position === 2) {
+                        slide.classList.add('next-2');
+                    } else if (position === 3) {
+                        slide.classList.add('next-3');
+                    } else {
+                        slide.classList.add('hidden');
                     }
                 });
-            });
 
-            // Initialize the stacked layout
-            this.updateCarousel();
+            }
 
-            // Auto-play (optional)
-            this.startAutoPlay();
+            prevSlide() {
+                this.currentSlide = this.currentSlide === 0 ? this.totalSlides - 1 :
+                    this.currentSlide - 1;
+                this.updateCarousel();
+            }
 
-            // Pause auto-play on hover
-            const container = document.querySelector('.carousel-container');
-            container.addEventListener('mouseenter', () => this.stopAutoPlay());
-            container.addEventListener('mouseleave', () => this.startAutoPlay());
+            nextSlide() {
+                this.currentSlide = this.currentSlide === this.totalSlides - 1 ? 0 :
+                    this.currentSlide + 1;
+                this.updateCarousel();
+            }
 
-            // Touch/swipe support
-            this.addTouchSupport();
-        }
+            goToSlide(slideIndex) {
+                this.currentSlide = slideIndex;
+                this.updateCarousel();
+            }
 
-        updateCarousel() {
-            this.slides.forEach((slide, index) => {
-                // Remove all classes
-                slide.classList.remove('active', 'next-1', 'next-2',
-                    'next-3', 'hidden');
+            startAutoPlay() {
+                this.autoPlayInterval = setInterval(() => {
+                    this.nextSlide();
+                }, 4000);
+            }
 
-                // Calculate position relative to current slide
-                let position = (index - this.currentSlide + this
-                    .totalSlides) % this.totalSlides;
-
-                if (position === 0) {
-                    slide.classList.add('active');
-                } else if (position === 1) {
-                    slide.classList.add('next-1');
-                } else if (position === 2) {
-                    slide.classList.add('next-2');
-                } else if (position === 3) {
-                    slide.classList.add('next-3');
-                } else {
-                    slide.classList.add('hidden');
+            stopAutoPlay() {
+                if (this.autoPlayInterval) {
+                    clearInterval(this.autoPlayInterval);
                 }
-            });
+            }
 
-        }
+            addTouchSupport() {
+                let startX = 0;
+                let startY = 0;
+                let moveX = 0;
+                let moveY = 0;
+                let isDragging = false;
 
-        prevSlide() {
-            this.currentSlide = this.currentSlide === 0 ? this.totalSlides - 1 :
-                this.currentSlide - 1;
-            this.updateCarousel();
-        }
+                this.track.addEventListener('touchstart', (e) => {
+                    startX = e.touches[0].clientX;
+                    startY = e.touches[0].clientY;
+                    isDragging = true;
+                    this.stopAutoPlay();
+                });
 
-        nextSlide() {
-            this.currentSlide = this.currentSlide === this.totalSlides - 1 ? 0 :
-                this.currentSlide + 1;
-            this.updateCarousel();
-        }
+                this.track.addEventListener('touchmove', (e) => {
+                    if (!isDragging) return;
+                    moveX = e.touches[0].clientX;
+                    moveY = e.touches[0].clientY;
+                });
 
-        goToSlide(slideIndex) {
-            this.currentSlide = slideIndex;
-            this.updateCarousel();
-        }
+                this.track.addEventListener('touchend', () => {
+                    if (!isDragging) return;
 
-        startAutoPlay() {
-            this.autoPlayInterval = setInterval(() => {
-                this.nextSlide();
-            }, 4000);
-        }
+                    const diffX = startX - moveX;
+                    const diffY = startY - moveY;
+                    const threshold = 50;
 
-        stopAutoPlay() {
-            if (this.autoPlayInterval) {
-                clearInterval(this.autoPlayInterval);
+                    // Only process horizontal swipes
+                    if (Math.abs(diffX) > Math.abs(diffY) && Math.abs(diffX) >
+                        threshold) {
+                        if (diffX > 0) {
+                            this.nextSlide();
+                        } else {
+                            this.prevSlide();
+                        }
+                    }
+
+                    isDragging = false;
+                    this.startAutoPlay();
+                });
             }
         }
 
-        addTouchSupport() {
-            let startX = 0;
-            let startY = 0;
-            let moveX = 0;
-            let moveY = 0;
-            let isDragging = false;
-
-            this.track.addEventListener('touchstart', (e) => {
-                startX = e.touches[0].clientX;
-                startY = e.touches[0].clientY;
-                isDragging = true;
-                this.stopAutoPlay();
-            });
-
-            this.track.addEventListener('touchmove', (e) => {
-                if (!isDragging) return;
-                moveX = e.touches[0].clientX;
-                moveY = e.touches[0].clientY;
-            });
-
-            this.track.addEventListener('touchend', () => {
-                if (!isDragging) return;
-
-                const diffX = startX - moveX;
-                const diffY = startY - moveY;
-                const threshold = 50;
-
-                // Only process horizontal swipes
-                if (Math.abs(diffX) > Math.abs(diffY) && Math.abs(diffX) >
-                    threshold) {
-                    if (diffX > 0) {
-                        this.nextSlide();
-                    } else {
-                        this.prevSlide();
-                    }
-                }
-
-                isDragging = false;
-                this.startAutoPlay();
-            });
-        }
-    }
-
-    // Initialize carousel when DOM is loaded
-    document.addEventListener('DOMContentLoaded', () => {
-        new Carousel();
-    });
+        // Initialize carousel when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            new Carousel();
+        });
     </script>
 
 
